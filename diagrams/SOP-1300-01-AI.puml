@@ -1,0 +1,67 @@
+@startuml
+
+' Define participants (Roles)
+participant "Project Sponsor" as PS
+participant "AI-IRB Chair" as CHAIR
+participant "AI-IRB Members" as MEMBERS
+participant "AI Governance Office" as GOV
+participant "Engineering Dept." as ENG
+participant "Product/Tech Support" as PTS
+participant "Operations" as OPS
+participant "Senior Management" as SM
+
+' 1. Project proposal submission
+PS -> CHAIR: Submits AI-IRB Project Proposal Form
+CHAIR -> MEMBERS: Distribute proposal for initial screening
+
+alt Major gaps identified
+  CHAIR -> PS: Request clarifications/further info
+else Sufficient detail
+  MEMBERS -> MEMBERS: Perform preliminary analysis (data privacy, risk classification, etc.)
+end
+
+' 2. AI-IRB Meeting
+CHAIR -> CHAIR: Schedule AI-IRB meeting
+CHAIR -> PS: Invite Project Sponsor to present
+PS -> MEMBERS: Present project scope, objectives, data usage
+
+' 3. Deliberation
+MEMBERS -> CHAIR: Discuss concerns, recommendations
+CHAIR -> GOV: Record meeting minutes/decision notes
+
+' 4. Decision outcomes
+alt Approved
+  CHAIR -> PS: Notifies approval (with or without conditions)
+else Deferred
+  CHAIR -> PS: Notifies deferral; rework required
+else Rejected
+  CHAIR -> PS: Notifies rejection
+end
+
+' 5. Tracking conditions and follow-up
+PS -> ENG: Address AI-IRB conditions / implement changes
+ENG -> PS: Provide updated compliance or revised proposal
+PS -> CHAIR: Submit revised artifacts if needed
+
+' 6. Final sign-off
+CHAIR -> MEMBERS: Final review of revised submission
+MEMBERS -> CHAIR: Confirm readiness
+CHAIR -> GOV: Update Decision Registry
+
+' 7. Deployment clearance
+CHAIR -> OPS: Issue formal clearance for deployment (if all conditions met)
+OPS -> CHAIR: Confirms release scheduling
+CHAIR -> PTS: Coordinate end-user training, if needed
+
+' 8. Post-implementation
+GOV -> CHAIR: Schedule post-implementation check (~30-90 days)
+CHAIR -> MEMBERS: Evaluate real-world metrics, performance
+alt Non-compliance detected
+  CHAIR -> SM: Escalate major concerns for executive resolution
+else All in compliance
+  note right
+    Project remains in good standing under AI-IRB oversight
+  end note
+end
+
+@enduml
