@@ -1,0 +1,94 @@
+@startuml
+skinparam participantPadding 10
+skinparam boxPadding 10
+skinparam notePadding 5
+skinparam noteBackgroundColor #FFFFCE
+skinparam noteBorderColor #B2B2B2
+
+' Define participants (short names)
+participant "AI Dev Team" as Dev
+participant "Data Science Lead" as DSL
+participant "AI-IRB Liaison" as IRB
+participant "MLOps Engineer" as MLOps
+participant "Quality Assurance" as QA
+participant "Technical Support" as TS
+participant "Operations Manager" as Ops
+participant "Legal/Compliance" as Legal
+
+' 1. MLOps sets up automated monitoring
+MLOps -> MLOps: Configure monitoring pipelines
+
+' 2. Data Science Lead provides drift guidelines
+DSL -> MLOps: Provide drift detection thresholds
+note right
+  The DSL defines performance
+  thresholds for anomaly alerts.
+end note
+
+' 3. Ops ensures stable production environment
+Ops -> Ops: Validate production environment stability
+
+' 4. AI Dev Team runs periodic checks
+Dev -> Dev: Execute performance checks
+
+' 5. alt Performance within acceptable range
+alt Performance is acceptable
+  Dev -> Dev: Log metrics (no action needed)
+else Performance drops below threshold
+  Dev -> DSL: Trigger alert on performance shortfall
+  DSL -> DSL: Review logs and performance data
+
+  ' 6. alt Real issue found
+  alt Real model drift/issue
+    DSL -> Dev: Request retraining or refinements
+    Dev -> Dev: Prepare new data/parameters
+
+    ' 7. Developer updates code/pipelines
+    Dev -> MLOps: Submit updated model for environment test
+
+    ' 8. QA organizes test environment
+    QA -> QA: Validate updated model in QA environment
+
+    ' 9. IRB checks compliance if scope changed
+    alt Changes alter scope
+      IRB -> IRB: Evaluate compliance with new data usage
+      IRB -> Legal: Notify for further guidance
+      Legal -> IRB: Provide sign-off or request clarifications
+    else No scope change
+      IRB -> IRB: No additional sign-off required
+    end
+
+    ' 10. If approved, MLOps deploys new model
+    MLOps -> Dev: New model passes QA
+    Dev -> MLOps: Prepare final deployment to production
+    MLOps -> MLOps: Redeploy with updated version
+
+    ' 11. Technical Support is notified
+    MLOps -> TS: Inform of new model changes
+    TS -> TS: Update user-facing documentation if needed
+
+    Ops -> Ops: Verify environment for any conflicts
+
+  else No real issue (false alarm)
+    DSL -> Dev: Log incident as resolved
+  end
+end
+
+' 12. Post-implementation and ongoing maintenance
+Dev -> QA: Provide performance dashboards
+QA -> QA: Schedule periodic audits
+
+' 13. alt Additional user complaints
+alt New issues from end-users
+  TS -> Dev: Escalate concerns to investigate
+  Dev -> DSL: Evaluate & fix as needed
+else No major user issues
+  QA -> QA: Continue normal monitoring
+end
+
+' 14. Post-Implementation Review
+QA -> IRB: Summarize compliance and ethical alignment
+Dev -> QA: Lessons learned (model improvements)
+DSL -> QA: Final sign-off on process outcomes
+
+@enduml
