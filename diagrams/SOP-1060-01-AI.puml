@@ -1,0 +1,41 @@
+@startuml
+participant "AI Service Delivery Manager" as ASM
+participant "Product Manager" as PM
+participant "Operations Manager" as OM
+participant "AI-IRB Liaison" as IRB
+participant "Quality Assurance" as QA
+participant "Legal/Contracts" as LEG
+participant "Project Manager" as PRJM
+participant "Client/Customer" as CLT
+
+ASM -> PM: Present initial SLA needs (Perf, Ethical AI, etc.)
+PM -> OM: Discuss feasibility of SLO/SLI (uptime, response times, compliance)
+alt "AI-IRB involvement required?"
+  ASM -> IRB: Provide SLA draft for ethical usage review
+  IRB -> ASM: Approve or request changes for ethical compliance
+else "No AI-IRB involvement"
+  note over ASM, IRB: No AI-IRB step needed
+end
+
+QA -> LEG: Provide SLA details for legal review
+LEG -> ASM: Confirm contract terms and finalize SLA document
+ASM -> PRJM: Deliver final SLA for project plan integration
+PRJM -> CLT: Share SLA for client sign-off
+
+alt "Client requests changes?"
+  CLT -> PRJM: Requests modifications to SLA
+  PRJM -> ASM: Communicate needed SLA revisions
+  ASM -> LEG: Update and finalize changes
+  LEG -> CLT: Submit revised SLA
+  CLT -> PRJM: Accept revised SLA
+else "No changes"
+  note over CLT: SLA accepted as-is
+end
+
+ASM -> OM: Implement SLA monitoring tools (telemetry, alerts)
+OM -> QA: Provide service data for verification
+QA -> ASM: Validate compliance with SLO/SLI
+
+ASM -> CLT: Periodic SLA reports & compliance summary
+CLT -> ASM: Feedback on SLA performance
+@enduml
