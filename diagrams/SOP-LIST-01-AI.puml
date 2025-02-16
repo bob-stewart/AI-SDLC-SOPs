@@ -1,0 +1,86 @@
+@startuml
+
+title AI-IRB Governed AI-SDLC Sequence
+
+actor "Senior Management" as SM
+actor "AI-IRB" as IRB
+actor "Project Manager" as PM
+actor "Product Dev" as PD
+actor "Quality Assurance" as QA
+actor "Operations" as OP
+actor "Technical Support" as TS
+
+SM -> PM: Propose new AI project idea
+PM -> IRB: Submit high-level proposal for ethical review
+alt IRBApproves
+    IRB -> PM: Approval with conditions
+else IRBDenies
+    IRB -> PM: Request changes or rejects
+    return
+end
+
+PM -> PD: Provide project scope/cost/schedule\n(Including IRB requirements)
+PD -> QA: Share preliminary functional\n& system requirements
+QA -> OP: Provide input on environment needs
+OP -> TS: Collaborate on training and docs plan
+
+PM -> PD: Refine resource assignment and schedule
+PD -> IRB: Request partial re-check if scope changes
+alt IRBApprovesAdditionalScope
+    IRB -> PD: Additional scope accepted
+else IRBRequiresFurtherChanges
+    IRB -> PD: Must revise approach
+    return
+end
+
+PD -> QA: Deliver code increments for smoke/integration tests
+QA -> PD: Integration test results,\nLog issues
+PD -> PD: Fix code issues, rebuild
+loop Iteration
+    PD -> QA: Provide updated code
+    QA -> PD: Re-test & accept
+end
+
+PM -> IRB: Request gate sign-off for major readiness
+IRB -> PM: Ethical readiness sign-off
+PM -> TS: Prepare user training materials
+TS -> PD: Confirm final product doc
+PD -> QA: Provide final user-facing doc for QA check
+QA -> PD: Approves documentation
+PD -> OP: Coordinate final environment checks
+
+PM -> IRB: Request final pre-deployment review
+alt IRBFinalApproval
+    IRB -> PM: Deployment clearance
+else IRBRejectForRevisions
+    IRB -> PM: Must re-address concerns
+    return
+end
+
+PM -> OP: Initiate Deployment
+OP -> QA: Final verification in staging
+QA -> OP: Confirms staging test pass
+OP -> OP: Release code to production
+OP -> PD: Notify Dev of production push
+TS -> TS: Begin user training classes
+PD -> IRB: Confirm production rollout success
+
+note right
+    Post-Deployment:
+    - Monitor system performance & model drift
+    - IRB re-check if major incidents or new features
+end note
+
+alt System or model drift found
+    QA -> PD: Found significant drift
+    PD -> IRB: Request re-validation
+    IRB -> PD: Re-approval after review
+end
+
+alt Retirement
+    PD -> IRB: Request EOL approval
+    IRB -> PD: Provide final acceptance
+    PD -> OP: Decommission model
+end
+
+@enduml
