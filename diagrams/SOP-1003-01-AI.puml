@@ -1,0 +1,48 @@
+@startuml
+
+title SOP-1003-01-AI: Capacity Management Process
+
+participant "Project Manager" as PM
+participant "Capacity Manager" as CM
+participant "Operations Team" as Ops
+participant "AI-IRB Liaison" as IRB
+participant "QA" as QA
+participant "Developer" as Dev
+
+PM -> CM: Request initial capacity assessment
+CM -> Ops: Gather system usage metrics
+Ops -> CM: Provide metrics and resource usage data
+
+alt Additional AI-IRB concern?
+    CM -> IRB: Submit capacity plan for ethical/data compliance review
+    IRB -> CM: Provide recommendations and constraints
+else No AI-IRB concern
+    note over CM: Proceed without IRB constraints
+end
+
+CM -> QA: Present draft capacity plan for QA input
+QA -> CM: Validate performance test coverage
+QA -> Dev: Confirm test environment readiness
+Dev -> QA: Provide any needed environment updates
+
+CM -> PM: Submit finalized capacity plan
+PM -> CM: Approve plan and incorporate into project schedule
+
+CM -> Ops: Implement capacity changes\n(e.g., HPC scaling, memory, CPU)
+Ops -> CM: Report successful implementation
+CM -> PM: Confirm changes in progress logs
+
+PM -> QA: Request final verification
+QA -> Ops: Verify system stability under new capacity
+Ops -> QA: Provide monitoring data
+
+alt Issues found?
+    QA -> CM: Notify capacity shortfalls or errors
+    CM -> Ops: Coordinate adjustments
+    Ops -> QA: Re-verify changes
+    QA -> PM: Confirm resolution
+else No issues
+    note over QA,PM: Capacity deployment successful
+end
+
+@enduml
