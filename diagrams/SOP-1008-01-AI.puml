@@ -1,0 +1,59 @@
+@startuml
+' Define Participants (roles) using short names
+participant "Incident Reporter" as IR
+participant "Technical Support" as TS
+participant "Operations" as OP
+participant "Incident Manager" as IM
+participant "AI-IRB Liaison" as IRB
+participant "Development" as DEV
+participant "Quality Assurance" as QA
+participant "Security/Compliance" as SC
+
+' 1. Incident detection and logging
+IR -> TS: Report AI Incident details
+note right: Could be user complaint, unusual AI output,\nor error logs
+
+TS -> IM: Forward incident info\n(incident ticket created)
+
+' 2. Triage and initial assessment
+IM -> IM: Review incident severity and category
+alt Potential compliance/ethics risk
+  IM -> IRB: Notify AI-IRB Liaison
+  note right: If needed, AI-IRB calls a review\nfor compliance or ethical concerns
+end
+IM -> SC: Alert if data breach or major risk
+note right: SC steps in for data/regulatory concerns
+
+' 3. Investigation and Analysis
+IM -> DEV: Request root-cause analysis
+note right: Developer or ML Engineer checks logs,\nmodel outputs, environment
+DEV -> OP: Check system environment\nfor anomalies
+OP -> DEV: Return environment findings
+DEV -> IM: Provide root-cause findings
+
+' 4. Mitigation approach (fix implementation)
+IM -> DEV: Approve fix/workaround
+DEV -> QA: Provide fix build or model update
+QA -> QA: Test the fix in staging or specialized AI environment
+alt Critical fix needed
+  QA -> OP: Approve emergency push to production
+else Normal fix path
+  QA -> OP: Approve standard deployment cycle
+end
+
+' 5. Validation and closure
+OP -> IM: Deployment success/failure status
+IM -> QA: Request final retest in production environment
+QA -> IM: Confirm incident resolved
+alt Incident fully resolved
+  IM -> TS: Update status, incident closed
+else Further issues remain
+  IM -> DEV: Re-open incident for more investigation
+end
+
+' 6. Post-incident follow-up
+IM -> IM: Document lessons learned
+IM -> IRB: If model changes are significant,\nsubmit final compliance review
+IM -> SC: Provide incident summary if compliance was involved
+
+@enduml
