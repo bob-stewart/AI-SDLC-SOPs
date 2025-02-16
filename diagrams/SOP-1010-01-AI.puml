@@ -1,0 +1,76 @@
+@startuml
+
+' Define participants (avoid vertical-bar notation)
+participant "Site Monitoring Lead" as SML
+participant "Technical Support" as TechSup
+participant "Incident Manager" as IM
+participant "Operations Engineer" as OE
+participant "AI Dev Team" as AIDev
+participant "Security/Compliance" as SC
+participant "Quality Assurance" as QA
+participant "AI-IRB Liaison" as IRB
+
+' 1. Monitoring Setup and Thresholds
+SML -> SML: Configure dashboards/alerts\n(Performance, usage, anomaly thresholds)
+
+' 2. Detect Incident
+TechSup -> SML: Report user complaint or system alert
+SML -> IM: Log initial incident details\n(Assign provisional severity)
+
+' 3. Potential Ethical Concerns?
+alt Possibly Ethical/Regulatory Concern
+    SML -> IRB: Notify potential AI ethics/regulatory breach
+else No immediate IRB concern
+    note over SML: Skip IRB step
+end
+
+' 4. Incident Triage and Severity
+IM -> IM: Determine final severity (P0, P1, P2)
+IM -> OE: Notify if infrastructure or network problem
+IM -> AIDev: Notify if code/model bug
+IM -> SC: Notify if data privacy or security concern
+
+' 5. Investigation and Escalation
+alt Infrastructure Root Cause
+    OE -> SML: Provide environment logs / config updates
+    OE -> IM: Summarize findings
+else Model/Code Bug
+    AIDev -> AIDev: Replicate scenario in dev environment
+    AIDev -> IM: Summarize findings
+else Security/Privacy
+    SC -> SC: Analyze logs for intrusion / data leakage
+    SC -> IM: Summarize findings
+end
+
+' 6. Ethical Overlap?
+alt AI Model Bias or Unethical Behavior
+    IM -> IRB: Engage IRB for review
+end
+
+' 7. Resolution
+alt Fix Required
+    IM -> AIDev: Implement fix or patch
+    AIDev -> QA: Provide updated code
+    QA -> QA: Validate fix in staging environment
+    QA -> IM: Confirm resolution
+else No immediate fix
+    note over IM: Provide workaround or monitoring
+end
+
+' 8. Deploy Fix to Production
+IM -> SML: Authorize final fix deployment
+SML -> OE: Deploy code to production environment
+OE -> QA: Notify QA for final verification
+QA -> IM: Approve production environment status
+
+' 9. Closure
+IM -> IM: Update incident log to "Resolved/Closed"
+IM -> TechSup: Communicate resolution to end users or external clients
+
+' 10. Post-Incident Review
+IM -> IM: Schedule lessons learned session
+IM -> IRB: If involved, finalize ethical sign-off
+IM -> SML: Evaluate monitoring changes
+IM -> QA: Document improvement actions
+
+@enduml
