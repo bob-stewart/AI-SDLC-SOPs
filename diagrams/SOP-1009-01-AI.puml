@@ -1,0 +1,83 @@
+@startuml
+title SOP-1009-01-AI: Model Drift and Re-Validation Sequence Diagram
+
+participant "AI-IRB Liaison" as IRB
+participant "Business Owner" as BO
+participant "Data Scientist" as DS
+participant "Quality Assurance" as QA
+participant "Operations (Ops)" as OPS
+participant "Project Manager" as PM
+participant "Security/Compliance" as SC
+
+' Step 4.1: Monitoring and Drift Detection
+DS -> DS: Monitor model performance
+DS -> DS: Detect anomaly or threshold breach
+DS -> DS: Classify Trigger Event (drift/bias/data shift)
+
+' Step 4.2: Initiate Drift Evaluation
+DS -> PM: Notify potential drift
+PM -> BO: Inform about drift event
+PM -> QA: Request quick assessment
+PM -> OPS: Request environment/log analysis
+PM -> SC: Check compliance or security concerns
+
+alt Ethical/Regulatory Concern
+  PM -> IRB: Notify AI-IRB for oversight
+else No Ethical Concern
+  note over PM,DS: IRB not involved
+end
+
+' Step 4.3: Approve Re-Validation Plan
+DS -> DS: Draft Re-Validation Plan
+DS -> PM: Submit Re-Validation Plan
+PM -> BO: Request approval
+PM -> QA: Request feedback
+PM -> OPS: Request environment feasibility
+PM -> SC: Request compliance feedback
+alt Plan Approved
+  BO -> PM: Approve Plan
+else Plan Revisions
+  BO -> DS: Request changes
+  DS -> DS: Update Plan
+  DS -> PM: Resubmit
+  BO -> PM: Approve Plan
+end
+
+' Step 4.4: Prepare Re-Validation
+DS -> DS: Collect updated data & configure tests
+OPS -> DS: Provide environment resources
+SC -> DS: Approve data usage for privacy
+DS -> QA: Verify test readiness
+
+' Step 4.5: Execute Re-Validation
+DS -> DS: Run re-validation tests (metrics/bias/etc.)
+DS -> QA: Provide test results
+QA -> QA: Log results, track any issues
+
+' Step 4.6: Evaluate Outcomes
+DS -> QA: Share results
+QA -> BO: Summarize pass/fail
+alt Criteria Met
+  BO -> QA: Sign off updated model
+  alt Ethical Concern
+    IRB -> QA: Ethical compliance sign-off
+  end
+else Criteria Not Met
+  note over DS,QA: Root cause analysis, re-train or revert
+end
+
+' Step 4.7: Production Deployment
+QA -> OPS: Authorize deployment
+OPS -> OPS: Deploy re-validated model
+DS -> OPS: Final verification in production
+SC -> OPS: Confirm no new compliance issues
+
+' Step 4.8: Documentation and Lessons Learned
+DS -> DS: Finalize Re-Validation Report
+PM -> DS: Organize lessons-learned meeting
+DS -> QA: Archive artifacts
+alt If IRB was involved
+  IRB -> IRB: Log ethical/regulatory outcomes
+end
+
+@enduml
