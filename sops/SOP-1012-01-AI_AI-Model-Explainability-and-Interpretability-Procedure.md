@@ -171,104 +171,81 @@ This SOP applies to all **AI/ML models** developed, deployed, or maintained by t
 **END OF SOP**
 
 @startuml
+title SOP-1012-01-AI: AI Model Explainability & Interpretability
 
-title SOP-1051-01-AI: Security Administration & Oversight
-
-participant "AI Project Sponsor" as Sponsor
-
-participant "AI-IRB Liaison" as IRB
-
-participant "Security Administrator" as SecAdmin
-
-participant "Development Team" as DevTeam
-
-participant "Data Science Team" as DSTeam
-
-participant "Operations" as Ops
-
+participant "Product Management" as ProductM
+participant "AI Dev Team" as AIDev
+participant "Data Science Lead" as DSL
+participant "AI-IRB Liaison" as IRBLiaison
 participant "Quality Assurance" as QA
-
+participant "Legal/Compliance" as Legal
 participant "Technical Support" as TechSup
+participant "Operations" as Ops
+participant "Senior Management" as SrMgmt
 
-' 1\. AI-IRB Engagement and Risk Analysis
-
-Sponsor \-\> IRB: Submit project scope and data usage for review
-
-IRB \--\> Sponsor: Provide ethics/security guidance or request changes
-
-SecAdmin \-\> SecAdmin: Conduct risk assessment for AI solution
-
-SecAdmin \-\> IRB: Share findings if high risk
-
-' 2\. Access Provisioning
-
-DevTeam \-\> SecAdmin: Request AI system access
-
-alt Within standard profile?
-
-    SecAdmin \-\> DevTeam: Approve request and provision
-
-else Not within standard profile
-
-    SecAdmin \-\> IRB: Request compliance evaluation
-
-    IRB \--\> SecAdmin: Additional conditions or approvals
-
-    SecAdmin \-\> DevTeam: Final decision (approve/deny)
-
+' 4.1 Initiation of Explainability Requirements
+ProductM -> AIDev: Identify need for AI explainability
+AIDev -> DSL: Request advice on suitable explanation frameworks
+DSL -> IRBLiaison: Present proposed approach for ethical/regulatory review
+alt If concerns arise
+  IRBLiaison -> DSL: Raise compliance/ethical concerns
+  DSL -> AIDev: Revise approach to address concerns
+else No major concerns
+  IRBLiaison -> DSL: No critical issues found, proceed
 end
 
-' 3\. Security Monitoring and Patch Management
+' 4.2 Selecting Explanation Framework
+DSL -> AIDev: Confirm global/local interpretability approach
+AIDev -> AIDev: Implement or refine design plan
+AIDev -> IRBLiaison: Provide final plan for sign-off
+IRBLiaison -> AIDev: Approved approach
 
-Ops \-\> Ops: Configure AI system logs
+' 4.3 Model Implementation and Explanation Development
+AIDev -> AIDev: Implement model & integrate explanation technique
+AIDev -> QA: Provide code for review of explanation generation
+QA -> AIDev: Feedback on potential issues
+AIDev -> AIDev: Resolve any QA findings
 
-SecAdmin \-\> Ops: Verify logs meet requirements
-
-Ops \-\> SecAdmin: Alert about vulnerability (patch needed)
-
-SecAdmin \-\> DSTeam: Verify patch won't break AI code
-
-DSTeam \-\> QA: Confirm test readiness
-
-QA \-\> Ops: Approve patch deployment to staging
-
-Ops \-\> Ops: Deploy patch in production upon successful QA test
-
-' 4\. Incident Handling
-
-TechSup \-\> SecAdmin: Report potential security incident
-
-alt Incident confirmed?
-
-    SecAdmin \-\> Ops: Disable compromised resources
-
-    DSTeam \-\> SecAdmin: Check AI model/data not corrupted
-
-    SecAdmin \-\> SecAdmin: Complete eradication steps
-
-    SecAdmin \-\> IRB: Notify if IRB compliance impacted
-
-else Not confirmed
-
-    SecAdmin \-\> TechSup: Incident closed with no further action
-
+' 4.4 Testing Explanation Capabilities
+AIDev -> AIDev: Generate sample explanation outputs in staging
+AIDev -> QA: Deliver test artifacts for validation
+QA -> QA: Validate explanation correctness & traceability
+alt If defects found
+  QA -> AIDev: Log explanation defects
+  AIDev -> AIDev: Fix and retest
 end
 
-' 5\. Periodic Audits & Reviews
+' 4.5 User-Facing Documentation and Approvals
+TechSup -> AIDev: Request doc clarifications for end-user understanding
+AIDev -> TechSup: Provide final explanation docs & best practices
+TechSup -> Legal: Provide user documentation for compliance check
+Legal -> TechSup: Confirm compliance or request changes
+SrMgmt -> TechSup: Final sign-off on interpretability readiness
 
-SecAdmin \-\> QA: Schedule security audit
+' 4.6 Deployment and Monitoring
+Ops -> AIDev: Deploy explanation code to production
+AIDev -> TechSup: Confirm production environment explanation is active
+TechSup -> TechSup: Prepare support channels for user queries
+QA -> Ops: Monitor logs for explanation issues
 
-QA \-\> QA: Perform audit (logs, AI config, data usage)
+' 4.7 Change Management for Explanation Methods
+AIDev -> AIDev: Propose new or updated explanation method
+AIDev -> IRBLiaison: Submit change request for ethical review
+alt Approved
+  IRBLiaison -> QA: Confirm no new compliance issues
+  QA -> AIDev: Validate new method in staging
+else Rejected
+  IRBLiaison -> AIDev: Return request for revision
+end
 
-QA \-\> SecAdmin: Provide findings
-
-SecAdmin \-\> Ops: Implement corrections
-
-SecAdmin \-\> Sponsor: Summarize security posture
-
-SecAdmin \-\> IRB: Update if additional compliance needed
+' 4.8 Post-Implementation Review
+TechSup -> IRBLiaison: Provide user feedback on explanation clarity
+IRBLiaison -> ProductM: Summarize findings & potential improvements
+ProductM -> SrMgmt: Present final lessons learned
+SrMgmt -> SrMgmt: Decide on future enhancements or confirm closure
 
 @enduml
+
 
 **Short textual explanation:** This sequence diagram details the end-to-end process for AI model explainability and interpretability under SOP-1012-01-AI. It starts with Product Management identifying the need for explanation, the AI Dev Team and Data Science Lead choosing appropriate frameworks, AI-IRB Liaison reviewing compliance, QA validating explanation outputs, Legal/Compliance ensuring regulatory adherence, Technical Support documenting user-facing material, Operations deploying solutions, and Senior Management granting final approval. Post-implementation feedback and change management are also incorporated.
 
