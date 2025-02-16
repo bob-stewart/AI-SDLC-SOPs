@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1771px" preserveAspectRatio="none" style="width:1652px;height:1771px;background:#FFFFFF;" version="1.1" viewBox="0 0 1652 1771" width="1652px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="330" x="660" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="320" x="665" y="27.9951">SOP-1210-01 Quality Function Sequence</text><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1427.5" x="10" y="177.9922"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1166.5" x="10" y="528.2578"/><rect fill="none" height="106.5313" style="stroke:#000000;stroke-width:1.5;" width="537.5" x="285" y="820.2578"/><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="537.5" x="285" y="1054.1875"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="891.5" x="285" y="1333.1875"/><rect fill="none" height="135.6641" style="stroke:#000000;stroke-width:1.5;" width="1312.5" x="10" y="1524.7891"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="77" x2="77" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="338" x2="338" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="737.5" x2="737.5" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="867.5" x2="867.5" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1100.5" x2="1100.5" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1244.5" x2="1244.5" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1374.5" x2="1374.5" y1="73.5938" y2="1735.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1631" x2="1631" y1="73.5938" y2="1735.7188"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="20" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="27" y="62.292">AI-QA Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="20" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="27" y="1754.7139">AI-QA Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="295" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="302" y="62.292">QA Analyst</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="295" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="302" y="1754.7139">QA Analyst</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="662.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="669.5" y="62.292">Development Team</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="662.5" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="669.5" y="1754.7139">Development Team</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="822.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="829.5" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="822.5" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="829.5" y="1754.7139">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="1034.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1041.5" y="62.292">Product Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="1034.5" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1041.5" y="1754.7139">Product Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="1176.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1183.5" y="62.292">Program Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="1176.5" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1183.5" y="1754.7139">Program Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1322.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1329.5" y="62.292">AI-IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1322.5" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1329.5" y="1754.7139">AI-IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="1617" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="1624" y="62.292">All</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="1617" y="1734.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="1624" y="1754.7139">All</text><polygon fill="#181818" points="326.5,100.7266,336.5,104.7266,326.5,108.7266,330.5,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="332.5" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="84.5" y="99.6606">Request draft of Quality Plan</text><polygon fill="#181818" points="88.5,129.8594,78.5,133.8594,88.5,137.8594,84.5,133.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="133.8594" y2="133.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="94.5" y="128.7935">Provide draft Quality Plan</text><polygon fill="#181818" points="1363,158.9922,1373,162.9922,1363,166.9922,1367,162.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1369" y1="162.9922" y2="162.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="84.5" y="157.9263">(Optional) Check AI compliance requirements</text><path d="M10,177.9922 L74,177.9922 L74,185.125 L64,195.125 L10,195.125 L10,177.9922 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1427.5" x="10" y="177.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="191.0591">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="129" x="89" y="190.2026">[Revisions needed?]</text><polygon fill="#181818" points="349.5,212.2578,339.5,216.2578,349.5,220.2578,345.5,216.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="1374" y1="216.2578" y2="216.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="355.5" y="211.1919">Provide compliance feedback</text><polygon fill="#181818" points="88.5,241.3906,78.5,245.3906,88.5,249.3906,84.5,245.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="245.3906" y2="245.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="94.5" y="240.3247">Updated Quality Plan</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1437.5" y1="254.3906" y2="254.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="129" x="15" y="264.6011">[No major revisions]</text><polygon fill="#181818" points="88.5,285.3281,78.5,289.3281,88.5,293.3281,84.5,289.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="289.3281" y2="289.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="94.5" y="284.2622">Plan remains as is</text><polygon fill="#181818" points="1232.5,321.4609,1242.5,325.4609,1232.5,329.4609,1236.5,325.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1238.5" y1="325.4609" y2="325.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="84.5" y="320.395">Submit final Quality Plan for sign-off</text><polygon fill="#181818" points="88.5,350.5938,78.5,354.5938,88.5,358.5938,84.5,354.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="1243.5" y1="354.5938" y2="354.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="94.5" y="349.5278">Approve Quality Plan</text><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="380.5" y1="383.7266" y2="383.7266"/><line style="stroke:#181818;stroke-width:1.0;" x1="380.5" x2="380.5" y1="383.7266" y2="396.7266"/><line style="stroke:#181818;stroke-width:1.0;" x1="339.5" x2="380.5" y1="396.7266" y2="396.7266"/><polygon fill="#181818" points="349.5,392.7266,339.5,396.7266,349.5,400.7266,345.5,396.7266" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="305" x="345.5" y="378.6606">Draft Test Strategy, Integration &amp; System Plans</text><polygon fill="#181818" points="725.5,421.8594,735.5,425.8594,725.5,429.8594,729.5,425.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="425.8594" y2="425.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="345.5" y="420.7935">Request input (features, constraints)</text><polygon fill="#181818" points="349.5,450.9922,339.5,454.9922,349.5,458.9922,345.5,454.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="736.5" y1="454.9922" y2="454.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="154" x="355.5" y="449.9263">Provide technical details</text><polygon fill="#181818" points="88.5,480.125,78.5,484.125,88.5,488.125,84.5,484.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="484.125" y2="484.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="94.5" y="479.0591">Submit Test Plans for review</text><polygon fill="#181818" points="1088.5,509.2578,1098.5,513.2578,1088.5,517.2578,1092.5,513.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1094.5" y1="513.2578" y2="513.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="84.5" y="508.1919">Gather feedback on user requirements</text><path d="M10,528.2578 L74,528.2578 L74,535.3906 L64,545.3906 L10,545.3906 L10,528.2578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1166.5" x="10" y="528.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="541.3247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="173" x="89" y="540.4683">[Further changes needed?]</text><polygon fill="#181818" points="349.5,562.5234,339.5,566.5234,349.5,570.5234,345.5,566.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="1099.5" y1="566.5234" y2="566.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="355.5" y="561.4575">Provide feedback</text><polygon fill="#181818" points="88.5,591.6563,78.5,595.6563,88.5,599.6563,84.5,595.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="595.6563" y2="595.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="94.5" y="590.5903">Updated Test Plans</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1176.5" y1="604.6563" y2="604.6563"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="141" x="15" y="614.8667">[Test Plans approved]</text><polygon fill="#181818" points="326.5,635.5938,336.5,639.5938,326.5,643.5938,330.5,639.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="332.5" y1="639.5938" y2="639.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="84.5" y="634.5278">Test Plans accepted</text><polygon fill="#181818" points="349.5,671.7266,339.5,675.7266,349.5,679.7266,345.5,675.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="866.5" y1="675.7266" y2="675.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="355.5" y="670.6606">Confirm test environments readiness</text><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="380.5" y1="704.8594" y2="704.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="380.5" x2="380.5" y1="704.8594" y2="717.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="339.5" x2="380.5" y1="717.8594" y2="717.8594"/><polygon fill="#181818" points="349.5,713.8594,339.5,717.8594,349.5,721.8594,345.5,717.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="345.5" y="699.7935">Confirm test data &amp; tools available</text><polygon fill="#181818" points="88.5,742.9922,78.5,746.9922,88.5,750.9922,84.5,746.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="746.9922" y2="746.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="94.5" y="741.9263">All test prep verified</text><polygon fill="#181818" points="725.5,772.125,735.5,776.125,725.5,780.125,729.5,776.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="776.125" y2="776.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="345.5" y="771.0591">Request unit test acceptance</text><polygon fill="#181818" points="349.5,801.2578,339.5,805.2578,349.5,809.2578,345.5,805.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="736.5" y1="805.2578" y2="805.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="355.5" y="800.1919">Provide unit test results</text><path d="M285,820.2578 L349,820.2578 L349,827.3906 L339,837.3906 L285,837.3906 L285,820.2578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="106.5313" style="stroke:#000000;stroke-width:1.5;" width="537.5" x="285" y="820.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="300" y="833.3247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="112" x="364" y="832.4683">[Unit tests pass?]</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="285" x2="822.5" y1="838.3906" y2="838.3906"/><polygon fill="#181818" points="725.5,856.5234,735.5,860.5234,725.5,864.5234,729.5,860.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="860.5234" y2="860.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="345.5" y="855.4575">Defects found in unit results</text><polygon fill="#181818" points="349.5,885.6563,339.5,889.6563,349.5,893.6563,345.5,889.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="736.5" y1="889.6563" y2="889.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="355.5" y="884.5903">Fix unit test issues</text><polygon fill="#181818" points="725.5,914.7891,735.5,918.7891,725.5,922.7891,729.5,918.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="918.7891" y2="918.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="345.5" y="913.7231">Re-verify until pass</text><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="380.5" y1="954.9219" y2="954.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="380.5" x2="380.5" y1="954.9219" y2="967.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="339.5" x2="380.5" y1="967.9219" y2="967.9219"/><polygon fill="#181818" points="349.5,963.9219,339.5,967.9219,349.5,971.9219,345.5,967.9219" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="345.5" y="949.856">Execute integration tests</text><polygon fill="#181818" points="725.5,993.0547,735.5,997.0547,725.5,1001.0547,729.5,997.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="997.0547" y2="997.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="345.5" y="991.9888">Log defects if found</text><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="380.5" y1="1026.1875" y2="1026.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="380.5" x2="380.5" y1="1026.1875" y2="1039.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="339.5" x2="380.5" y1="1039.1875" y2="1039.1875"/><polygon fill="#181818" points="349.5,1035.1875,339.5,1039.1875,349.5,1043.1875,345.5,1039.1875" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="385" x="345.5" y="1021.1216">Execute system test (functional, load, regression, AI checks)</text><path d="M285,1054.1875 L349,1054.1875 L349,1061.3203 L339,1071.3203 L285,1071.3203 L285,1054.1875 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="537.5" x="285" y="1054.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="300" y="1067.2544">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="139" x="364" y="1066.3979">[Defects discovered?]</text><polygon fill="#181818" points="725.5,1088.4531,735.5,1092.4531,725.5,1096.4531,729.5,1092.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="1092.4531" y2="1092.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="345.5" y="1087.3872">Defect details</text><polygon fill="#181818" points="349.5,1117.5859,339.5,1121.5859,349.5,1125.5859,345.5,1121.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="736.5" y1="1121.5859" y2="1121.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="355.5" y="1116.52">Fix and retest</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="285" x2="822.5" y1="1130.5859" y2="1130.5859"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="127" x="290" y="1140.7964">[No critical defects]</text><polygon fill="#181818" points="88.5,1168.5234,78.5,1172.5234,88.5,1176.5234,84.5,1172.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="1172.5234" y2="1172.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="94.5" y="1167.4575">Provide final system test results</text><polygon fill="#181818" points="1232.5,1197.6563,1242.5,1201.6563,1232.5,1205.6563,1236.5,1201.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1238.5" y1="1201.6563" y2="1201.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="246" x="84.5" y="1196.5903">Present readiness for user acceptance</text><polygon fill="#181818" points="1088.5,1226.7891,1098.5,1230.7891,1088.5,1234.7891,1092.5,1230.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="1094.5" y1="1230.7891" y2="1230.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="277" x="345.5" y="1225.7231">Coordinate environment &amp; test instructions</text><polygon fill="#181818" points="878.5,1255.9219,868.5,1259.9219,878.5,1263.9219,874.5,1259.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="872.5" x2="1099.5" y1="1259.9219" y2="1259.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="884.5" y="1254.856">Request environment for UAT</text><polygon fill="#181818" points="1088.5,1285.0547,1098.5,1289.0547,1088.5,1293.0547,1092.5,1289.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="867.5" x2="1094.5" y1="1289.0547" y2="1289.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="874.5" y="1283.9888">Confirm UAT environment set up</text><polygon fill="#181818" points="725.5,1314.1875,735.5,1318.1875,725.5,1322.1875,729.5,1318.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="1318.1875" y2="1318.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="345.5" y="1313.1216">Wait on any UAT defect reports</text><path d="M285,1333.1875 L349,1333.1875 L349,1340.3203 L339,1350.3203 L285,1350.3203 L285,1333.1875 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="891.5" x="285" y="1333.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="300" y="1346.2544">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="364" y="1345.3979">[UAT defects?]</text><polygon fill="#181818" points="349.5,1367.4531,339.5,1371.4531,349.5,1375.4531,345.5,1371.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="1099.5" y1="1371.4531" y2="1371.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="355.5" y="1366.3872">Defect logs</text><polygon fill="#181818" points="725.5,1396.5859,735.5,1400.5859,725.5,1404.5859,729.5,1400.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="338.5" x2="731.5" y1="1400.5859" y2="1400.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="345.5" y="1395.52">Forward defects</text><polygon fill="#181818" points="349.5,1425.7188,339.5,1429.7188,349.5,1433.7188,345.5,1429.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="343.5" x2="736.5" y1="1429.7188" y2="1429.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="355.5" y="1424.6528">Fix &amp; confirm</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="285" x2="1176.5" y1="1438.7188" y2="1438.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="69" x="290" y="1448.9292">[UAT pass]</text><polygon fill="#181818" points="88.5,1476.6563,78.5,1480.6563,88.5,1484.6563,84.5,1480.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="1480.6563" y2="1480.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="94.5" y="1475.5903">Summarize test cycles &amp; open items</text><polygon fill="#181818" points="1232.5,1505.7891,1242.5,1509.7891,1232.5,1513.7891,1236.5,1509.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1238.5" y1="1509.7891" y2="1509.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="84.5" y="1504.7231">Final acceptance discussion</text><path d="M10,1524.7891 L74,1524.7891 L74,1531.9219 L64,1541.9219 L10,1541.9219 L10,1524.7891 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="135.6641" style="stroke:#000000;stroke-width:1.5;" width="1312.5" x="10" y="1524.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="1537.856">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="140" x="89" y="1536.9995">[Outstanding issues?]</text><polygon fill="#181818" points="88.5,1559.0547,78.5,1563.0547,88.5,1567.0547,84.5,1563.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="1243.5" y1="1563.0547" y2="1563.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="94.5" y="1557.9888">Request mitigations</text><polygon fill="#181818" points="725.5,1588.1875,735.5,1592.1875,725.5,1596.1875,729.5,1592.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="731.5" y1="1592.1875" y2="1592.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="84.5" y="1587.1216">Action to close issues</text><polygon fill="#181818" points="88.5,1617.3203,78.5,1621.3203,88.5,1625.3203,84.5,1621.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="82.5" x2="337.5" y1="1621.3203" y2="1621.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="94.5" y="1616.2544">Re-check</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1322.5" y1="1630.3203" y2="1630.3203"/><polygon fill="#181818" points="1232.5,1648.4531,1242.5,1652.4531,1232.5,1656.4531,1236.5,1652.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1238.5" y1="1652.4531" y2="1652.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="84.5" y="1647.3872">Everything satisfied</text><polygon fill="#181818" points="1363,1684.5859,1373,1688.5859,1363,1692.5859,1367,1688.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="77.5" x2="1369" y1="1688.5859" y2="1688.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="84.5" y="1683.52">Final AI compliance sign-off if applicable</text><polygon fill="#181818" points="1619.5,1713.7188,1629.5,1717.7188,1619.5,1721.7188,1623.5,1717.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1244.5" x2="1625.5" y1="1717.7188" y2="1717.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="363" x="1251.5" y="1712.6528">Authorize product readiness for next gate or deployment</text><!--MD5=[fd3160b42a3f657dceb534d9687ddfcc]
+@startuml
+' Define participants (roles) as SHORTNAME
+participant "AI-QA Manager" as MQ
+participant "QA Analyst" as QA
+participant "Development Team" as DEV
+participant "Operations" as OPS
+participant "Product Manager" as PM
+participant "Program Manager" as PG
+participant "AI-IRB Liaison" as IRB
+
+title SOP-1210-01 Quality Function Sequence
+
+' 1. Create Quality Plan
+MQ -> QA: Request draft of Quality Plan
+QA -> MQ: Provide draft Quality Plan
+MQ -> IRB: (Optional) Check AI compliance requirements
+alt Revisions needed?
+    IRB -> QA: Provide compliance feedback
+    QA -> MQ: Updated Quality Plan
+else No major revisions
+    QA -> MQ: Plan remains as is
+end
+MQ -> PG: Submit final Quality Plan for sign-off
+PG -> MQ: Approve Quality Plan
+
+' 2. Develop Test Strategy, Integration, System Test Plans
+QA -> QA: Draft Test Strategy, Integration & System Plans
+QA -> DEV: Request input (features, constraints)
+DEV -> QA: Provide technical details
+QA -> MQ: Submit Test Plans for review
+MQ -> PM: Gather feedback on user requirements
+alt Further changes needed?
+    PM -> QA: Provide feedback
+    QA -> MQ: Updated Test Plans
+else Test Plans approved
+    MQ -> QA: Test Plans accepted
+end
+
+' 3. Verify Test Preparation
+OPS -> QA: Confirm test environments readiness
+QA -> QA: Confirm test data & tools available
+QA -> MQ: All test prep verified
+
+' 4. Perform Integration Test
+QA -> DEV: Request unit test acceptance
+DEV -> QA: Provide unit test results
+alt Unit tests pass?
+    else
+    QA -> DEV: Defects found in unit results
+    DEV -> QA: Fix unit test issues
+    QA -> DEV: Re-verify until pass
+    end
+QA -> QA: Execute integration tests
+QA -> DEV: Log defects if found
+
+' 5. Perform System (QA) Test
+QA -> QA: Execute system test (functional, load, regression, AI checks)
+alt Defects discovered?
+    QA -> DEV: Defect details
+    DEV -> QA: Fix and retest
+else No critical defects
+end
+QA -> MQ: Provide final system test results
+MQ -> PG: Present readiness for user acceptance
+
+' 6. Assist User Acceptance Test (UAT)
+QA -> PM: Coordinate environment & test instructions
+PM -> OPS: Request environment for UAT
+OPS -> PM: Confirm UAT environment set up
+QA -> DEV: Wait on any UAT defect reports
+alt UAT defects?
+    PM -> QA: Defect logs
+    QA -> DEV: Forward defects
+    DEV -> QA: Fix & confirm
+else UAT pass
+end
+
+' 7. Post-Test Reviews & Sign-Off
+QA -> MQ: Summarize test cycles & open items
+MQ -> PG: Final acceptance discussion
+alt Outstanding issues?
+    PG -> MQ: Request mitigations
+    MQ -> DEV: Action to close issues
+    QA -> MQ: Re-check
+else
+    MQ -> PG: Everything satisfied
+end
+MQ -> IRB: Final AI compliance sign-off if applicable
+PG -> All: Authorize product readiness for next gate or deployment
+@enduml
+
+@startuml
+participant "AI-QA Manager" as MQ
+participant "QA Analyst" as QA
+participant "Development Team" as DEV
+participant "Operations" as OPS
+participant "Product Manager" as PM
+participant "Program Manager" as PG
+participant "AI-IRB Liaison" as IRB
+
+title SOP-1210-01 Quality Function Sequence
+
+MQ -> QA: Request draft of Quality Plan
+QA -> MQ: Provide draft Quality Plan
+MQ -> IRB: (Optional) Check AI compliance requirements
+alt Revisions needed?
+    IRB -> QA: Provide compliance feedback
+    QA -> MQ: Updated Quality Plan
+else No major revisions
+    QA -> MQ: Plan remains as is
+end
+MQ -> PG: Submit final Quality Plan for sign-off
+PG -> MQ: Approve Quality Plan
+
+QA -> QA: Draft Test Strategy, Integration & System Plans
+QA -> DEV: Request input (features, constraints)
+DEV -> QA: Provide technical details
+QA -> MQ: Submit Test Plans for review
+MQ -> PM: Gather feedback on user requirements
+alt Further changes needed?
+    PM -> QA: Provide feedback
+    QA -> MQ: Updated Test Plans
+else Test Plans approved
+    MQ -> QA: Test Plans accepted
+end
+
+OPS -> QA: Confirm test environments readiness
+QA -> QA: Confirm test data & tools available
+QA -> MQ: All test prep verified
+
+QA -> DEV: Request unit test acceptance
+DEV -> QA: Provide unit test results
+alt Unit tests pass?
+    else
+    QA -> DEV: Defects found in unit results
+    DEV -> QA: Fix unit test issues
+    QA -> DEV: Re-verify until pass
+    end
+QA -> QA: Execute integration tests
+QA -> DEV: Log defects if found
+
+QA -> QA: Execute system test (functional, load, regression, AI checks)
+alt Defects discovered?
+    QA -> DEV: Defect details
+    DEV -> QA: Fix and retest
+else No critical defects
+end
+QA -> MQ: Provide final system test results
+MQ -> PG: Present readiness for user acceptance
+
+QA -> PM: Coordinate environment & test instructions
+PM -> OPS: Request environment for UAT
+OPS -> PM: Confirm UAT environment set up
+QA -> DEV: Wait on any UAT defect reports
+alt UAT defects?
+    PM -> QA: Defect logs
+    QA -> DEV: Forward defects
+    DEV -> QA: Fix & confirm
+else UAT pass
+end
+
+QA -> MQ: Summarize test cycles & open items
+MQ -> PG: Final acceptance discussion
+alt Outstanding issues?
+    PG -> MQ: Request mitigations
+    MQ -> DEV: Action to close issues
+    QA -> MQ: Re-check
+else
+    MQ -> PG: Everything satisfied
+end
+MQ -> IRB: Final AI compliance sign-off if applicable
+PG -> All: Authorize product readiness for next gate or deployment
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,92 @@
+@startuml
+
+' Define participants (roles) as SHORTNAME
+participant "AI-QA Manager" as MQ
+participant "QA Analyst" as QA
+participant "Development Team" as DEV
+participant "Operations" as OPS
+participant "Product Manager" as PM
+participant "Program Manager" as PG
+participant "AI-IRB Liaison" as IRB
+
+title SOP-1210-01 Quality Function Sequence
+
+' 1. Create Quality Plan
+MQ -> QA: Request draft of Quality Plan
+QA -> MQ: Provide draft Quality Plan
+MQ -> IRB: (Optional) Check AI compliance requirements
+alt Revisions needed?
+    IRB -> QA: Provide compliance feedback
+    QA -> MQ: Updated Quality Plan
+else No major revisions
+    QA -> MQ: Plan remains as is
+end
+MQ -> PG: Submit final Quality Plan for sign-off
+PG -> MQ: Approve Quality Plan
+
+' 2. Develop Test Strategy, Integration, System Test Plans
+QA -> QA: Draft Test Strategy, Integration & System Plans
+QA -> DEV: Request input (features, constraints)
+DEV -> QA: Provide technical details
+QA -> MQ: Submit Test Plans for review
+MQ -> PM: Gather feedback on user requirements
+alt Further changes needed?
+    PM -> QA: Provide feedback
+    QA -> MQ: Updated Test Plans
+else Test Plans approved
+    MQ -> QA: Test Plans accepted
+end
+
+' 3. Verify Test Preparation
+OPS -> QA: Confirm test environments readiness
+QA -> QA: Confirm test data & tools available
+QA -> MQ: All test prep verified
+
+' 4. Perform Integration Test
+QA -> DEV: Request unit test acceptance
+DEV -> QA: Provide unit test results
+alt Unit tests pass?
+    else
+    QA -> DEV: Defects found in unit results
+    DEV -> QA: Fix unit test issues
+    QA -> DEV: Re-verify until pass
+    end
+QA -> QA: Execute integration tests
+QA -> DEV: Log defects if found
+
+' 5. Perform System (QA) Test
+QA -> QA: Execute system test (functional, load, regression, AI checks)
+alt Defects discovered?
+    QA -> DEV: Defect details
+    DEV -> QA: Fix and retest
+else No critical defects
+end
+QA -> MQ: Provide final system test results
+MQ -> PG: Present readiness for user acceptance
+
+' 6. Assist User Acceptance Test (UAT)
+QA -> PM: Coordinate environment & test instructions
+PM -> OPS: Request environment for UAT
+OPS -> PM: Confirm UAT environment set up
+QA -> DEV: Wait on any UAT defect reports
+alt UAT defects?
+    PM -> QA: Defect logs
+    QA -> DEV: Forward defects
+    DEV -> QA: Fix & confirm
+else UAT pass
+end
+
+' 7. Post-Test Reviews & Sign-Off
+QA -> MQ: Summarize test cycles & open items
+MQ -> PG: Final acceptance discussion
+alt Outstanding issues?
+    PG -> MQ: Request mitigations
+    MQ -> DEV: Action to close issues
+    QA -> MQ: Re-check
+else
+    MQ -> PG: Everything satisfied
+end
+MQ -> IRB: Final AI compliance sign-off if applicable
+PG -> All: Authorize product readiness for next gate or deployment
+
+@enduml
