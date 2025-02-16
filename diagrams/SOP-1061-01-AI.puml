@@ -1,0 +1,63 @@
+@startuml
+title SOP-1061-01-AI Incident Tracking - Sequence Diagram
+
+participant "Defect Reporter" as DR
+participant "Technical Support" as TS
+participant "Quality Assurance" as QA
+participant "AI-IRB Liaison" as IRB
+participant "Development" as DEV
+participant "Operations" as OPS
+participant "Project Manager" as PM
+
+== Incident Logging ==
+DR -> TS: Submit Incident Report (description, severity suggestion)
+TS -> TS: Review Report for completeness
+alt Report incomplete
+  TS -> DR: Request additional details
+  DR --> TS: Provide clarifications
+end
+
+TS -> QA: Forward Incident with severity suggestion
+
+== Validate Severity / Open Defect ==
+QA -> QA: Assess severity level
+alt Ethical concerns found
+  QA -> IRB: Alert AI-IRB Liaison for ethical review
+end
+QA -> QA: Open defect in system (status=Open)
+QA -> PM: Confirm assignment of developer
+
+== Assign Developer and Investigate ==
+PM -> DEV: Assign defect to developer
+DEV -> DEV: Reproduce issue in safe environment
+alt Further ethical risk discovered
+  DEV -> IRB: Consult AI-IRB Liaison
+end
+DEV -> QA: Provide triage outcome
+
+== Implement and Test Fix ==
+DEV -> DEV: Implement fix and run local unit tests
+DEV -> QA: Deliver patch for QA validation
+QA -> OPS: Coordinate environment for staging fix
+OPS -> QA: Staging environment ready
+QA -> QA: Validate fix in staging
+alt Fix incomplete
+  QA -> DEV: Re-open defect for additional corrections
+  DEV -> QA: Provide updated patch
+end
+QA -> QA: Confirm fix acceptance (resolved in staging)
+
+== Deploy to Production ==
+QA -> OPS: Authorize production deployment
+OPS -> DEV: Merge fix into production environment
+DEV -> PM: Notifies success of deployment
+PM -> TS: Update incident resolution metrics
+
+== Close Incident ==
+QA -> QA: Close defect (status=Closed)
+QA -> QA: Post-incident review (root cause, lessons)
+alt AI-IRB involvement
+  IRB -> QA: Final compliance check or note
+end
+
+@enduml
