@@ -1,0 +1,61 @@
+@startuml
+title SOP-1006-01-AI: AI-IRB Engagement and Ethical Review Sequence
+
+participant "Project Manager" as PM
+participant "AI-IRB Liaison" as LIAISON
+participant "AI-IRB" as IRB
+participant "Development Team" as DEV
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Legal/Compliance" as LEGAL
+
+PM -> PM: Identify AI aspects needing IRB oversight
+PM -> LIAISON: Notify about potential AI-IRB review
+LIAISON -> LIAISON: Determine if full submission or consult
+note right
+  LIAISON advises next steps for formal IRB
+  submission or preliminary consultation
+end note
+
+PM -> DEV: Collect technical/data details for Ethical Review Dossier
+PM -> QA: Request preliminary check of dossier completeness
+QA -> PM: Confirm dossier ready for submission
+
+PM -> LIAISON: Submit final Ethical Review Dossier to IRB
+LIAISON -> IRB: Forward dossier and supporting docs
+
+IRB -> IRB: Examine project doc & assess risk
+IRB -> LIAISON: Provide review outcome
+alt Approved
+  LIAISON -> PM: Notifies final IRB approval
+  PM -> QA: Mark IRB-based tasks complete
+else "Cond. Approved"
+  LIAISON -> PM: Shares IRB conditions
+  PM -> LEGAL: (If needed) Clarify conditions or regulatory constraints
+  PM -> DEV: Adjust design per conditions
+  DEV -> QA: Confirm updated design meets IRB demands
+  QA -> LIAISON: Resubmit for IRB sign-off
+  IRB -> LIAISON: Final approval
+  LIAISON -> PM: Notifies IRB approval
+else "Rejected"
+  LIAISON -> PM: Shares IRB rejection
+  PM -> DEV: Major revision or additional data
+  DEV -> QA: Validate reworked approach
+  QA -> LIAISON: Resubmit to IRB
+  IRB -> LIAISON: Final decision
+  LIAISON -> PM: If approved, proceed
+end
+
+PM -> OPS: Implement IRB-mandated technical controls
+QA -> QA: Monitor compliance with IRB directives
+
+PM -> DEV: Proceed with development/test gates (unlocked)
+PM -> PM: Plan post-approval oversight (scheduled checks)
+OPS -> PM: Provide logs or metrics for ongoing IRB reviews
+PM -> LIAISON: Provide updates to IRB, if required
+
+PM -> PM: Conduct post-deployment review
+PM -> QA: Gather metrics on compliance/ethical usage
+PM -> LIAISON: Prepare final IRB summary and lessons learned
+
+@enduml
