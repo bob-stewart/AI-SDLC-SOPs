@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1268px" preserveAspectRatio="none" style="width:2109px;height:1268px;background:#FFFFFF;" version="1.1" viewBox="0 0 2109 1268" width="2109px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="501" x="803" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="491" x="808" y="27.9951">SOP-1040-01-AI: Requirements Definition (Sequence Diagram)</text><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="370" x="10" y="119.7266"/><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="825.5" x="256" y="456.9922"/><rect fill="none" height="46.2656" style="stroke:#000000;stroke-width:1.5;" width="370" x="10" y="1111.5859"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="90" x2="90" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="318" x2="318" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="448" x2="448" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="727" x2="727" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="997.5" x2="997.5" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1236.5" x2="1236.5" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1511" x2="1511" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1645" x2="1645" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1768" x2="1768" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1916" x2="1916" y1="73.5938" y2="1233.1172"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2049" x2="2049" y1="73.5938" y2="1233.1172"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="20" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="27" y="62.292">AI Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="20" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="27" y="1252.1123">AI Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="266" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="273" y="62.292">AI IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="266" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="273" y="1252.1123">AI IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="380" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="387" y="62.292">Program Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="380" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="387" y="1252.1123">Program Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="661" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="668" y="62.292">Product Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="661" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="668" y="1252.1123">Product Manager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="924.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="931.5" y="62.292">AI Business Analyst</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="924.5" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="931.5" y="1252.1123">AI Business Analyst</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="1174.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1181.5" y="62.292">AI Data Scientist</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="1174.5" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1181.5" y="1252.1123">AI Data Scientist</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="1432" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1439" y="62.292">AI Ethics/Compliance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="1432" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1439" y="1252.1123">AI Ethics/Compliance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1600" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1607" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1600" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1607" y="1252.1123">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1700" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1707" y="62.292">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1700" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1707" y="1252.1123">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1847" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1854" y="62.292">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1847" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1854" y="1252.1123">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="1996" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="2003" y="62.292">Development</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="1996" y="1232.1172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="2003" y="1252.1123">Development</text><polygon fill="#181818" points="306,100.7266,316,104.7266,306,108.7266,310,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="312" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="97" y="99.6606">Present new AI project concept</text><path d="M10,119.7266 L74,119.7266 L74,126.8594 L64,136.8594 L10,136.8594 L10,119.7266 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="370" x="10" y="119.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="132.7935">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="179" x="89" y="131.937">[IRB requests clarifications]</text><polygon fill="#181818" points="101,153.9922,91,157.9922,101,161.9922,97,157.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="317" y1="157.9922" y2="157.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="107" y="152.9263">Clarification needed</text><polygon fill="#181818" points="306,183.125,316,187.125,306,191.125,310,187.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="312" y1="187.125" y2="187.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="97" y="182.0591">Provide clarifications</text><polygon fill="#181818" points="101,212.2578,91,216.2578,101,220.2578,97,216.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="317" y1="216.2578" y2="216.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="107" y="211.1919">Preliminary acceptance</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="380" y1="225.2578" y2="225.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="94" x="15" y="235.4683">[IRB approves]</text><polygon fill="#181818" points="101,256.1953,91,260.1953,101,264.1953,97,260.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="317" y1="260.1953" y2="260.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="107" y="255.1294">Preliminary acceptance</text><polygon fill="#181818" points="436,292.3281,446,296.3281,436,300.3281,440,296.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="442" y1="296.3281" y2="296.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="97" y="291.2622">Notify of IRB acceptance</text><polygon fill="#181818" points="715,321.4609,725,325.4609,715,329.4609,719,325.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="448" x2="721" y1="325.4609" y2="325.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="455" y="320.395">Request business requirements drafting</text><polygon fill="#181818" points="986,350.5938,996,354.5938,986,358.5938,990,354.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="727" x2="992" y1="354.5938" y2="354.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="734" y="349.5278">Begin high-level requirements</text><polygon fill="#181818" points="1904.5,379.7266,1914.5,383.7266,1904.5,387.7266,1908.5,383.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1910.5" y1="383.7266" y2="383.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="1005" y="378.6606">Gather known user constraints</text><polygon fill="#181818" points="1009,408.8594,999,412.8594,1009,416.8594,1005,412.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1915.5" y1="412.8594" y2="412.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="1015" y="407.7935">Provide user feedback</text><polygon fill="#181818" points="329,437.9922,319,441.9922,329,445.9922,325,441.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="323" x2="997" y1="441.9922" y2="441.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="335" y="436.9263">Submit early risk/ethical info</text><path d="M256,456.9922 L320,456.9922 L320,464.125 L310,474.125 L256,474.125 L256,456.9922 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="825.5" x="256" y="456.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="271" y="470.0591">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="335" y="469.2026">[IRB concerns]</text><polygon fill="#181818" points="986,491.2578,996,495.2578,986,499.2578,990,495.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="318" x2="992" y1="495.2578" y2="495.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="325" y="490.1919">Adjust scope or data approach</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="256" x2="1081.5" y1="504.2578" y2="504.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="113" x="261" y="514.4683">[IRB no concerns]</text><polygon fill="#181818" points="986,535.1953,996,539.1953,986,543.1953,990,539.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="318" x2="992" y1="539.1953" y2="539.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="325" y="534.1294">Proceed</text><polygon fill="#181818" points="1225,571.3281,1235,575.3281,1225,579.3281,1229,575.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1231" y1="575.3281" y2="575.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="1005" y="570.2622">Confirm ML feasibility, data needs</text><polygon fill="#181818" points="1499,600.4609,1509,604.4609,1499,608.4609,1503,604.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1237" x2="1505" y1="604.4609" y2="604.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="1244" y="599.395">Flag any data privacy or fairness issues</text><polygon fill="#181818" points="1009,629.5938,999,633.5938,1009,637.5938,1005,633.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1510" y1="633.5938" y2="633.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="1015" y="628.5278">Provide compliance requirements</text><polygon fill="#181818" points="1009,658.7266,999,662.7266,1009,666.7266,1005,662.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1644" y1="662.7266" y2="662.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="1015" y="657.6606">Provide operational constraints</text><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1040" y1="691.8594" y2="691.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="1040" x2="1040" y1="691.8594" y2="704.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="999" x2="1040" y1="704.8594" y2="704.8594"/><polygon fill="#181818" points="1009,700.8594,999,704.8594,1009,708.8594,1005,704.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="1005" y="686.7935">Draft Requirements Document</text><polygon fill="#181818" points="1756.5,729.9922,1766.5,733.9922,1756.5,737.9922,1760.5,733.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1762.5" y1="733.9922" y2="733.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="1005" y="728.9263">Request testability review</text><polygon fill="#181818" points="1009,759.125,999,763.125,1009,767.125,1005,763.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1767.5" y1="763.125" y2="763.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="1015" y="758.0591">Review acceptance criteria</text><polygon fill="#181818" points="738,788.2578,728,792.2578,738,796.2578,734,792.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="732" x2="997" y1="792.2578" y2="792.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="744" y="787.1919">Validate alignment with business goals</text><polygon fill="#181818" points="986,817.3906,996,821.3906,986,825.3906,990,821.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="727" x2="992" y1="821.3906" y2="821.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="154" x="734" y="816.3247">Confirm timeline in SOW</text><polygon fill="#181818" points="1633,846.5234,1643,850.5234,1633,854.5234,1637,850.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1639" y1="850.5234" y2="850.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="172" x="1005" y="845.4575">Confirm operational details</text><polygon fill="#181818" points="1248,875.6563,1238,879.6563,1248,883.6563,1244,879.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1242" x2="1767.5" y1="879.6563" y2="879.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="1254" y="874.5903">Check feasibility &amp; data readiness</text><polygon fill="#181818" points="1756.5,904.7891,1766.5,908.7891,1756.5,912.7891,1760.5,908.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1237" x2="1762.5" y1="908.7891" y2="908.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="1244" y="903.7231">Acknowledge feasibility</text><polygon fill="#181818" points="1009,933.9219,999,937.9219,1009,941.9219,1005,937.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1510" y1="937.9219" y2="937.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="1015" y="932.856">Check final ethics/regulatory compliance</text><polygon fill="#181818" points="329,963.0547,319,967.0547,329,971.0547,325,967.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="323" x2="997" y1="967.0547" y2="967.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="228" x="335" y="961.9888">If big changes, re-check compliance</text><polygon fill="#181818" points="1009,992.1875,999,996.1875,1009,1000.1875,1005,996.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1003" x2="1644" y1="996.1875" y2="996.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="1015" y="991.1216">Confirm final environment constraints</text><line style="stroke:#181818;stroke-width:1.0;" x1="998" x2="1040" y1="1025.3203" y2="1025.3203"/><line style="stroke:#181818;stroke-width:1.0;" x1="1040" x2="1040" y1="1025.3203" y2="1038.3203"/><line style="stroke:#181818;stroke-width:1.0;" x1="999" x2="1040" y1="1038.3203" y2="1038.3203"/><polygon fill="#181818" points="1009,1034.3203,999,1038.3203,1009,1042.3203,1005,1038.3203" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="1005" y="1020.2544">Prepare final version for sign-off</text><polygon fill="#181818" points="101,1063.4531,91,1067.4531,101,1071.4531,97,1067.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="997" y1="1067.4531" y2="1067.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="107" y="1062.3872">Present final requirements</text><polygon fill="#181818" points="306,1092.5859,316,1096.5859,306,1100.5859,310,1096.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="312" y1="1096.5859" y2="1096.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="97" y="1091.52">Final ethical sign-off (if required)</text><path d="M10,1111.5859 L74,1111.5859 L74,1118.7188 L64,1128.7188 L10,1128.7188 L10,1111.5859 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="46.2656" style="stroke:#000000;stroke-width:1.5;" width="370" x="10" y="1111.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="1124.6528">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="137" x="89" y="1123.7964">[IRB sign-off needed]</text><polygon fill="#181818" points="101,1145.8516,91,1149.8516,101,1153.8516,97,1149.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="317" y1="1149.8516" y2="1149.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="107" y="1144.7856">IRB approval</text><polygon fill="#181818" points="436,1181.9844,446,1185.9844,436,1189.9844,440,1185.9844" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="442" y1="1185.9844" y2="1185.9844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="97" y="1180.9185">Approve &amp; lock down scope</text><polygon fill="#181818" points="2037.5,1211.1172,2047.5,1215.1172,2037.5,1219.1172,2041.5,1215.1172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="448" x2="2043.5" y1="1215.1172" y2="1215.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="283" x="455" y="1210.0513">Communicate “Locked-Down” requirements</text><!--MD5=[b1bf9cad398e63384f8611bfdf3a38d4]
+@startuml
+title SOP-1040-01-AI: Requirements Definition (Sequence Diagram)
+
+participant "AI Project Sponsor" as SPONSOR
+participant "AI IRB Liaison" as IRB
+participant "Program Manager" as PRM
+participant "Product Manager" as PDM
+participant "AI Business Analyst" as BA
+participant "AI Data Scientist" as DS
+participant "AI Ethics/Compliance" as ETH
+participant "Operations" as OPS
+participant "Quality Assurance" as QA
+participant "Technical Support" as TS
+participant "Development" as DEV
+
+' Step 1: Sponsor Initiates Concept
+SPONSOR -> IRB: Present new AI project concept
+alt IRB requests clarifications
+  IRB -> SPONSOR: Clarification needed
+  SPONSOR -> IRB: Provide clarifications
+  IRB -> SPONSOR: Preliminary acceptance
+else IRB approves
+  IRB -> SPONSOR: Preliminary acceptance
+end
+
+' Step 2: Program Manager sets up project record
+SPONSOR -> PRM: Notify of IRB acceptance
+PRM -> PDM: Request business requirements drafting
+PDM -> BA: Begin high-level requirements
+BA -> TS: Gather known user constraints
+TS -> BA: Provide user feedback
+
+' Step 3: AI IRB Preliminary Review
+BA -> IRB: Submit early risk/ethical info
+alt IRB concerns
+  IRB -> BA: Adjust scope or data approach
+else IRB no concerns
+  IRB -> BA: Proceed
+end
+
+' Step 4: Requirements Elicitation
+BA -> DS: Confirm ML feasibility, data needs
+DS -> ETH: Flag any data privacy or fairness issues
+ETH -> BA: Provide compliance requirements
+OPS -> BA: Provide operational constraints
+BA -> BA: Draft Requirements Document
+
+' Step 5: Analyze & Document
+BA -> QA: Request testability review
+QA -> BA: Review acceptance criteria
+BA -> PDM: Validate alignment with business goals
+PDM -> BA: Confirm timeline in SOW
+BA -> OPS: Confirm operational details
+
+' Step 6: Requirements Validation
+QA -> DS: Check feasibility & data readiness
+DS -> QA: Acknowledge feasibility
+ETH -> BA: Check final ethics/regulatory compliance
+BA -> IRB: If big changes, re-check compliance
+OPS -> BA: Confirm final environment constraints
+BA -> BA: Prepare final version for sign-off
+
+' Step 7: Approve System Requirements
+BA -> SPONSOR: Present final requirements
+SPONSOR -> IRB: Final ethical sign-off (if required)
+alt IRB sign-off needed
+  IRB -> SPONSOR: IRB approval
+end
+SPONSOR -> PRM: Approve & lock down scope
+PRM -> DEV: Communicate “Locked-Down” requirements
+@enduml
+
+@startuml
+title SOP-1040-01-AI: Requirements Definition (Sequence Diagram)
+
+participant "AI Project Sponsor" as SPONSOR
+participant "AI IRB Liaison" as IRB
+participant "Program Manager" as PRM
+participant "Product Manager" as PDM
+participant "AI Business Analyst" as BA
+participant "AI Data Scientist" as DS
+participant "AI Ethics/Compliance" as ETH
+participant "Operations" as OPS
+participant "Quality Assurance" as QA
+participant "Technical Support" as TS
+participant "Development" as DEV
+
+SPONSOR -> IRB: Present new AI project concept
+alt IRB requests clarifications
+  IRB -> SPONSOR: Clarification needed
+  SPONSOR -> IRB: Provide clarifications
+  IRB -> SPONSOR: Preliminary acceptance
+else IRB approves
+  IRB -> SPONSOR: Preliminary acceptance
+end
+
+SPONSOR -> PRM: Notify of IRB acceptance
+PRM -> PDM: Request business requirements drafting
+PDM -> BA: Begin high-level requirements
+BA -> TS: Gather known user constraints
+TS -> BA: Provide user feedback
+
+BA -> IRB: Submit early risk/ethical info
+alt IRB concerns
+  IRB -> BA: Adjust scope or data approach
+else IRB no concerns
+  IRB -> BA: Proceed
+end
+
+BA -> DS: Confirm ML feasibility, data needs
+DS -> ETH: Flag any data privacy or fairness issues
+ETH -> BA: Provide compliance requirements
+OPS -> BA: Provide operational constraints
+BA -> BA: Draft Requirements Document
+
+BA -> QA: Request testability review
+QA -> BA: Review acceptance criteria
+BA -> PDM: Validate alignment with business goals
+PDM -> BA: Confirm timeline in SOW
+BA -> OPS: Confirm operational details
+
+QA -> DS: Check feasibility & data readiness
+DS -> QA: Acknowledge feasibility
+ETH -> BA: Check final ethics/regulatory compliance
+BA -> IRB: If big changes, re-check compliance
+OPS -> BA: Confirm final environment constraints
+BA -> BA: Prepare final version for sign-off
+
+BA -> SPONSOR: Present final requirements
+SPONSOR -> IRB: Final ethical sign-off (if required)
+alt IRB sign-off needed
+  IRB -> SPONSOR: IRB approval
+end
+SPONSOR -> PRM: Approve & lock down scope
+PRM -> DEV: Communicate “Locked-Down” requirements
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

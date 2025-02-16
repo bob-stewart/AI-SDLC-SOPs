@@ -1,0 +1,72 @@
+@startuml
+title SOP-1040-01-AI: Requirements Definition (Sequence Diagram)
+
+participant "AI Project Sponsor" as SPONSOR
+participant "AI IRB Liaison" as IRB
+participant "Program Manager" as PRM
+participant "Product Manager" as PDM
+participant "AI Business Analyst" as BA
+participant "AI Data Scientist" as DS
+participant "AI Ethics/Compliance" as ETH
+participant "Operations" as OPS
+participant "Quality Assurance" as QA
+participant "Technical Support" as TS
+participant "Development" as DEV
+
+' Step 1: Sponsor Initiates Concept
+SPONSOR -> IRB: Present new AI project concept
+alt IRB requests clarifications
+  IRB -> SPONSOR: Clarification needed
+  SPONSOR -> IRB: Provide clarifications
+  IRB -> SPONSOR: Preliminary acceptance
+else IRB approves
+  IRB -> SPONSOR: Preliminary acceptance
+end
+
+' Step 2: Program Manager sets up project record
+SPONSOR -> PRM: Notify of IRB acceptance
+PRM -> PDM: Request business requirements drafting
+PDM -> BA: Begin high-level requirements
+BA -> TS: Gather known user constraints
+TS -> BA: Provide user feedback
+
+' Step 3: AI IRB Preliminary Review
+BA -> IRB: Submit early risk/ethical info
+alt IRB concerns
+  IRB -> BA: Adjust scope or data approach
+else IRB no concerns
+  IRB -> BA: Proceed
+end
+
+' Step 4: Requirements Elicitation
+BA -> DS: Confirm ML feasibility, data needs
+DS -> ETH: Flag any data privacy or fairness issues
+ETH -> BA: Provide compliance requirements
+OPS -> BA: Provide operational constraints
+BA -> BA: Draft Requirements Document
+
+' Step 5: Analyze & Document
+BA -> QA: Request testability review
+QA -> BA: Review acceptance criteria
+BA -> PDM: Validate alignment with business goals
+PDM -> BA: Confirm timeline in SOW
+BA -> OPS: Confirm operational details
+
+' Step 6: Requirements Validation
+QA -> DS: Check feasibility & data readiness
+DS -> QA: Acknowledge feasibility
+ETH -> BA: Check final ethics/regulatory compliance
+BA -> IRB: If big changes, re-check compliance
+OPS -> BA: Confirm final environment constraints
+BA -> BA: Prepare final version for sign-off
+
+' Step 7: Approve System Requirements
+BA -> SPONSOR: Present final requirements
+SPONSOR -> IRB: Final ethical sign-off (if required)
+alt IRB sign-off needed
+  IRB -> SPONSOR: IRB approval
+end
+SPONSOR -> PRM: Approve & lock down scope
+PRM -> DEV: Communicate “Locked-Down” requirements
+
+@enduml
