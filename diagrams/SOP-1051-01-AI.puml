@@ -1,0 +1,58 @@
+@startuml
+
+title SOP-1051-01-AI: Security Administration & Oversight
+
+participant "AI Project Sponsor" as Sponsor
+participant "AI-IRB Liaison" as IRB
+participant "Security Administrator" as SecAdmin
+participant "Development Team" as DevTeam
+participant "Data Science Team" as DSTeam
+participant "Operations" as Ops
+participant "Quality Assurance" as QA
+participant "Technical Support" as TechSup
+
+' 1. AI-IRB Engagement and Risk Analysis
+Sponsor -> IRB: Submit project scope and data usage for review
+IRB --> Sponsor: Provide ethics/security guidance or request changes
+SecAdmin -> SecAdmin: Conduct risk assessment for AI solution
+SecAdmin -> IRB: Share findings if high risk
+
+' 2. Access Provisioning
+DevTeam -> SecAdmin: Request AI system access
+alt Within standard profile?
+    SecAdmin -> DevTeam: Approve request and provision
+else Not within standard profile
+    SecAdmin -> IRB: Request compliance evaluation
+    IRB --> SecAdmin: Additional conditions or approvals
+    SecAdmin -> DevTeam: Final decision (approve/deny)
+end
+
+' 3. Security Monitoring and Patch Management
+Ops -> Ops: Configure AI system logs
+SecAdmin -> Ops: Verify logs meet requirements
+Ops -> SecAdmin: Alert about vulnerability (patch needed)
+SecAdmin -> DSTeam: Verify patch won't break AI code
+DSTeam -> QA: Confirm test readiness
+QA -> Ops: Approve patch deployment to staging
+Ops -> Ops: Deploy patch in production upon successful QA test
+
+' 4. Incident Handling
+TechSup -> SecAdmin: Report potential security incident
+alt Incident confirmed?
+    SecAdmin -> Ops: Disable compromised resources
+    DSTeam -> SecAdmin: Check AI model/data not corrupted
+    SecAdmin -> SecAdmin: Complete eradication steps
+    SecAdmin -> IRB: Notify if IRB compliance impacted
+else Not confirmed
+    SecAdmin -> TechSup: Incident closed with no further action
+end
+
+' 5. Periodic Audits & Reviews
+SecAdmin -> QA: Schedule security audit
+QA -> QA: Perform audit (logs, AI config, data usage)
+QA -> SecAdmin: Provide findings
+SecAdmin -> Ops: Implement corrections
+SecAdmin -> Sponsor: Summarize security posture
+SecAdmin -> IRB: Update if additional compliance needed
+
+@enduml
