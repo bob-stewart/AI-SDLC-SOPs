@@ -1,0 +1,17 @@
+# AI-SDLC CODEOWNERS
+# Specifies required reviewers for AI governance SOPs and workflows
+
+# 👥 AI-IRB Review Board (must approve all SOP changes)
+sops/*           @AISDLC/ai-irb-reviewers
+
+# 🔍 AI Governance Compliance Team (ensures regulatory adherence)
+compliance/*     @AISDLC/ai-compliance-team
+
+# 🖼️ UML Diagrams Reviewers (validate diagram consistency)
+diagrams/*       @AISDLC/uml-reviewers
+
+# 🔄 AI-IRB Workflows (gated compliance processes)
+workflows/*      @AISDLC/ai-operations-team
+
+# 📜 GitHub Actions & Automation (automation engineers review pipeline updates)
+.github/*        @AISDLC/ci-cd-admins
