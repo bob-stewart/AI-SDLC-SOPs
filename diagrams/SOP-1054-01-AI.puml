@@ -1,0 +1,53 @@
+@startuml
+
+title SOP-1054-01-AI: AI-Regulated Project Approvals and Sponsorship
+
+participant "Project Manager" as PM
+participant "Product Development" as DEV
+participant "AI-IRB Liaison" as IRB
+participant "Legal/Compliance" as LEGAL
+participant "Sponsor" as SPONSOR
+participant "AI-IRB Board" as BOARD
+participant "Program Management Office" as PMO
+
+PM -> DEV: Request feasibility & scope details
+DEV -> PM: Provide scope, ROI info, risk analysis
+PM -> IRB: Consult on potential AI ethical/compliance flags
+IRB -> LEGAL: Request preliminary regulatory check
+LEGAL -> IRB: Return legal/compliance feedback
+IRB -> PM: Summarize IRB concerns/requirements
+
+PM -> SPONSOR: Submit AI Project Approval Packet
+
+alt Sponsor reviews
+    SPONSOR -> PM: \nDecision: (Approve or Reject)
+    else Sponsor approves with conditions
+    SPONSOR -> PM: Approve w/ conditions
+end
+
+alt If IRB full review needed
+    SPONSOR -> IRB: Request official AI-IRB review
+    IRB -> BOARD: Provide project details for review
+    BOARD -> IRB: Return IRB recommendation
+    alt IRB approves
+        IRB -> PM: IRB approval or conditions
+    else IRB denies
+        IRB -> PM: IRB denies or rework needed
+    end
+end
+
+alt Final sponsor outcome
+    SPONSOR -> PM: Final sign-off
+    note right
+      Project is fully authorized or reworked
+    end note
+    PM -> PMO: Notify PMO to integrate into portfolio
+    PMO -> PM: Confirm project added to portfolio
+else Sponsor rejects
+    SPONSOR -> PM: Return project with reasons
+    note right
+      Project is shelved or reworked
+    end note
+end
+
+@enduml
