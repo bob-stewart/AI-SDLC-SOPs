@@ -1,0 +1,68 @@
+@startuml
+
+skinparam participantMargin 20
+skinparam boxPadding 10
+skinparam ArrowColor #000000
+skinparam ActorBorderColor #000000
+
+participant "AI Project Sponsor" as Sponsor
+participant "AI-IRB Liaison" as IRBLiaison
+participant "Data Science Team" as DataSci
+participant "Development Team" as DevTeam
+participant "Quality Assurance" as QA
+participant "Operations" as Ops
+participant "Product Management" as ProdMgt
+participant "Technical Support" as TechSupport
+
+' === 1. Model Lifecycle Planning ===
+ProdMgt -> DataSci: Define model objectives and constraints
+DataSci -> IRBLiaison: Request AI-IRB compliance guidance
+IRBLiaison -> IRBLiaison: Prepare IRB submission packet
+IRBLiaison -> Sponsor: Present compliance needs & budget
+Sponsor -> Sponsor: Approve resources and schedule
+
+' === 2. AI-IRB Approval Phase ===
+DataSci -> IRBLiaison: Submit design documents
+alt AI-IRB major changes required
+    IRBLiaison -> DataSci: Request modifications
+    DataSci -> DataSci: Revise model design
+    DataSci -> IRBLiaison: Resubmit updated design
+else AI-IRB approved
+    IRBLiaison -> DataSci: IRB approval granted
+end
+
+' === 3. QA Review and Operations Setup ===
+QA -> DataSci: Validate model readiness
+QA -> DevTeam: Validate integration plan
+DevTeam -> Ops: Confirm environment needs
+Ops -> Ops: Provision staging/production resources
+
+' === 4. Deployment and Verification ===
+DevTeam -> Ops: Deploy AI model to production
+Ops -> QA: Notify readiness for final checks
+QA -> DataSci: Monitor initial performance metrics
+alt Model meets acceptance criteria
+    DataSci -> TechSupport: Provide support guidelines
+    TechSupport -> TechSupport: Prepare helpdesk materials
+else Model does NOT meet acceptance
+    DataSci -> DevTeam: Retrain or fix issues
+    DevTeam -> Ops: Deploy revised version
+end
+
+' === 5. Post-Deployment Monitoring and Retraining ===
+QA -> DataSci: Track ongoing performance, detect drift
+DataSci -> IRBLiaison: Consult if changes require IRB re-review
+alt Performance decays beyond threshold
+    DataSci -> Sponsor: Propose retraining or new model
+    IRBLiaison -> IRBLiaison: Check compliance for new changes
+    DevTeam -> Ops: Deploy updated model
+else Performance remains stable
+    QA -> QA: Continue routine monitoring
+end
+
+' === 6. Lessons Learned and Review ===
+TechSupport -> QA: Provide incident trends
+QA -> ProdMgt: Summarize post-implementation findings
+ProdMgt -> Sponsor: Present final Post Implementation Review
+
+@enduml
