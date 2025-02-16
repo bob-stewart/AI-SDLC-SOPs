@@ -1,0 +1,45 @@
+@startuml
+participant "Project Manager" as PM
+participant "Data Scientist" as DS
+participant "Risk Management" as RM
+participant "AI Governance Office" as AIGO
+participant "Quality Assurance" as QA
+participant "AI-IRB" as IRB
+
+PM -> PM: Recognize new AI project requires ERIA
+PM -> DS: Request project scope & technical details
+DS --> PM: Provide design specs, data usage, model summary
+
+PM -> AIGO: Initiate Ethical Risk & Impact Assessment
+AIGO -> DS: Request expanded technical clarifications
+DS --> AIGO: Submit data sources & architecture details
+
+AIGO -> RM: Begin risk identification brainstorm
+RM -> RM: Compile potential ethical or data privacy hazards
+RM -> PM: Provide initial risk classification (Low/Med/High/Critical)
+
+PM -> AIGO: Draft ERIA document with identified risks
+AIGO -> RM: Request recommended mitigation strategies
+RM --> AIGO: Provide actionable steps for risk mitigation
+
+AIGO -> QA: Submit ERIA for internal validation
+QA -> QA: Validate completeness and regulatory compliance
+QA --> AIGO: Validation complete
+
+AIGO -> IRB: Submit final ERIA for oversight
+alt IRB requests clarification
+  IRB -> AIGO: Clarifications needed
+  AIGO -> PM: Update ERIA with clarifications
+  PM -> IRB: Resubmit revised ERIA
+else IRB rejects ERIA
+  IRB -> PM: Rejection, substantial revision required
+end
+
+alt IRB approves
+  IRB -> PM: ERIA approved
+  PM -> AIGO: Proceed with implementing mitigation plan
+  AIGO -> RM: Begin continuous monitoring and reassessment
+else no further action
+end
+
+@enduml
