@@ -1,0 +1,66 @@
+@startuml
+' Participants (short names for clarity)
+participant "Stakeholder" as SH
+participant "AI Governance Office" as AIGO
+participant "AI-IRB" as IRB
+participant "Product Dev" as PD
+participant "Program Mgmt" as PM
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Legal/Compliance" as LEGAL
+participant "Tech Support" as TS
+participant "Data Science" as DS
+
+' 1) Stakeholder triggers EOL or partial sunset
+SH -> AIGO: Request EOL (or partial sunset)
+
+' 2) AI Governance Office reviews triggers with AI-IRB
+AIGO -> IRB: Present reason for EOL
+
+' 3) IRB decides to proceed or not
+alt IRB Approves EOL
+   IRB -> AIGO: Provisional EOL Approval
+else IRB Requests changes
+   IRB -> AIGO: Additional conditions or not feasible
+end
+
+' 4) Program Mgmt drafts EOL Outline
+AIGO -> PM: Request creation of EOL Project Outline
+PM -> PM: Draft scope, timeline, resource needs
+
+' 5) Program Mgmt consults Legal
+PM -> LEGAL: Check unaddressed compliance or contractual constraints
+LEGAL -> PM: Confirm or provide recommendations
+
+' 6) IRB checks final ethical aspects
+PM -> IRB: Submit Outline for ethical considerations
+IRB -> PM: Outline accepted or conditions added
+
+' 7) Program Mgmt finalizes EOL Plan
+PM -> OPS: Provide technical environment details
+OPS -> PM: Proposed tear-down approach
+PM -> QA: Check final QA tasks or waived items
+QA -> PM: QA review of open defects or leftover issues
+PM -> PD: Freeze new dev features for this AI system
+
+' 8) AI Governance Office obtains sign-off
+AIGO -> IRB: Present final EOL Plan
+IRB -> AIGO: EOL Plan Approved
+
+' 9) Implementation & Monitoring
+PD -> PD: Stop new releases or merges
+TS -> SH: Notify end-users of end-of-support date
+OPS -> OPS: Archive code, model artifacts, logs
+OPS -> DS: Archive or properly dispose training data
+QA -> QA: Validate environment changes are safe
+AIGO -> AIGO: Track EOL progress, ensure IRB conditions are met
+
+' 10) Post-EOL Verification & Lessons
+OPS -> OPS: Complete system removal from production
+IRB -> AIGO: Confirm all ethical obligations met
+AIGO -> PM: Request final EOL completion note
+PM -> SH: Communicate "EOL Completed"
+AIGO -> AIGO: Perform Post-Implementation Review
+AIGO -> IRB: Summarize lessons learned
+
+@enduml
