@@ -1,0 +1,51 @@
+@startuml
+
+' Define participants (using short references in quotes as required)
+participant "Engineering" as ENG
+participant "Asset Owner" as AO
+participant "Asset Manager" as AM
+participant "AI-IRB Liaison" as IRB
+participant "Operations" as OPS
+participant "Technical Support" as TS
+participant "Quality Assurance" as QA
+
+ENG -> AO: Discuss AI asset need (new or update)
+AO -> AM: Submit Change/Acquisition Request
+AM -> AM: Check existing AI asset availability
+
+alt "Asset found"
+  AM -> AO: Reconfigure or reassign existing AI asset
+  AM -> ENG: Notify asset is ready
+else "No suitable asset"
+  AM -> IRB: Request compliance review for new asset
+  IRB --> AM: Approve or Deny usage
+
+  alt "Approved"
+    AM -> OPS: Proceed with procurement/provisioning
+    OPS --> AM: Asset delivered & prepared
+    AM -> AO: Assign new asset and update tracking database
+  else "Denied"
+    AM -> AO: Notify request is denied
+  end
+end
+
+AO -> OPS: Deploy and configure AI asset
+OPS -> QA: [If critical] Request QA acceptance test
+QA --> OPS: Provide test results
+
+alt "Test passed"
+  OPS -> AO: Confirm asset is fully operational
+else "Test failed"
+  OPS -> ENG: Fix identified issues
+  ENG -> QA: Re-test updated solution
+end
+
+AO -> TS: Request operational support if any issues arise
+
+AM -> AM: Periodically audit AI assets for compliance
+AM -> IRB: Escalate usage changes for further compliance checks
+AO -> AM: Notify of disposal or major upgrade needs
+AM -> OPS: Execute secure disposal or major reconfiguration
+OPS --> AM: Confirm final status (disposed or reconfigured)
+
+@enduml
