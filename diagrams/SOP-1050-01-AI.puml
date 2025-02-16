@@ -1,0 +1,60 @@
+@startuml
+title SOP-1050-01-AI (AI Security Administration and Governance)
+
+actor "AI Project Sponsor" as SPS
+actor "AI IRB Liaison" as AIL
+actor "Security Administrator" as SAD
+actor "AI Development Team" as ADT
+actor "Data Science / AI Engineering Team" as DSE
+actor "Operations" as OPS
+actor "Quality Assurance" as QAS
+actor "Technical Support" as TSP
+
+' 1. Security Planning and Governance
+SPS -> AIL: Discuss AI project scope & compliance
+AIL -> SAD: Provide IRB guidelines for new AI project
+SAD -> SPS: Outline security control requirements
+
+' 2. Access Control and Profile Management
+ADT -> SAD: Request new or modified access profiles
+SAD -> SAD: Compare request to pre-approved profiles
+alt Exceeds Standard Profile
+  SAD -> AIL: Escalate for IRB compliance check
+  AIL -> SAD: Approve or modify special access
+else Within Standard Profile
+  SAD -> ADT: Grant access as requested
+end
+
+' 3. Security Monitoring
+SAD -> OPS: Configure log monitoring for AI environment
+OPS -> SAD: Confirm monitoring is active
+SAD -> SAD: Periodic log review for anomalies
+
+' 4. Vulnerability and Patch Management
+OPS -> SAD: Identify critical patches
+SAD -> ADT: Coordinate patch schedule
+ADT -> OPS: Validate patch with no AI system disruption
+OPS -> OPS: Deploy patches
+OPS -> SAD: Patch completion status
+
+' 5. Incident Response
+TSP -> SAD: Escalate suspected security incident
+SAD -> AIL: Notify IRB if ethics/compliance impacted
+SAD -> SAD: Investigate and isolate compromised resources
+SAD -> DSE: Request logs/model checks if model compromised
+SAD -> TSP: Provide resolution steps
+SAD -> SAD: Document incident and lessons learned
+
+' 6. Periodic Security Audits
+SAD -> QAS: Arrange internal/third-party security audits
+QAS -> DSE: Request data usage & model details
+QAS -> SAD: Report audit findings
+SAD -> SPS: Summarize security posture & changes needed
+
+' 7. Post-Implementation Review
+SAD -> AIL: Discuss final security outcomes & compliance
+AIL -> SAD: Confirm no further IRB actions needed
+SAD -> TSP: Communicate updated security guidelines
+SPS -> All: Acknowledge final improvements
+
+@enduml
