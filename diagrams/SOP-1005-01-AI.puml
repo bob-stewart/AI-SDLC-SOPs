@@ -1,0 +1,69 @@
+@startuml
+
+' Participants (Roles)
+actor SM as "Senior Management"
+actor IRB as "AI-IRB Liaison"
+actor PD as "Product Dev"
+actor TS as "Tech Support"
+actor ENG as "Engineering"
+actor PM as "Project Manager"
+actor PROGM as "Program Manager"
+actor SPONSOR as "Project Sponsor"
+
+' 1. Establish AI business strategy
+SM -> IRB: Provide overarching AI strategy & compliance goals
+IRB -> PD: Share AI compliance considerations for new features
+
+' 2. Gather feature requests
+PD -> TS: Request input on known production issues & user requests
+TS -> ENG: Funnel consolidated requests for feasibility checks
+
+' 3. Preliminary feasibility
+ENG -> IRB: Verify compliance constraints for AI-based requests
+
+' 4. alt - Additional info needed?
+alt More info required
+   IRB -> PD: Request additional data or documentation
+else Feasible & Compliant
+   IRB -> ENG: Acknowledge feasibility
+end
+
+' 5. Compile preliminary scope
+PD -> PM: Submit features & known constraints for initial scope
+
+' 6. Prioritize scope
+PM -> PROGM: Present preliminary release scope for prioritization
+PROGM -> PD: Return prioritized items based on business value
+
+' 7. Request high-level estimates
+PD -> ENG: Provide feasibility/time/cost estimates again
+ENG -> IRB: Review final compliance readiness
+
+' 8. alt - Scope adjustments needed?
+alt Adjust scope
+   PM -> SPONSOR: Discuss final scope changes
+   SPONSOR -> PD: Approve adjusted scope
+else No changes
+   SPONSOR -> PD: Confirm scope stands
+end
+
+' 9. Finalize release strategy
+PD -> PM: Prepare final Release Strategy & SOW
+PM -> IRB: Confirm compliance sign-off
+
+' 10. alt - IRB sign-off granted?
+alt Approved
+   IRB -> PM: Sign-off for compliance
+else Revision
+   IRB -> PD: Request further revisions
+end
+
+' 11. Lock scope at Gate 11
+PM -> PROGM: Communicate final release strategy locked
+
+' 12. Draft SOW & confirm Gate 10
+PD -> ENG: Draft SOW details
+ENG -> PD: Validate completeness
+PD -> PM: Present final scope for Gate 10 approval
+
+@enduml
