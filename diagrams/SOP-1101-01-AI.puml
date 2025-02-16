@@ -1,0 +1,60 @@
+@startuml
+title "SOP-1101-01-AI: Training and Documentation Sequence"
+
+participant "Technical Support" as TS
+participant "Product Group" as PG
+participant "AI-IRB Liaison" as AIIRB
+participant "Development" as DEV
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Client/External User" as CLIENT
+
+TS -> PG: Review SOW and define initial training needs
+PG -> TS: Draft or update Training Needs Document (TND)
+
+alt AI-IRB needed
+  PG -> AIIRB: Submit training approach for AI compliance check
+  AIIRB -> PG: Approve or request changes
+end
+
+alt External Training Required
+  TS -> CLIENT: Send Pre-Needs Assessment Form (PNAF)
+  CLIENT -> TS: Return signed PNAF (or request changes)
+end
+
+DEV -> TS: Provide draft training documentation (user guides, known issues, etc.)
+TS -> QA: Forward documentation for QA review
+QA -> QA: Review doc completeness and correctness
+alt Documentation Rework Needed
+  QA -> DEV: Request revisions
+  DEV -> QA: Resubmit corrected documentation
+end
+QA -> TS: Documentation Accepted
+
+alt FOA Training Pilot
+  TS -> PG: Coordinate FOA pilot training
+  TS -> OPS: Request staging environment readiness
+  OPS -> TS: Confirm environment set up
+  TS -> TS: Conduct FOA training pilot
+  TS -> PG: Gather FOA pilot feedback
+  alt FOA training insufficient
+    TS -> DEV: Request doc or content fix
+    DEV -> TS: Provide updated materials
+  end
+end
+
+TS -> TS: Schedule Training Pilot (general)
+TS -> TS: Deliver pilot training to internal and/or external staff
+TS -> PG: Collect pilot feedback
+alt Pilot feedback insufficient
+  TS -> DEV: Additional revision or re-training
+end
+
+TS -> CLIENT: Conduct final customer training classes
+CLIENT -> TS: Provide training evaluation
+alt Additional training needed
+  TS -> DEV: Adjust materials, repeat session(s)
+end
+
+note over TS,PG,QA,OPS: Post-release, observe calls and usage to verify training success
+@enduml
