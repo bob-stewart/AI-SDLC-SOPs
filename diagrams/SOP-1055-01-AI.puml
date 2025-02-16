@@ -1,0 +1,65 @@
+@startuml
+
+' Define Participants
+participant "System Owner" as SOWN
+participant "AI-IRB Liaison" as IRB
+participant "Security Compliance Manager" as SCM
+participant "Development Team" as DEV
+participant "Operations Manager" as OM
+participant "Quality Assurance" as QA
+participant "Project Manager" as PM
+participant "Technical Support" as TS
+
+' 1) Planning and Assessment
+SOWN -> PM: Provide system scope details
+PM -> IRB: Verify AI usage and ethical considerations
+alt AI/ML requires special review
+  IRB -> IRB: Coordinate extended ethics check
+else No special review
+  IRB -> IRB: Note standard AI compliance
+end
+SCM -> SCM: Conduct risk assessment (data integrity, confidentiality)
+SCM -> SOWN: Deliver risk report for sign-off
+
+' 2) Control Framework and Design
+SCM -> SCM: Select control standards (ISO, NIST, AI-IRB guidelines)
+OM -> SCM: Provide environment constraints for roles/privileges
+SCM -> OM: Approve user roles and privileges
+IRB -> SOWN: Review system controls for ethics/regulatory
+SOWN -> IRB: Final sign-off on control design
+
+' 3) Implementation of Controls
+DEV -> DEV: Configure software modules per design
+OM -> OM: Set up hardware security features (firewalls, network segments)
+DEV -> QA: Commit code to version control, QA checks traceability
+SCM -> SCM: Create user accounts, set policy (MFA, password rules)
+SCM -> OM: Confirm logging & audit settings
+
+' 4) Validation, Testing, and Monitoring
+QA -> QA: Execute test cases on system controls
+QA -> SCM: Log findings or security concerns
+SCM -> SCM: Perform pen tests/vulnerability scans
+IRB -> IRB: Confirm ethical compliance in system logging
+QA -> DEV: Defect log if issues found
+DEV -> QA: Resolve defects, retest until pass
+
+' 5) Deployment and Change Control
+PM -> SOWN: Request final go/no-go on deployment
+SOWN -> PM: Approve deployment strategy
+PM -> OM: Schedule and execute system deployment
+OM -> QA: Verify final deployment environment is correct
+QA -> PM: Final sign-off after verifying no unauthorized changes
+note right
+  If any new changes:
+  Use formal Change Control
+end note
+PM -> TS: Provide system transition info for training and support
+
+' 6) Documentation and Post-Implementation
+QA -> PM: Compile final system control documentation
+PM -> IRB: Submit compliance docs for AI-IRB records
+OM -> OM: Monitor system health and logs
+QA -> QA: Conduct post-implementation review
+IRB -> IRB: Document any ethical/compliance lessons learned
+
+@enduml
