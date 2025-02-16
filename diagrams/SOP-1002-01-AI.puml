@@ -1,0 +1,89 @@
+@startuml
+
+skinparam participantPadding 15
+skinparam boxPadding 10
+skinparam sequenceArrowThickness 1
+skinparam sequenceParticipantBorderColor #333
+skinparam sequenceParticipantBackgroundColor #eee
+skinparam sequenceArrowColor #333
+skinparam sequenceLifeLineBorderColor #999
+skinparam sequenceLifeLineBackgroundColor #ddd
+skinparam noteBackgroundColor #fff
+
+title SOP-1002-01-AI: Capacity Management Process
+
+' Participants
+participant "Project Manager" as PM
+participant "Capacity Manager" as CM
+participant "AI Development Lead" as AI
+participant "AI-IRB Liaison" as IRB
+participant "Quality Assurance (QA)" as QA
+participant "Operations Team" as OPS
+participant "Product Owner / Sponsor" as SPONSOR
+
+' 1. Capacity Planning Initiation
+PM -> CM: "Notify about new or changed scope"
+CM -> AI: "Request AI workload & performance data"
+AI -> CM: "Provide usage forecast,\ndata growth, concurrency"
+CM -> IRB: "Check if AI-IRB review is needed"
+alt Large-scale or high-risk change
+    IRB -> IRB: "AI-IRB Review (ethical/safety concerns)"
+    IRB -> CM: "Approve or modify plan"
+else No AI-IRB approval needed
+    note right of CM
+      Proceed normally
+    end note
+end
+
+' 2. Capacity Requirements Definition
+CM -> OPS: "Gather current infra usage,\nconstraints"
+OPS -> CM: "Provide thresholds,\ndeployment/DC limits"
+CM -> SPONSOR: "Confirm cost/time constraints"
+SPONSOR -> CM: "Approve capacity direction\n& budget"
+
+' 3. Capacity Plan Development
+CM -> CM: "Compile capacity plan\n(Forecast, cost, timeline)"
+CM -> OPS: "Review feasibility,\nprocurement lead times"
+CM -> AI: "Align with AI model\nscaling requirements"
+CM -> PM: "Merge tasks into project plan"
+
+' 4. Implementation
+PM -> OPS: "Authorize capacity expansions"
+OPS -> OPS: "Provision hardware/cloud,\nset up environment"
+OPS -> QA: "Environment ready for verification"
+QA -> QA: "Execute load/stress,\nperformance checks"
+QA -> CM: "Any issues or defects?"
+alt Capacity issues found
+    QA -> OPS: "Reconfigure or add resources"
+    OPS -> QA: "Updated environment"
+    QA -> QA: "Retest"
+else No issues
+    note right of QA
+      Ready for operation
+    end note
+end
+
+' 5. Ongoing Monitoring & Scaling
+OPS -> CM: "Provide continuous usage data"
+CM -> OPS: "Set alert thresholds"
+OPS -> OPS: "Monitor usage/performance"
+OPS -> CM: "Alert if usage spike or threshold exceeded"
+alt Urgent expansion needed
+    CM -> SPONSOR: "Request immediate approval/funding"
+    note right
+      Potential retroactive AI-IRB if high-risk
+    end note
+else Normal operation
+    note right of OPS
+      Continue monitoring
+    end note
+end
+
+' 6. Post-Implementation Review
+PM -> CM: "Schedule retrospective"
+note over PM,CM
+  Gather lessons learned,
+  update future capacity approach
+end note
+
+@enduml

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1458px" preserveAspectRatio="none" style="width:1816px;height:1458px;background:#FFFFFF;" version="1.1" viewBox="0 0 1816 1458" width="1816px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="388" x="715.25" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="378" x="720.25" y="27.9951">SOP-1002-01-AI: Capacity Management Process</text><rect fill="none" height="138.3359" style="stroke:#000000;stroke-width:1.5;" width="835.5" x="249" y="222.2578"/><rect fill="none" height="167.4688" style="stroke:#000000;stroke-width:1.5;" width="451" x="969" y="913.3828"/><rect fill="none" height="102.2031" style="stroke:#000000;stroke-width:1.5;" width="1560.5" x="249" y="1224.3828"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="83" x2="83" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="342" x2="342" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="638" x2="638" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="810" x2="810" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1079" x2="1079" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1328" x2="1328" y1="73.5938" y2="1422.9844"/><line style="stroke:#999999;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1529.5" x2="1529.5" y1="73.5938" y2="1422.9844"/><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="126" x="20" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="27" y="62.292">Project Manager</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="126" x="20" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="27" y="1441.9795">Project Manager</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="136" x="274" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="281" y="62.292">Capacity Manager</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="136" x="274" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="281" y="1441.9795">Capacity Manager</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="160" x="558" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="565" y="62.292">AI Development Lead</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="160" x="558" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="565" y="1441.9795">AI Development Lead</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="105" x="758" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="765" y="62.292">AI-IRB Liaison</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="105" x="758" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="765" y="1441.9795">AI-IRB Liaison</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="171" x="994" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1001" y="62.292">Quality Assurance (QA)</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="171" x="994" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1001" y="1441.9795">Quality Assurance (QA)</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="133" x="1262" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1269" y="62.292">Operations Team</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="133" x="1262" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1269" y="1441.9795">Operations Team</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="188" x="1435.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1442.5" y="62.292">Product Owner / Sponsor</text><rect fill="#EEEEEE" height="30.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:0.5;" width="188" x="1435.5" y="1421.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1442.5" y="1441.9795">Product Owner / Sponsor</text><polygon fill="#333333" points="330,100.7266,340,104.7266,330,108.7266,334,104.7266" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="83" x2="336" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="235" x="90" y="99.6606">"Notify about new or changed scope"</text><polygon fill="#333333" points="626,129.8594,636,133.8594,626,137.8594,630,133.8594" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="632" y1="133.8594" y2="133.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="349" y="128.7935">"Request AI workload &amp; performance data"</text><polygon fill="#333333" points="353,174.125,343,178.125,353,182.125,349,178.125" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="637" y1="178.125" y2="178.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="359" y="157.9263">"Provide usage forecast,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="359" y="173.0591">data growth, concurrency"</text><polygon fill="#333333" points="798.5,203.2578,808.5,207.2578,798.5,211.2578,802.5,207.2578" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="804.5" y1="207.2578" y2="207.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="211" x="349" y="202.1919">"Check if AI-IRB review is needed"</text><path d="M249,222.2578 L313,222.2578 L313,229.3906 L303,239.3906 L249,239.3906 L249,222.2578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="138.3359" style="stroke:#000000;stroke-width:1.5;" width="835.5" x="249" y="222.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="264" y="235.3247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="213" x="328" y="234.4683">[Large-scale or high-risk change]</text><line style="stroke:#333333;stroke-width:1.0;" x1="810.5" x2="852.5" y1="260.5234" y2="260.5234"/><line style="stroke:#333333;stroke-width:1.0;" x1="852.5" x2="852.5" y1="260.5234" y2="273.5234"/><line style="stroke:#333333;stroke-width:1.0;" x1="811.5" x2="852.5" y1="273.5234" y2="273.5234"/><polygon fill="#333333" points="821.5,269.5234,811.5,273.5234,821.5,277.5234,817.5,273.5234" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="817.5" y="255.4575">"AI-IRB Review (ethical/safety concerns)"</text><polygon fill="#333333" points="353,298.6563,343,302.6563,353,306.6563,349,302.6563" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="809.5" y1="302.6563" y2="302.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="359" y="297.5903">"Approve or modify plan"</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="249" x2="1084.5" y1="311.6563" y2="311.6563"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="181" x="254" y="321.8667">[No AI-IRB approval needed]</text><path d="M347,330.4609 L347,355.4609 L479,355.4609 L479,340.4609 L469,330.4609 L347,330.4609 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M469,330.4609 L469,340.4609 L479,340.4609 L469,330.4609 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="353" y="347.5278">Proceed normally</text><polygon fill="#333333" points="1316.5,399.8594,1326.5,403.8594,1316.5,407.8594,1320.5,403.8594" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="1322.5" y1="403.8594" y2="403.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="349" y="383.6606">"Gather current infra usage,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="349" y="398.7935">constraints"</text><polygon fill="#333333" points="353,444.125,343,448.125,353,452.125,349,448.125" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="1327.5" y1="448.125" y2="448.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="359" y="427.9263">"Provide thresholds,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="359" y="443.0591">deployment/DC limits"</text><polygon fill="#333333" points="1517.5,473.2578,1527.5,477.2578,1517.5,481.2578,1521.5,477.2578" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="1523.5" y1="477.2578" y2="477.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="349" y="472.1919">"Confirm cost/time constraints"</text><polygon fill="#333333" points="353,517.5234,343,521.5234,353,525.5234,349,521.5234" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="1528.5" y1="521.5234" y2="521.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="359" y="501.3247">"Approve capacity direction</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="359" y="516.4575">&amp; budget"</text><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="384" y1="565.7891" y2="565.7891"/><line style="stroke:#333333;stroke-width:1.0;" x1="384" x2="384" y1="565.7891" y2="578.7891"/><line style="stroke:#333333;stroke-width:1.0;" x1="343" x2="384" y1="578.7891" y2="578.7891"/><polygon fill="#333333" points="353,574.7891,343,578.7891,353,582.7891,349,578.7891" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="349" y="545.5903">"Compile capacity plan</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="349" y="560.7231">(Forecast, cost, timeline)"</text><polygon fill="#333333" points="1316.5,619.0547,1326.5,623.0547,1316.5,627.0547,1320.5,623.0547" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="1322.5" y1="623.0547" y2="623.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="349" y="602.856">"Review feasibility,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="349" y="617.9888">procurement lead times"</text><polygon fill="#333333" points="626,663.3203,636,667.3203,626,671.3203,630,667.3203" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="632" y1="667.3203" y2="667.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="349" y="647.1216">"Align with AI model</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="349" y="662.2544">scaling requirements"</text><polygon fill="#333333" points="94,692.4531,84,696.4531,94,700.4531,90,696.4531" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="88" x2="341" y1="696.4531" y2="696.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="100" y="691.3872">"Merge tasks into project plan"</text><polygon fill="#333333" points="1316.5,721.5859,1326.5,725.5859,1316.5,729.5859,1320.5,725.5859" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="83" x2="1322.5" y1="725.5859" y2="725.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="90" y="720.52">"Authorize capacity expansions"</text><line style="stroke:#333333;stroke-width:1.0;" x1="1328.5" x2="1370.5" y1="769.8516" y2="769.8516"/><line style="stroke:#333333;stroke-width:1.0;" x1="1370.5" x2="1370.5" y1="769.8516" y2="782.8516"/><line style="stroke:#333333;stroke-width:1.0;" x1="1329.5" x2="1370.5" y1="782.8516" y2="782.8516"/><polygon fill="#333333" points="1339.5,778.8516,1329.5,782.8516,1339.5,786.8516,1335.5,782.8516" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="1335.5" y="749.6528">"Provision hardware/cloud,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="1335.5" y="764.7856">set up environment"</text><polygon fill="#333333" points="1090.5,807.9844,1080.5,811.9844,1090.5,815.9844,1086.5,811.9844" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="1084.5" x2="1327.5" y1="811.9844" y2="811.9844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="1096.5" y="806.9185">"Environment ready for verification"</text><line style="stroke:#333333;stroke-width:1.0;" x1="1079.5" x2="1121.5" y1="856.25" y2="856.25"/><line style="stroke:#333333;stroke-width:1.0;" x1="1121.5" x2="1121.5" y1="856.25" y2="869.25"/><line style="stroke:#333333;stroke-width:1.0;" x1="1080.5" x2="1121.5" y1="869.25" y2="869.25"/><polygon fill="#333333" points="1090.5,865.25,1080.5,869.25,1090.5,873.25,1086.5,869.25" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="1086.5" y="836.0513">"Execute load/stress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="1086.5" y="851.1841">performance checks"</text><polygon fill="#333333" points="353,894.3828,343,898.3828,353,902.3828,349,898.3828" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="1078.5" y1="898.3828" y2="898.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="359" y="893.3169">"Any issues or defects?"</text><path d="M969,913.3828 L1033,913.3828 L1033,920.5156 L1023,930.5156 L969,930.5156 L969,913.3828 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="167.4688" style="stroke:#000000;stroke-width:1.5;" width="451" x="969" y="913.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="984" y="926.4497">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="152" x="1048" y="925.5933">[Capacity issues found]</text><polygon fill="#333333" points="1316.5,947.6484,1326.5,951.6484,1316.5,955.6484,1320.5,951.6484" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="1079.5" x2="1322.5" y1="951.6484" y2="951.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="1086.5" y="946.5825">"Reconfigure or add resources"</text><polygon fill="#333333" points="1090.5,976.7813,1080.5,980.7813,1090.5,984.7813,1086.5,980.7813" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="1084.5" x2="1327.5" y1="980.7813" y2="980.7813"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="1096.5" y="975.7153">"Updated environment"</text><line style="stroke:#333333;stroke-width:1.0;" x1="1079.5" x2="1121.5" y1="1009.9141" y2="1009.9141"/><line style="stroke:#333333;stroke-width:1.0;" x1="1121.5" x2="1121.5" y1="1009.9141" y2="1022.9141"/><line style="stroke:#333333;stroke-width:1.0;" x1="1080.5" x2="1121.5" y1="1022.9141" y2="1022.9141"/><polygon fill="#333333" points="1090.5,1018.9141,1080.5,1022.9141,1090.5,1026.9141,1086.5,1022.9141" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="1086.5" y="1004.8481">"Retest"</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="969" x2="1420" y1="1031.9141" y2="1031.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="72" x="974" y="1042.1245">[No issues]</text><path d="M1084,1050.7188 L1084,1075.7188 L1230,1075.7188 L1230,1060.7188 L1220,1050.7188 L1084,1050.7188 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M1220,1050.7188 L1220,1060.7188 L1230,1060.7188 L1220,1050.7188 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="1090" y="1067.7856">Ready for operation</text><polygon fill="#333333" points="353,1104.9844,343,1108.9844,353,1112.9844,349,1108.9844" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="1327.5" y1="1108.9844" y2="1108.9844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="359" y="1103.9185">"Provide continuous usage data"</text><polygon fill="#333333" points="1316.5,1134.1172,1326.5,1138.1172,1316.5,1142.1172,1320.5,1138.1172" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="1322.5" y1="1138.1172" y2="1138.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="349" y="1133.0513">"Set alert thresholds"</text><line style="stroke:#333333;stroke-width:1.0;" x1="1328.5" x2="1370.5" y1="1167.25" y2="1167.25"/><line style="stroke:#333333;stroke-width:1.0;" x1="1370.5" x2="1370.5" y1="1167.25" y2="1180.25"/><line style="stroke:#333333;stroke-width:1.0;" x1="1329.5" x2="1370.5" y1="1180.25" y2="1180.25"/><polygon fill="#333333" points="1339.5,1176.25,1329.5,1180.25,1339.5,1184.25,1335.5,1180.25" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="1335.5" y="1162.1841">"Monitor usage/performance"</text><polygon fill="#333333" points="353,1205.3828,343,1209.3828,353,1213.3828,349,1209.3828" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="347" x2="1327.5" y1="1209.3828" y2="1209.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="359" y="1204.3169">"Alert if usage spike or threshold exceeded"</text><path d="M249,1224.3828 L313,1224.3828 L313,1231.5156 L303,1241.5156 L249,1241.5156 L249,1224.3828 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="102.2031" style="stroke:#000000;stroke-width:1.5;" width="1560.5" x="249" y="1224.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="264" y="1237.4497">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="175" x="328" y="1236.5933">[Urgent expansion needed]</text><polygon fill="#333333" points="1517.5,1261.6484,1527.5,1265.6484,1517.5,1269.6484,1521.5,1265.6484" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="342" x2="1523.5" y1="1265.6484" y2="1265.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="349" y="1260.5825">"Request immediate approval/funding"</text><path d="M1534,1246.5156 L1534,1271.5156 L1794,1271.5156 L1794,1256.5156 L1784,1246.5156 L1534,1246.5156 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M1784,1246.5156 L1784,1256.5156 L1794,1256.5156 L1784,1246.5156 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="1540" y="1263.5825">Potential retroactive AI-IRB if high-risk</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="249" x2="1809.5" y1="1277.6484" y2="1277.6484"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="121" x="254" y="1287.8589">[Normal operation]</text><path d="M1333,1296.4531 L1333,1321.4531 L1484,1321.4531 L1484,1306.4531 L1474,1296.4531 L1333,1296.4531 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M1474,1296.4531 L1474,1306.4531 L1484,1306.4531 L1474,1296.4531 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="1339" y="1313.52">Continue monitoring</text><polygon fill="#333333" points="330,1350.7188,340,1354.7188,330,1358.7188,334,1354.7188" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="83" x2="336" y1="1354.7188" y2="1354.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157" x="90" y="1349.6528">"Schedule retrospective"</text><path d="M5,1367.7188 L5,1407.7188 L420,1407.7188 L420,1377.7188 L410,1367.7188 L5,1367.7188 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M410,1367.7188 L410,1377.7188 L420,1377.7188 L410,1367.7188 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="104" y="1384.7856">Gather lessons learned,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="104" y="1399.9185">update future capacity approach</text><!--MD5=[3c46048e290257faba8013d7a84006e2]
+@startuml
+skinparam participantPadding 15
+skinparam boxPadding 10
+skinparam sequenceArrowThickness 1
+skinparam sequenceParticipantBorderColor #333
+skinparam sequenceParticipantBackgroundColor #eee
+skinparam sequenceArrowColor #333
+skinparam sequenceLifeLineBorderColor #999
+skinparam sequenceLifeLineBackgroundColor #ddd
+skinparam noteBackgroundColor #fff
+
+title SOP-1002-01-AI: Capacity Management Process
+
+' Participants
+participant "Project Manager" as PM
+participant "Capacity Manager" as CM
+participant "AI Development Lead" as AI
+participant "AI-IRB Liaison" as IRB
+participant "Quality Assurance (QA)" as QA
+participant "Operations Team" as OPS
+participant "Product Owner / Sponsor" as SPONSOR
+
+' 1. Capacity Planning Initiation
+PM -> CM: "Notify about new or changed scope"
+CM -> AI: "Request AI workload & performance data"
+AI -> CM: "Provide usage forecast,\ndata growth, concurrency"
+CM -> IRB: "Check if AI-IRB review is needed"
+alt Large-scale or high-risk change
+    IRB -> IRB: "AI-IRB Review (ethical/safety concerns)"
+    IRB -> CM: "Approve or modify plan"
+else No AI-IRB approval needed
+    note right of CM
+      Proceed normally
+    end note
+end
+
+' 2. Capacity Requirements Definition
+CM -> OPS: "Gather current infra usage,\nconstraints"
+OPS -> CM: "Provide thresholds,\ndeployment/DC limits"
+CM -> SPONSOR: "Confirm cost/time constraints"
+SPONSOR -> CM: "Approve capacity direction\n& budget"
+
+' 3. Capacity Plan Development
+CM -> CM: "Compile capacity plan\n(Forecast, cost, timeline)"
+CM -> OPS: "Review feasibility,\nprocurement lead times"
+CM -> AI: "Align with AI model\nscaling requirements"
+CM -> PM: "Merge tasks into project plan"
+
+' 4. Implementation
+PM -> OPS: "Authorize capacity expansions"
+OPS -> OPS: "Provision hardware/cloud,\nset up environment"
+OPS -> QA: "Environment ready for verification"
+QA -> QA: "Execute load/stress,\nperformance checks"
+QA -> CM: "Any issues or defects?"
+alt Capacity issues found
+    QA -> OPS: "Reconfigure or add resources"
+    OPS -> QA: "Updated environment"
+    QA -> QA: "Retest"
+else No issues
+    note right of QA
+      Ready for operation
+    end note
+end
+
+' 5. Ongoing Monitoring & Scaling
+OPS -> CM: "Provide continuous usage data"
+CM -> OPS: "Set alert thresholds"
+OPS -> OPS: "Monitor usage/performance"
+OPS -> CM: "Alert if usage spike or threshold exceeded"
+alt Urgent expansion needed
+    CM -> SPONSOR: "Request immediate approval/funding"
+    note right
+      Potential retroactive AI-IRB if high-risk
+    end note
+else Normal operation
+    note right of OPS
+      Continue monitoring
+    end note
+end
+
+' 6. Post-Implementation Review
+PM -> CM: "Schedule retrospective"
+note over PM,CM
+  Gather lessons learned,
+  update future capacity approach
+end note
+@enduml
+
+@startuml
+skinparam participantPadding 15
+skinparam boxPadding 10
+skinparam sequenceArrowThickness 1
+skinparam sequenceParticipantBorderColor #333
+skinparam sequenceParticipantBackgroundColor #eee
+skinparam sequenceArrowColor #333
+skinparam sequenceLifeLineBorderColor #999
+skinparam sequenceLifeLineBackgroundColor #ddd
+skinparam noteBackgroundColor #fff
+
+title SOP-1002-01-AI: Capacity Management Process
+
+participant "Project Manager" as PM
+participant "Capacity Manager" as CM
+participant "AI Development Lead" as AI
+participant "AI-IRB Liaison" as IRB
+participant "Quality Assurance (QA)" as QA
+participant "Operations Team" as OPS
+participant "Product Owner / Sponsor" as SPONSOR
+
+PM -> CM: "Notify about new or changed scope"
+CM -> AI: "Request AI workload & performance data"
+AI -> CM: "Provide usage forecast,\ndata growth, concurrency"
+CM -> IRB: "Check if AI-IRB review is needed"
+alt Large-scale or high-risk change
+    IRB -> IRB: "AI-IRB Review (ethical/safety concerns)"
+    IRB -> CM: "Approve or modify plan"
+else No AI-IRB approval needed
+    note right of CM
+      Proceed normally
+    end note
+end
+
+CM -> OPS: "Gather current infra usage,\nconstraints"
+OPS -> CM: "Provide thresholds,\ndeployment/DC limits"
+CM -> SPONSOR: "Confirm cost/time constraints"
+SPONSOR -> CM: "Approve capacity direction\n& budget"
+
+CM -> CM: "Compile capacity plan\n(Forecast, cost, timeline)"
+CM -> OPS: "Review feasibility,\nprocurement lead times"
+CM -> AI: "Align with AI model\nscaling requirements"
+CM -> PM: "Merge tasks into project plan"
+
+PM -> OPS: "Authorize capacity expansions"
+OPS -> OPS: "Provision hardware/cloud,\nset up environment"
+OPS -> QA: "Environment ready for verification"
+QA -> QA: "Execute load/stress,\nperformance checks"
+QA -> CM: "Any issues or defects?"
+alt Capacity issues found
+    QA -> OPS: "Reconfigure or add resources"
+    OPS -> QA: "Updated environment"
+    QA -> QA: "Retest"
+else No issues
+    note right of QA
+      Ready for operation
+    end note
+end
+
+OPS -> CM: "Provide continuous usage data"
+CM -> OPS: "Set alert thresholds"
+OPS -> OPS: "Monitor usage/performance"
+OPS -> CM: "Alert if usage spike or threshold exceeded"
+alt Urgent expansion needed
+    CM -> SPONSOR: "Request immediate approval/funding"
+    note right
+      Potential retroactive AI-IRB if high-risk
+    end note
+else Normal operation
+    note right of OPS
+      Continue monitoring
+    end note
+end
+
+PM -> CM: "Schedule retrospective"
+note over PM,CM
+  Gather lessons learned,
+  update future capacity approach
+end note
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
