@@ -1,0 +1,78 @@
+@startuml
+title SOP-1020-01-AI: AI Model Lifecycle Management
+
+' Define participants with short names
+participant "Project Sponsor" as PS
+participant "AI-IRB Liaison" as AIRB
+participant "Data Scientist" as DS
+participant "MLOps/Operations" as MLOps
+participant "Quality Assurance" as QA
+participant "Development Team" as Dev
+participant "Business Stakeholder" as BS
+participant "Model Owner" as MO
+
+' 1) Model Ideation & Requirements Gathering
+BS -> DS: Provide Business Objectives & Constraints
+DS -> PS: Present High-Level Feasibility
+PS -> AIRB: Request Preliminary AI-IRB Ethical Check
+AIRB -> DS: Provide Early Ethics Feedback
+
+' 2) Data Collection & Preparation
+DS -> DS: Ingest & Clean Data
+DS -> DS: Label & Validate Data
+DS -> AIRB: Confirm Data Compliance Requirements
+
+' 3) Model Development
+DS -> Dev: Request Code Setup & Version Control
+Dev -> DS: Provide Development Environment
+DS -> DS: Train Model(s), Tune Hyperparams
+DS -> QA: Share Preliminary Model Results
+
+' 4) Internal Validation & Testing
+QA -> DS: Review Model Performance & Potential Bias
+DS -> QA: Provide Model Interpretability Docs
+QA -> DS: Request Additional Adjustments (if needed)
+
+' 5) AI-IRB & External Approval
+DS -> AIRB: Submit Full Documentation & Compliance
+alt AI-IRB Approved?
+    else Not Approved
+      AIRB -> DS: Provide Revisions Required
+      DS -> DS: Revise & Address Concerns
+      DS -> AIRB: Resubmit for Approval
+    end
+AIRB -> PS: AI-IRB Officially Approved
+
+' 6) Pre-Deployment Preparation
+MLOps -> DS: Prepare Staging Environment
+Dev -> MLOps: Merge Final Code for Deployment
+QA -> MLOps: Validate Acceptance Tests in Staging
+QA -> MO: Confirm readiness for Production
+
+' 7) Deployment to Production
+MO -> MLOps: Authorize Production Rollout
+MLOps -> MLOps: Deploy Model & Infrastructure
+MLOps -> Dev: Notify Deployment Completion
+Dev -> BS: Production Release Announced
+
+' 8) Post-Deployment Monitoring
+MLOps -> DS: Send Performance & Drift Metrics
+DS -> MO: Evaluate Model Behavior
+alt If Performance Degrades
+  DS -> DS: Trigger Retraining or Tuning
+else If Performance Stable
+  DS -> DS: Continue Monitoring
+end
+
+' 9) Periodic Retraining & Maintenance
+DS -> MLOps: Schedule Automatic Retraining Jobs
+Dev -> QA: Check Updated Model for Regressions
+QA -> MO: Approve Updated Model for Re-Deployment
+
+' 10) Model Retirement
+MO -> DS: Initiate Retirement if Model is Obsolete
+MLOps -> Dev: Archive Model Artifacts
+AIRB -> MO: Verify Final Compliance Records
+MO -> All: Confirm Model Retired & Document Lessons
+
+@enduml
