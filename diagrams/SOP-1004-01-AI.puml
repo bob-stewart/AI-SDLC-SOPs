@@ -1,0 +1,58 @@
+@startuml
+
+title "SOP-1004-01-AI_Procurement-and-Purchasing-for-AI-Enabled-Systems-Sequence-Diagram"
+
+actor "Requester" as REQ
+participant "Requisitioner" as RQN
+participant "AI-IRB Liaison" as IRB
+participant "CFO" as CFO
+participant "Office Manager" as MGR
+participant "Asset Manager" as ASM
+
+REQ -> RQN: Submit procurement request (AI or standard asset need)
+note right
+  Requester identifies the need for a product/resource,
+  including AI or data usage info.
+end note
+
+RQN -> IRB: Validate if AI-IRB approval is required
+alt AI-IRB Required
+  IRB -> RQN: Provide AI-IRB approval or constraints
+else No IRB needed
+  IRB -> RQN: IRB not required
+end
+
+RQN -> RQN: Prepare Purchase Order (PO)\nand/or Capital Justification
+
+alt Cost Above Threshold
+  RQN -> CFO: Forward PO for CFO sign-off
+  alt CFO Approves
+    CFO -> RQN: PO signed
+  else CFO Denies
+    CFO -> RQN: PO denied, request revision
+    return PO revision or cancellation
+  end
+else Cost Below Threshold
+  RQN -> RQN: Sign internally\n(no CFO step)
+end
+
+RQN -> MGR: Provide final PO for order placement
+MGR -> REQ: Update on order status & delivery info
+note over MGR,REQ
+  Office Manager or Requisitioner
+  informs Requester about shipping details
+end note
+
+== Delivery Phase ==
+
+MGR -> ASM: Asset arrives, hand off to Asset Manager
+ASM -> ASM: Update asset tracking database\n(record license, IRB constraints)
+ASM -> RQN: Confirmation and invoice check
+RQN -> CFO: Payment sign-off (if needed)
+CFO -> ASM: Payment confirmed
+note over ASM
+  Asset is officially in inventory,
+  usage can begin after any final checks
+end note
+
+@enduml
