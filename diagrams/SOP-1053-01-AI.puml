@@ -1,0 +1,58 @@
+@startuml
+
+title SOP-1053-01-AI: Ethical Risk Assessment & Mitigation
+
+skinparam participantMargin 20
+skinparam participantPadding 10
+skinparam boxPadding 10
+
+participant "Product Management" as PM
+participant "Development Team" as DEV
+participant "AI Ethics Committee" as AIETHICS
+participant "AI-IRB Liaison" as AIIRB
+participant "Data Protection Officer" as DPO
+participant "Legal & Compliance" as LEGAL
+participant "Operations Team" as OPS
+participant "Quality Assurance" as QA
+participant "Project Sponsor" as SPONSOR
+
+PM -> AIETHICS: Notify of new AI project\nInitiate risk evaluation
+AIETHICS -> DEV: Request technical docs, user stories\nand potential ethical concerns
+DEV -> AIETHICS: Provide design specs,\nbias sources, and data-flow diagram
+AIETHICS -> DPO: Forward docs for privacy review
+DPO -> AIETHICS: Evaluate privacy risk\n(impact, compliance)
+AIETHICS -> AIIRB: If external IRB needed,\ninitiate formal review
+note over AIETHICS,AIIRB: Potential external or specialized IRB steps
+AIIRB -> AIETHICS: Provide additional\nrequirements or constraints
+
+AIETHICS -> AIETHICS: Identify and classify\nethical risk factors
+AIETHICS -> LEGAL: Review legal/regulatory\nimplications
+LEGAL -> AIETHICS: Provide compliance advice
+AIETHICS -> AIETHICS: Develop Mitigation Plan\n(technical & procedural controls)
+AIETHICS -> DEV: Consult feasibility of\nproposed solutions
+DEV -> AIETHICS: Confirm feasibility,\nresource needs, timeline
+
+AIETHICS -> PM: Present Mitigation Plan\nfor resource allocation
+PM -> OPS: Ensure budget/time is assigned\nfor mitigation tasks
+OPS -> PM: Confirm operational readiness
+
+AIETHICS -> LEGAL: Final check for\nregulatory compliance
+LEGAL -> AIETHICS: Approve or recommend changes
+
+alt High Risk
+    AIETHICS -> SPONSOR: Request sign-off on high-risk mitigations
+    SPONSOR -> AIETHICS: Sign-off granted
+else Acceptable
+    note over AIETHICS: No sponsor sign-off needed
+end
+
+DEV -> QA: Implement & test mitigation steps
+QA -> QA: Verify mitigation as part of\nacceptance gating
+OPS -> OPS: Deploy final solution with\nethical safeguards
+
+OPS -> QA: Provide risk monitoring data\npost-deployment
+QA -> AIETHICS: Evaluate new or\nescalated risks
+AIETHICS -> AIIRB: Escalate if new risk\nexceeds threshold
+AIETHICS -> AIETHICS: Update or refine\nMitigation Plan as needed
+
+@enduml
