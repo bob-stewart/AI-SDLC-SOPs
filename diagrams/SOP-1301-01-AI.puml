@@ -1,0 +1,85 @@
+@startuml
+
+title "SOP-1301-01-AI: AI Bias & Fairness Evaluation Sequence Diagram"
+
+participant "Project Sponsor" as SP
+participant "Data Scientists" as DS
+participant "AI Governance Office" as AIGO
+participant "AI-IRB Chair" as AIIRB
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1) Initiate Bias & Fairness Planning
+SP -> DS: Request Bias & Fairness Evaluation for new AI project
+
+' 2) Data Collection & Preliminary Analysis
+DS -> DS: Gather relevant data\nIdentify protected attributes\nPerform preliminary analysis
+
+' 3) Develop Bias & Fairness Evaluation Plan
+DS -> QA: Propose fairness metrics\nDefine thresholds
+QA -> AIGO: Submit plan for internal review
+alt Plan Approved?
+  AIGO -> DS: Plan accepted
+else Plan Rejected
+  AIGO -> DS: Revise plan and resubmit
+end
+
+' 4) AI-IRB Oversight Check
+AIGO -> AIIRB: Provide plan for IRB oversight
+alt IRB Approves
+  AIIRB -> AIGO: Approve plan
+else IRB Requests Changes
+  AIIRB -> AIGO: Requires modifications
+  AIGO -> DS: Request plan adjustments
+  DS -> AIGO: Resubmit revised plan
+end
+
+' 5) Bias Detection & Analysis
+DS -> DS: Execute bias detection code\nGenerate fairness metrics
+DS -> QA: Provide results for verification
+alt QA Accepts Results
+  QA -> DS: Data validated, proceed
+else QA Finds Issues
+  QA -> DS: Inconsistency found, re-check data
+  DS -> DS: Correct approach and retest
+end
+
+' 6) Mitigation Strategies
+DS -> DS: Propose bias mitigation (re-sampling, alt algorithms)
+DS -> DS: Implement mitigation & re-run tests
+DS -> QA: Submit updated metrics
+alt Resolved
+  QA -> DS: Bias within acceptable range
+else Still Biased
+  QA -> DS: Additional fixes required
+  DS -> DS: Further adjustments
+  DS -> QA: Re-test after iteration
+end
+
+' 7) Formal Approvals & Documentation
+AIGO -> SP: Confirm final results & sign-off
+alt IRB Re-check
+  AIIRB -> AIGO: Additional oversight required
+  AIGO -> DS: Provide updated documentation
+  DS -> AIIRB: Submit final metrics
+  AIIRB -> AIGO: IRB final approval
+else No IRB Re-check
+  AIGO -> DS: No further IRB action needed
+end
+
+' 8) Post-Deployment Monitoring
+OPS -> TS: Deploy model & monitor user feedback
+alt Bias Detected in Production
+  TS -> DS: Log bias incident
+  DS -> DS: Investigate & fix
+else No Issues
+  TS -> TS: Continue normal monitoring
+end
+
+' 9) Post-Implementation Review
+SP -> AIGO: Conduct Post-Implementation Review
+AIGO -> DS: Gather lessons learned, finalize documentation
+DS -> AIGO: Archive results\nClose out process
+
+@enduml

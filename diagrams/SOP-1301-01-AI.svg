@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1632px" preserveAspectRatio="none" style="width:1718px;height:1632px;background:#FFFFFF;" version="1.1" viewBox="0 0 1718 1632" width="1718px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="526" x="597.25" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="516" x="602.25" y="27.9951">SOP-1301-01-AI: AI Bias &amp; Fairness Evaluation Sequence Diagram</text><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="507" x="361.5" y="265.5234"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="685" x="361.5" y="398.8594"/><rect fill="none" height="132.3359" style="stroke:#000000;stroke-width:1.5;" width="832" x="361.5" y="647.7266"/><rect fill="none" height="161.4688" style="stroke:#000000;stroke-width:1.5;" width="832" x="361.5" y="907.4609"/><rect fill="none" height="177.6016" style="stroke:#000000;stroke-width:1.5;" width="685" x="361.5" y="1112.0625"/><rect fill="none" height="145.3359" style="stroke:#000000;stroke-width:1.5;" width="1350" x="361.5" y="1332.7969"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="67" x2="67" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="429.5" x2="429.5" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="779.5" x2="779.5" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="989.5" x2="989.5" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1114.5" x2="1114.5" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1238.5" x2="1238.5" y1="73.5938" y2="1597.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1513" x2="1513" y1="73.5938" y2="1597.6641"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="12" y="62.292">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="12" y="1616.6592">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="371.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="378.5" y="62.292">Data Scientists</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="371.5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="378.5" y="1616.6592">Data Scientists</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="701.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="708.5" y="62.292">AI Governance Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="701.5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="708.5" y="1616.6592">AI Governance Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="943.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="950.5" y="62.292">AI-IRB Chair</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="943.5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="950.5" y="1616.6592">AI-IRB Chair</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1046.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1053.5" y="62.292">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1046.5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1053.5" y="1616.6592">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1193.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1200.5" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1193.5" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1200.5" y="1616.6592">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1444" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1451" y="62.292">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1444" y="1596.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1451" y="1616.6592">Technical Support</text><polygon fill="#181818" points="418,100.7266,428,104.7266,418,108.7266,422,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="67" x2="424" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="339" x="74" y="99.6606">Request Bias &amp; Fairness Evaluation for new AI project</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="164.125" y2="164.125"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="164.125" y2="177.125"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="177.125" y2="177.125"/><polygon fill="#181818" points="441,173.125,431,177.125,441,181.125,437,177.125" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="437" y="128.7935">Gather relevant data</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="437" y="143.9263">Identify protected attributes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="437" y="159.0591">Perform preliminary analysis</text><polygon fill="#181818" points="1103,217.3906,1113,221.3906,1103,225.3906,1107,221.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="1109" y1="221.3906" y2="221.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="437" y="201.1919">Propose fairness metrics</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="437" y="216.3247">Define thresholds</text><polygon fill="#181818" points="791,246.5234,781,250.5234,791,254.5234,787,250.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="785" x2="1114" y1="250.5234" y2="250.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="797" y="245.4575">Submit plan for internal review</text><path d="M361.5,265.5234 L425.5,265.5234 L425.5,272.6563 L415.5,282.6563 L361.5,282.6563 L361.5,265.5234 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="90.2031" style="stroke:#000000;stroke-width:1.5;" width="507" x="361.5" y="265.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="278.5903">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="108" x="440.5" y="277.7339">[Plan Approved?]</text><polygon fill="#181818" points="441,299.7891,431,303.7891,441,307.7891,437,303.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="303.7891" y2="303.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="447" y="298.7231">Plan accepted</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="868.5" y1="312.7891" y2="312.7891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="98" x="366.5" y="322.9995">[Plan Rejected]</text><polygon fill="#181818" points="441,343.7266,431,347.7266,441,351.7266,437,347.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="347.7266" y2="347.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="447" y="342.6606">Revise plan and resubmit</text><polygon fill="#181818" points="978,379.8594,988,383.8594,978,387.8594,982,383.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="780" x2="984" y1="383.8594" y2="383.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="787" y="378.7935">Provide plan for IRB oversight</text><path d="M361.5,398.8594 L425.5,398.8594 L425.5,405.9922 L415.5,415.9922 L361.5,415.9922 L361.5,398.8594 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="685" x="361.5" y="398.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="411.9263">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="94" x="440.5" y="411.0698">[IRB Approves]</text><polygon fill="#181818" points="791,433.125,781,437.125,791,441.125,787,437.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="785" x2="989" y1="437.125" y2="437.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="797" y="432.0591">Approve plan</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="1046.5" y1="446.125" y2="446.125"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="154" x="366.5" y="456.3354">[IRB Requests Changes]</text><polygon fill="#181818" points="791,477.0625,781,481.0625,791,485.0625,787,481.0625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="785" x2="989" y1="481.0625" y2="481.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="797" y="475.9966">Requires modifications</text><polygon fill="#181818" points="441,506.1953,431,510.1953,441,514.1953,437,510.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="510.1953" y2="510.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="447" y="505.1294">Request plan adjustments</text><polygon fill="#181818" points="768,535.3281,778,539.3281,768,543.3281,772,539.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="774" y1="539.3281" y2="539.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="437" y="534.2622">Resubmit revised plan</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="590.5938" y2="590.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="590.5938" y2="603.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="603.5938" y2="603.5938"/><polygon fill="#181818" points="441,599.5938,431,603.5938,441,607.5938,437,603.5938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="437" y="570.395">Execute bias detection code</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="437" y="585.5278">Generate fairness metrics</text><polygon fill="#181818" points="1103,628.7266,1113,632.7266,1103,636.7266,1107,632.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="1109" y1="632.7266" y2="632.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="437" y="627.6606">Provide results for verification</text><path d="M361.5,647.7266 L425.5,647.7266 L425.5,654.8594 L415.5,664.8594 L361.5,664.8594 L361.5,647.7266 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="132.3359" style="stroke:#000000;stroke-width:1.5;" width="832" x="361.5" y="647.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="660.7935">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="133" x="440.5" y="659.937">[QA Accepts Results]</text><polygon fill="#181818" points="441,681.9922,431,685.9922,441,689.9922,437,685.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="1114" y1="685.9922" y2="685.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="447" y="680.9263">Data validated, proceed</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="1193.5" y1="694.9922" y2="694.9922"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="112" x="366.5" y="705.2026">[QA Finds Issues]</text><polygon fill="#181818" points="441,725.9297,431,729.9297,441,733.9297,437,729.9297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="1114" y1="729.9297" y2="729.9297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="447" y="724.8638">Inconsistency found, re-check data</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="759.0625" y2="759.0625"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="759.0625" y2="772.0625"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="772.0625" y2="772.0625"/><polygon fill="#181818" points="441,768.0625,431,772.0625,441,776.0625,437,772.0625" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="437" y="753.9966">Correct approach and retest</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="808.1953" y2="808.1953"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="808.1953" y2="821.1953"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="821.1953" y2="821.1953"/><polygon fill="#181818" points="441,817.1953,431,821.1953,441,825.1953,437,821.1953" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="336" x="437" y="803.1294">Propose bias mitigation (re-sampling, alt algorithms)</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="850.3281" y2="850.3281"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="850.3281" y2="863.3281"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="863.3281" y2="863.3281"/><polygon fill="#181818" points="441,859.3281,431,863.3281,441,867.3281,437,863.3281" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="437" y="845.2622">Implement mitigation &amp; re-run tests</text><polygon fill="#181818" points="1103,888.4609,1113,892.4609,1103,896.4609,1107,892.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="1109" y1="892.4609" y2="892.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="437" y="887.395">Submit updated metrics</text><path d="M361.5,907.4609 L425.5,907.4609 L425.5,914.5938 L415.5,924.5938 L361.5,924.5938 L361.5,907.4609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="161.4688" style="stroke:#000000;stroke-width:1.5;" width="832" x="361.5" y="907.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="920.5278">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="68" x="440.5" y="919.6714">[Resolved]</text><polygon fill="#181818" points="441,941.7266,431,945.7266,441,949.7266,437,945.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="1114" y1="945.7266" y2="945.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="447" y="940.6606">Bias within acceptable range</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="1193.5" y1="954.7266" y2="954.7266"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="83" x="366.5" y="964.937">[Still Biased]</text><polygon fill="#181818" points="441,985.6641,431,989.6641,441,993.6641,437,989.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="1114" y1="989.6641" y2="989.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="447" y="984.5981">Additional fixes required</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="1018.7969" y2="1018.7969"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="1018.7969" y2="1031.7969"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="1031.7969" y2="1031.7969"/><polygon fill="#181818" points="441,1027.7969,431,1031.7969,441,1035.7969,437,1031.7969" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="437" y="1013.731">Further adjustments</text><polygon fill="#181818" points="1103,1056.9297,1113,1060.9297,1103,1064.9297,1107,1060.9297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="1109" y1="1060.9297" y2="1060.9297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="437" y="1055.8638">Re-test after iteration</text><polygon fill="#181818" points="78,1093.0625,68,1097.0625,78,1101.0625,74,1097.0625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="72" x2="779" y1="1097.0625" y2="1097.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="84" y="1091.9966">Confirm final results &amp; sign-off</text><path d="M361.5,1112.0625 L425.5,1112.0625 L425.5,1119.1953 L415.5,1129.1953 L361.5,1129.1953 L361.5,1112.0625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="177.6016" style="stroke:#000000;stroke-width:1.5;" width="685" x="361.5" y="1112.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="1125.1294">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="440.5" y="1124.2729">[IRB Re-check]</text><polygon fill="#181818" points="791,1146.3281,781,1150.3281,791,1154.3281,787,1150.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="785" x2="989" y1="1150.3281" y2="1150.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="797" y="1145.2622">Additional oversight required</text><polygon fill="#181818" points="441,1175.4609,431,1179.4609,441,1183.4609,437,1179.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="1179.4609" y2="1179.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="447" y="1174.395">Provide updated documentation</text><polygon fill="#181818" points="978,1204.5938,988,1208.5938,978,1212.5938,982,1208.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="984" y1="1208.5938" y2="1208.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="437" y="1203.5278">Submit final metrics</text><polygon fill="#181818" points="791,1233.7266,781,1237.7266,791,1241.7266,787,1237.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="785" x2="989" y1="1237.7266" y2="1237.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="797" y="1232.6606">IRB final approval</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="1046.5" y1="1246.7266" y2="1246.7266"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="114" x="366.5" y="1256.937">[No IRB Re-check]</text><polygon fill="#181818" points="441,1277.6641,431,1281.6641,441,1285.6641,437,1281.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="1281.6641" y2="1281.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="447" y="1276.5981">No further IRB action needed</text><polygon fill="#181818" points="1501.5,1313.7969,1511.5,1317.7969,1501.5,1321.7969,1505.5,1317.7969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1238.5" x2="1507.5" y1="1317.7969" y2="1317.7969"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="1245.5" y="1312.731">Deploy model &amp; monitor user feedback</text><path d="M361.5,1332.7969 L425.5,1332.7969 L425.5,1339.9297 L415.5,1349.9297 L361.5,1349.9297 L361.5,1332.7969 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="145.3359" style="stroke:#000000;stroke-width:1.5;" width="1350" x="361.5" y="1332.7969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="376.5" y="1345.8638">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="189" x="440.5" y="1345.0073">[Bias Detected in Production]</text><polygon fill="#181818" points="441,1367.0625,431,1371.0625,441,1375.0625,437,1371.0625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="1512.5" y1="1371.0625" y2="1371.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="447" y="1365.9966">Log bias incident</text><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="472" y1="1400.1953" y2="1400.1953"/><line style="stroke:#181818;stroke-width:1.0;" x1="472" x2="472" y1="1400.1953" y2="1413.1953"/><line style="stroke:#181818;stroke-width:1.0;" x1="431" x2="472" y1="1413.1953" y2="1413.1953"/><polygon fill="#181818" points="441,1409.1953,431,1413.1953,441,1417.1953,437,1413.1953" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="437" y="1395.1294">Investigate &amp; fix</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="361.5" x2="1711.5" y1="1422.1953" y2="1422.1953"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="72" x="366.5" y="1432.4058">[No Issues]</text><line style="stroke:#181818;stroke-width:1.0;" x1="1513.5" x2="1555.5" y1="1457.1328" y2="1457.1328"/><line style="stroke:#181818;stroke-width:1.0;" x1="1555.5" x2="1555.5" y1="1457.1328" y2="1470.1328"/><line style="stroke:#181818;stroke-width:1.0;" x1="1514.5" x2="1555.5" y1="1470.1328" y2="1470.1328"/><polygon fill="#181818" points="1524.5,1466.1328,1514.5,1470.1328,1524.5,1474.1328,1520.5,1470.1328" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="1520.5" y="1452.0669">Continue normal monitoring</text><polygon fill="#181818" points="768,1502.2656,778,1506.2656,768,1510.2656,772,1506.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="67" x2="774" y1="1506.2656" y2="1506.2656"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="74" y="1501.1997">Conduct Post-Implementation Review</text><polygon fill="#181818" points="441,1531.3984,431,1535.3984,441,1539.3984,437,1535.3984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435" x2="779" y1="1535.3984" y2="1535.3984"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="301" x="447" y="1530.3325">Gather lessons learned, finalize documentation</text><polygon fill="#181818" points="768,1575.6641,778,1579.6641,768,1583.6641,772,1579.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="774" y1="1579.6641" y2="1579.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="437" y="1559.4653">Archive results</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="437" y="1574.5981">Close out process</text><!--MD5=[fc54053dc3f03f645230fc5fc571dd4e]
+@startuml
+title "SOP-1301-01-AI: AI Bias & Fairness Evaluation Sequence Diagram"
+
+participant "Project Sponsor" as SP
+participant "Data Scientists" as DS
+participant "AI Governance Office" as AIGO
+participant "AI-IRB Chair" as AIIRB
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1) Initiate Bias & Fairness Planning
+SP -> DS: Request Bias & Fairness Evaluation for new AI project
+
+' 2) Data Collection & Preliminary Analysis
+DS -> DS: Gather relevant data\nIdentify protected attributes\nPerform preliminary analysis
+
+' 3) Develop Bias & Fairness Evaluation Plan
+DS -> QA: Propose fairness metrics\nDefine thresholds
+QA -> AIGO: Submit plan for internal review
+alt Plan Approved?
+  AIGO -> DS: Plan accepted
+else Plan Rejected
+  AIGO -> DS: Revise plan and resubmit
+end
+
+' 4) AI-IRB Oversight Check
+AIGO -> AIIRB: Provide plan for IRB oversight
+alt IRB Approves
+  AIIRB -> AIGO: Approve plan
+else IRB Requests Changes
+  AIIRB -> AIGO: Requires modifications
+  AIGO -> DS: Request plan adjustments
+  DS -> AIGO: Resubmit revised plan
+end
+
+' 5) Bias Detection & Analysis
+DS -> DS: Execute bias detection code\nGenerate fairness metrics
+DS -> QA: Provide results for verification
+alt QA Accepts Results
+  QA -> DS: Data validated, proceed
+else QA Finds Issues
+  QA -> DS: Inconsistency found, re-check data
+  DS -> DS: Correct approach and retest
+end
+
+' 6) Mitigation Strategies
+DS -> DS: Propose bias mitigation (re-sampling, alt algorithms)
+DS -> DS: Implement mitigation & re-run tests
+DS -> QA: Submit updated metrics
+alt Resolved
+  QA -> DS: Bias within acceptable range
+else Still Biased
+  QA -> DS: Additional fixes required
+  DS -> DS: Further adjustments
+  DS -> QA: Re-test after iteration
+end
+
+' 7) Formal Approvals & Documentation
+AIGO -> SP: Confirm final results & sign-off
+alt IRB Re-check
+  AIIRB -> AIGO: Additional oversight required
+  AIGO -> DS: Provide updated documentation
+  DS -> AIIRB: Submit final metrics
+  AIIRB -> AIGO: IRB final approval
+else No IRB Re-check
+  AIGO -> DS: No further IRB action needed
+end
+
+' 8) Post-Deployment Monitoring
+OPS -> TS: Deploy model & monitor user feedback
+alt Bias Detected in Production
+  TS -> DS: Log bias incident
+  DS -> DS: Investigate & fix
+else No Issues
+  TS -> TS: Continue normal monitoring
+end
+
+' 9) Post-Implementation Review
+SP -> AIGO: Conduct Post-Implementation Review
+AIGO -> DS: Gather lessons learned, finalize documentation
+DS -> AIGO: Archive results\nClose out process
+@enduml
+
+@startuml
+title "SOP-1301-01-AI: AI Bias & Fairness Evaluation Sequence Diagram"
+
+participant "Project Sponsor" as SP
+participant "Data Scientists" as DS
+participant "AI Governance Office" as AIGO
+participant "AI-IRB Chair" as AIIRB
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+SP -> DS: Request Bias & Fairness Evaluation for new AI project
+
+DS -> DS: Gather relevant data\nIdentify protected attributes\nPerform preliminary analysis
+
+DS -> QA: Propose fairness metrics\nDefine thresholds
+QA -> AIGO: Submit plan for internal review
+alt Plan Approved?
+  AIGO -> DS: Plan accepted
+else Plan Rejected
+  AIGO -> DS: Revise plan and resubmit
+end
+
+AIGO -> AIIRB: Provide plan for IRB oversight
+alt IRB Approves
+  AIIRB -> AIGO: Approve plan
+else IRB Requests Changes
+  AIIRB -> AIGO: Requires modifications
+  AIGO -> DS: Request plan adjustments
+  DS -> AIGO: Resubmit revised plan
+end
+
+DS -> DS: Execute bias detection code\nGenerate fairness metrics
+DS -> QA: Provide results for verification
+alt QA Accepts Results
+  QA -> DS: Data validated, proceed
+else QA Finds Issues
+  QA -> DS: Inconsistency found, re-check data
+  DS -> DS: Correct approach and retest
+end
+
+DS -> DS: Propose bias mitigation (re-sampling, alt algorithms)
+DS -> DS: Implement mitigation & re-run tests
+DS -> QA: Submit updated metrics
+alt Resolved
+  QA -> DS: Bias within acceptable range
+else Still Biased
+  QA -> DS: Additional fixes required
+  DS -> DS: Further adjustments
+  DS -> QA: Re-test after iteration
+end
+
+AIGO -> SP: Confirm final results & sign-off
+alt IRB Re-check
+  AIIRB -> AIGO: Additional oversight required
+  AIGO -> DS: Provide updated documentation
+  DS -> AIIRB: Submit final metrics
+  AIIRB -> AIGO: IRB final approval
+else No IRB Re-check
+  AIGO -> DS: No further IRB action needed
+end
+
+OPS -> TS: Deploy model & monitor user feedback
+alt Bias Detected in Production
+  TS -> DS: Log bias incident
+  DS -> DS: Investigate & fix
+else No Issues
+  TS -> TS: Continue normal monitoring
+end
+
+SP -> AIGO: Conduct Post-Implementation Review
+AIGO -> DS: Gather lessons learned, finalize documentation
+DS -> AIGO: Archive results\nClose out process
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
