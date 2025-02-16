@@ -1,0 +1,42 @@
+@startuml
+title SOP-1014-01-AI: Regulatory & Ethical AI Compliance Verification
+
+actor PM as "Project Manager"
+actor Liaison as "AI-IRB Liaison"
+actor Legal as "Legal/Compliance"
+actor Dev as "AI Dev Team"
+actor DS as "Data Scientist"
+actor QA as "Quality Assurance"
+actor MLOps as "MLOps/Operations"
+
+PM -> Liaison: "Request IRB compliance review"
+Liaison -> Legal: "Gather relevant regulations\nand data privacy requirements"
+PM -> Dev: "Provide updated model design info\nand data usage logs"
+Dev -> DS: "Compile final data lineage and\nethical impact summary"
+DS -> Liaison: "Submit IRB documentation"
+
+alt IRB requests changes
+  Liaison -> Dev: "IRB feedback: modifications needed"
+  Dev -> DS: "Adjust model/data as recommended"
+  DS -> QA: "Confirm no performance issues"
+  QA -> Legal: "Update compliance docs"
+  return
+else IRB grants approval
+  Liaison -> PM: "IRB approval received"
+end
+
+MLOps -> QA: "Run final compliance checks\n(automated gating, test cases)"
+alt Tests fail
+  QA -> Dev: "Issue found, fix needed"
+  Dev -> QA: "Resolved compliance defect"
+  QA -> MLOps: "Re-check gating"
+else Tests pass
+  QA -> Legal: "All compliance test cases passed"
+end
+
+Legal -> Liaison: "Confirm no outstanding legal/reg\nissues, final sign-off"
+Liaison -> MLOps: "Greenlight for production"
+MLOps -> MLOps: "Deploy AI system to production"
+MLOps -> PM: "Schedule Post-Implementation Review\n(4-6 weeks after deployment)"
+
+@enduml
