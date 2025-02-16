@@ -1,0 +1,65 @@
+@startuml
+title SOP-1303-01-AI: AI Data Protection & Privacy
+
+participant "Data Privacy Office" as DPO
+participant "AI Governance Office" as AIGO
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Custodian" as DC
+participant "Data Scientist/Engineer" as DS
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1. Project scope and data usage plan
+PS -> DPO: Provide project scope and data usage plan
+DPO -> AIGO: Verify alignment with AI data policies
+AIGO -> DPO: Confirms policy alignment
+
+' 2. Data classification and IRB check
+DPO -> DC: Request data classification (personal, sensitive, etc.)
+DC -> DPO: Provide data inventory and classification
+alt Contains personal/sensitive data
+  DPO -> IRB: Submit data usage request
+  IRB -> DPO: [Approval or Conditional Approval]
+else No personal/sensitive data
+  DPO -> DS: Inform that standard data controls apply
+end
+
+' 3. Environment setup and data ingestion
+DPO -> OPS: Ensure environment is secure (encryption, access control)
+OPS -> DC: Confirm that environment meets requirements
+DC -> DS: Provide approved data subsets for ingestion
+
+' 4. Anonymization/Pseudonymization
+DS -> DPO: Request guidance on anonymization technique
+DPO -> DS: Provide approved anonymization/pseudonymization method
+DS -> DS: Apply anonymization and log transformations
+
+' 5. QA checks
+DS -> QA: Submit evidence of data controls
+QA -> DS: Verify data usage logs, encryption, anonymization
+QA -> DPO: Audit data protection compliance result
+
+' 6. Data usage and retention
+DS -> DS: Execute AI training and analysis
+TS -> DC: Request data access (if needed)
+DC -> TS: Approve/deny data requests based on policy
+DS -> DC: Conclude project, request data archival or destruction
+
+' 7. Retention or destruction
+alt Data must be retained
+  DC -> OPS: Archive data securely (encrypted)
+  QA -> DC: Confirm retention logs
+else End of retention period
+  DC -> OPS: Perform secure destruction of data
+  QA -> DC: Audit destruction logs
+end
+
+' 8. Incident or non-compliance
+participant "Any Stakeholder" as ANY
+ANY -> DPO: Report suspected data mishandling
+DPO -> DS: Request logs and investigation
+DPO -> AIGO: Initiate corrective actions if needed
+
+@enduml

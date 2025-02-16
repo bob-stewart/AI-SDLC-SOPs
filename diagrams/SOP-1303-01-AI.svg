@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1062px" preserveAspectRatio="none" style="width:1863px;height:1062px;background:#FFFFFF;" version="1.1" viewBox="0 0 1863 1062" width="1863px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="368" x="746.5" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="358" x="751.5" y="27.9951">SOP-1303-01-AI: AI Data Protection &amp; Privacy</text><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1148.5" x="10" y="236.2578"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="958.5" x="623.5" y="774.3203"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="90" x2="90" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="346.5" x2="346.5" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="462.5" x2="462.5" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="561.5" x2="561.5" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="693.5" x2="693.5" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1060.5" x2="1060.5" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1403" x2="1403" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1527" x2="1527" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1651" x2="1651" y1="73.5938" y2="1027.1875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1794" x2="1794" y1="73.5938" y2="1027.1875"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="20" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="27" y="62.292">Data Privacy Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="20" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="27" y="1046.1826">Data Privacy Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="268.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="275.5" y="62.292">AI Governance Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="268.5" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="275.5" y="1046.1826">AI Governance Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="435.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="442.5" y="62.292">AI-IRB</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="435.5" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="442.5" y="1046.1826">AI-IRB</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="499.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="506.5" y="62.292">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="499.5" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="506.5" y="1046.1826">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="633.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="640.5" y="62.292">Data Custodian</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="633.5" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="640.5" y="1046.1826">Data Custodian</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="972.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="979.5" y="62.292">Data Scientist/Engineer</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="972.5" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="979.5" y="1046.1826">Data Scientist/Engineer</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1335" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1342" y="62.292">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1335" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1342" y="1046.1826">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1482" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1489" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1482" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1489" y="1046.1826">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1582" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1589" y="62.292">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1582" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1589" y="1046.1826">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="1731" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1738" y="62.292">Any Stakeholder</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="1731" y="1026.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1738" y="1046.1826">Any Stakeholder</text><polygon fill="#181818" points="101,100.7266,91,104.7266,101,108.7266,97,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="560.5" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="107" y="99.6606">Provide project scope and data usage plan</text><polygon fill="#181818" points="335,129.8594,345,133.8594,335,137.8594,339,133.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="341" y1="133.8594" y2="133.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="233" x="97" y="128.7935">Verify alignment with AI data policies</text><polygon fill="#181818" points="101,158.9922,91,162.9922,101,166.9922,97,162.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="346" y1="162.9922" y2="162.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="107" y="157.9263">Confirms policy alignment</text><polygon fill="#181818" points="681.5,188.125,691.5,192.125,681.5,196.125,685.5,192.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="687.5" y1="192.125" y2="192.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="335" x="97" y="187.0591">Request data classification (personal, sensitive, etc.)</text><polygon fill="#181818" points="101,217.2578,91,221.2578,101,225.2578,97,221.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="692.5" y1="221.2578" y2="221.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="256" x="107" y="216.1919">Provide data inventory and classification</text><path d="M10,236.2578 L74,236.2578 L74,243.3906 L64,253.3906 L10,253.3906 L10,236.2578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="119.3359" style="stroke:#000000;stroke-width:1.5;" width="1148.5" x="10" y="236.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="249.3247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="222" x="89" y="248.4683">[Contains personal/sensitive data]</text><polygon fill="#181818" points="450.5,270.5234,460.5,274.5234,450.5,278.5234,454.5,274.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="456.5" y1="274.5234" y2="274.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="97" y="269.4575">Submit data usage request</text><polygon fill="#181818" points="101,299.6563,91,303.6563,101,307.6563,97,303.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="461.5" y1="303.6563" y2="303.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="107" y="298.5903">[Approval or Conditional Approval]</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1158.5" y1="312.6563" y2="312.6563"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="182" x="15" y="322.8667">[No personal/sensitive data]</text><polygon fill="#181818" points="1048.5,343.5938,1058.5,347.5938,1048.5,351.5938,1052.5,347.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="1054.5" y1="347.5938" y2="347.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="258" x="97" y="342.5278">Inform that standard data controls apply</text><polygon fill="#181818" points="1515,379.7266,1525,383.7266,1515,387.7266,1519,383.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="1521" y1="383.7266" y2="383.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="97" y="378.6606">Ensure environment is secure (encryption, access control)</text><polygon fill="#181818" points="704.5,408.8594,694.5,412.8594,704.5,416.8594,700.5,412.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="698.5" x2="1526" y1="412.8594" y2="412.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="300" x="710.5" y="407.7935">Confirm that environment meets requirements</text><polygon fill="#181818" points="1048.5,437.9922,1058.5,441.9922,1048.5,445.9922,1052.5,441.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="693.5" x2="1054.5" y1="441.9922" y2="441.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="700.5" y="436.9263">Provide approved data subsets for ingestion</text><polygon fill="#181818" points="101,467.125,91,471.125,101,475.125,97,471.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="1059.5" y1="471.125" y2="471.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="299" x="107" y="466.0591">Request guidance on anonymization technique</text><polygon fill="#181818" points="1048.5,496.2578,1058.5,500.2578,1048.5,504.2578,1052.5,500.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="1054.5" y1="500.2578" y2="500.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="384" x="97" y="495.1919">Provide approved anonymization/pseudonymization method</text><line style="stroke:#181818;stroke-width:1.0;" x1="1060.5" x2="1102.5" y1="529.3906" y2="529.3906"/><line style="stroke:#181818;stroke-width:1.0;" x1="1102.5" x2="1102.5" y1="529.3906" y2="542.3906"/><line style="stroke:#181818;stroke-width:1.0;" x1="1061.5" x2="1102.5" y1="542.3906" y2="542.3906"/><polygon fill="#181818" points="1071.5,538.3906,1061.5,542.3906,1071.5,546.3906,1067.5,542.3906" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="1067.5" y="524.3247">Apply anonymization and log transformations</text><polygon fill="#181818" points="1391.5,567.5234,1401.5,571.5234,1391.5,575.5234,1395.5,571.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1060.5" x2="1397.5" y1="571.5234" y2="571.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="211" x="1067.5" y="566.4575">Submit evidence of data controls</text><polygon fill="#181818" points="1071.5,596.6563,1061.5,600.6563,1071.5,604.6563,1067.5,600.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1065.5" x2="1402.5" y1="600.6563" y2="600.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="319" x="1077.5" y="595.5903">Verify data usage logs, encryption, anonymization</text><polygon fill="#181818" points="101,625.7891,91,629.7891,101,633.7891,97,629.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="1402.5" y1="629.7891" y2="629.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="107" y="624.7231">Audit data protection compliance result</text><line style="stroke:#181818;stroke-width:1.0;" x1="1060.5" x2="1102.5" y1="658.9219" y2="658.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="1102.5" x2="1102.5" y1="658.9219" y2="671.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="1061.5" x2="1102.5" y1="671.9219" y2="671.9219"/><polygon fill="#181818" points="1071.5,667.9219,1061.5,671.9219,1071.5,675.9219,1067.5,671.9219" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="1067.5" y="653.856">Execute AI training and analysis</text><polygon fill="#181818" points="704.5,697.0547,694.5,701.0547,704.5,705.0547,700.5,701.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="698.5" x2="1650.5" y1="701.0547" y2="701.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="710.5" y="695.9888">Request data access (if needed)</text><polygon fill="#181818" points="1639.5,726.1875,1649.5,730.1875,1639.5,734.1875,1643.5,730.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="693.5" x2="1645.5" y1="730.1875" y2="730.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="700.5" y="725.1216">Approve/deny data requests based on policy</text><polygon fill="#181818" points="704.5,755.3203,694.5,759.3203,704.5,763.3203,700.5,759.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="698.5" x2="1059.5" y1="759.3203" y2="759.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="343" x="710.5" y="754.2544">Conclude project, request data archival or destruction</text><path d="M623.5,774.3203 L687.5,774.3203 L687.5,781.4531 L677.5,791.4531 L623.5,791.4531 L623.5,774.3203 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="958.5" x="623.5" y="774.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="638.5" y="787.3872">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="153" x="702.5" y="786.5308">[Data must be retained]</text><polygon fill="#181818" points="1515,808.5859,1525,812.5859,1515,816.5859,1519,812.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="693.5" x2="1521" y1="812.5859" y2="812.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="700.5" y="807.52">Archive data securely (encrypted)</text><polygon fill="#181818" points="704.5,837.7188,694.5,841.7188,704.5,845.7188,700.5,841.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="698.5" x2="1402.5" y1="841.7188" y2="841.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="710.5" y="836.6528">Confirm retention logs</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="623.5" x2="1582" y1="850.7188" y2="850.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="159" x="628.5" y="860.9292">[End of retention period]</text><polygon fill="#181818" points="1515,881.6563,1525,885.6563,1515,889.6563,1519,885.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="693.5" x2="1521" y1="885.6563" y2="885.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="700.5" y="880.5903">Perform secure destruction of data</text><polygon fill="#181818" points="704.5,910.7891,694.5,914.7891,704.5,918.7891,700.5,914.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="698.5" x2="1402.5" y1="914.7891" y2="914.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="710.5" y="909.7231">Audit destruction logs</text><polygon fill="#181818" points="101,946.9219,91,950.9219,101,954.9219,97,950.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="95" x2="1793" y1="950.9219" y2="950.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="107" y="945.856">Report suspected data mishandling</text><polygon fill="#181818" points="1048.5,976.0547,1058.5,980.0547,1048.5,984.0547,1052.5,980.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="1054.5" y1="980.0547" y2="980.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="97" y="974.9888">Request logs and investigation</text><polygon fill="#181818" points="335,1005.1875,345,1009.1875,335,1013.1875,339,1009.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="341" y1="1009.1875" y2="1009.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="97" y="1004.1216">Initiate corrective actions if needed</text><!--MD5=[a09ddf14df4d632c67b25a8023e6eb3c]
+@startuml
+title SOP-1303-01-AI: AI Data Protection & Privacy
+
+participant "Data Privacy Office" as DPO
+participant "AI Governance Office" as AIGO
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Custodian" as DC
+participant "Data Scientist/Engineer" as DS
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1. Project scope and data usage plan
+PS -> DPO: Provide project scope and data usage plan
+DPO -> AIGO: Verify alignment with AI data policies
+AIGO -> DPO: Confirms policy alignment
+
+' 2. Data classification and IRB check
+DPO -> DC: Request data classification (personal, sensitive, etc.)
+DC -> DPO: Provide data inventory and classification
+alt Contains personal/sensitive data
+  DPO -> IRB: Submit data usage request
+  IRB -> DPO: [Approval or Conditional Approval]
+else No personal/sensitive data
+  DPO -> DS: Inform that standard data controls apply
+end
+
+' 3. Environment setup and data ingestion
+DPO -> OPS: Ensure environment is secure (encryption, access control)
+OPS -> DC: Confirm that environment meets requirements
+DC -> DS: Provide approved data subsets for ingestion
+
+' 4. Anonymization/Pseudonymization
+DS -> DPO: Request guidance on anonymization technique
+DPO -> DS: Provide approved anonymization/pseudonymization method
+DS -> DS: Apply anonymization and log transformations
+
+' 5. QA checks
+DS -> QA: Submit evidence of data controls
+QA -> DS: Verify data usage logs, encryption, anonymization
+QA -> DPO: Audit data protection compliance result
+
+' 6. Data usage and retention
+DS -> DS: Execute AI training and analysis
+TS -> DC: Request data access (if needed)
+DC -> TS: Approve/deny data requests based on policy
+DS -> DC: Conclude project, request data archival or destruction
+
+' 7. Retention or destruction
+alt Data must be retained
+  DC -> OPS: Archive data securely (encrypted)
+  QA -> DC: Confirm retention logs
+else End of retention period
+  DC -> OPS: Perform secure destruction of data
+  QA -> DC: Audit destruction logs
+end
+
+' 8. Incident or non-compliance
+participant "Any Stakeholder" as ANY
+ANY -> DPO: Report suspected data mishandling
+DPO -> DS: Request logs and investigation
+DPO -> AIGO: Initiate corrective actions if needed
+@enduml
+
+@startuml
+title SOP-1303-01-AI: AI Data Protection & Privacy
+
+participant "Data Privacy Office" as DPO
+participant "AI Governance Office" as AIGO
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Custodian" as DC
+participant "Data Scientist/Engineer" as DS
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+PS -> DPO: Provide project scope and data usage plan
+DPO -> AIGO: Verify alignment with AI data policies
+AIGO -> DPO: Confirms policy alignment
+
+DPO -> DC: Request data classification (personal, sensitive, etc.)
+DC -> DPO: Provide data inventory and classification
+alt Contains personal/sensitive data
+  DPO -> IRB: Submit data usage request
+  IRB -> DPO: [Approval or Conditional Approval]
+else No personal/sensitive data
+  DPO -> DS: Inform that standard data controls apply
+end
+
+DPO -> OPS: Ensure environment is secure (encryption, access control)
+OPS -> DC: Confirm that environment meets requirements
+DC -> DS: Provide approved data subsets for ingestion
+
+DS -> DPO: Request guidance on anonymization technique
+DPO -> DS: Provide approved anonymization/pseudonymization method
+DS -> DS: Apply anonymization and log transformations
+
+DS -> QA: Submit evidence of data controls
+QA -> DS: Verify data usage logs, encryption, anonymization
+QA -> DPO: Audit data protection compliance result
+
+DS -> DS: Execute AI training and analysis
+TS -> DC: Request data access (if needed)
+DC -> TS: Approve/deny data requests based on policy
+DS -> DC: Conclude project, request data archival or destruction
+
+alt Data must be retained
+  DC -> OPS: Archive data securely (encrypted)
+  QA -> DC: Confirm retention logs
+else End of retention period
+  DC -> OPS: Perform secure destruction of data
+  QA -> DC: Audit destruction logs
+end
+
+participant "Any Stakeholder" as ANY
+ANY -> DPO: Report suspected data mishandling
+DPO -> DS: Request logs and investigation
+DPO -> AIGO: Initiate corrective actions if needed
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
