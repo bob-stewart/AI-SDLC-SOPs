@@ -1,0 +1,75 @@
+@startuml
+participant "Project Sponsor" as PS
+participant "AI Governance Office" as AIGO
+participant "AI-IRB" as IRB
+participant "Data Scientist/Engineer" as DS
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+participant "AI Compliance Auditor" as AUD
+participant "Risk Management" as RM
+
+PS -> AIGO: Propose AI Project with Validation Requirements
+AIGO -> IRB: Submit AI Project for Ethical Review
+alt IRB Approves
+    IRB -> AIGO: Approval Granted
+    AIGO -> PS: Notifies Sponsor of Approval
+else IRB Rejects
+    IRB -> AIGO: Revision Required
+    AIGO -> PS: Instruct to revise proposal
+    return
+end
+
+PS -> DS: Begin Validation Planning
+DS -> QA: Collaborate on Validation Criteria \n(Performance, Bias, Compliance)
+QA -> DS: Provide QA Test Plans and \nThresholds
+DS -> OPS: Request Validation Environment Setup
+OPS -> DS: Validation Environment Ready
+DS -> DS: Conduct Model Pre-checks \n(Internal Unit Tests)
+
+DS -> QA: Handover Model for Formal Validation
+QA -> DS: Execute Functional & Performance Tests
+QA -> DS: Provide Test Results
+alt Major Defects Found
+    QA -> DS: Return Model for Fixes
+    DS -> DS: Resolve Defects
+    DS -> QA: Re-submit Model for Validation
+end
+QA -> DS: Validate Bias & Fairness \n(Consult SOP-1301-01-AI)
+alt Bias Found
+    QA -> AIGO: Escalate Bias Issue
+    AIGO -> DS: Mandate Mitigation
+    DS -> QA: Implement Fix & Re-Test
+end
+
+DS -> QA: Finalize Validation Results
+QA -> AIGO: Compile Validation Report
+
+AIGO -> IRB: Present Validation Outcomes
+alt IRB Accepts
+    IRB -> AIGO: Final Clearance
+    AIGO -> OPS: Authorize Deployment
+else IRB Requests Additional Info
+    IRB -> AIGO: Additional clarifications
+    AIGO -> DS: Must Re-validate
+    return
+end
+
+OPS -> DS: Deploy Validated Model
+OPS -> TS: Prepare Monitoring Tools
+TS -> DS: Provide Operational Feedback
+DS -> OPS: Analyze Real-Time Performance
+DS -> RM: Identify Potential Risks or \nPerformance Deterioration
+
+== Continuous Monitoring ==
+OPS -> DS: Provide Performance Metrics
+DS -> QA: Check for Degradation or Drift
+alt Drift or Performance Drop
+    DS -> QA: Raise Revalidation Trigger
+    QA -> IRB: Seek Re-approval if needed
+end
+DS -> AUD: Periodic Audit for Compliance
+AUD -> DS: Review Logs, Fairness, \nRegulatory Alignment
+end
+
+@enduml
