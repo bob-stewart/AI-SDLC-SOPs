@@ -1,0 +1,75 @@
+@startuml
+title SOP-1012-01-AI: AI Model Explainability & Interpretability
+
+participant "Product Management" as ProductM
+participant "AI Dev Team" as AIDev
+participant "Data Science Lead" as DSL
+participant "AI-IRB Liaison" as IRBLiaison
+participant "Quality Assurance" as QA
+participant "Legal/Compliance" as Legal
+participant "Technical Support" as TechSup
+participant "Operations" as Ops
+participant "Senior Management" as SrMgmt
+
+' 4.1 Initiation of Explainability Requirements
+ProductM -> AIDev: Identify need for AI explainability
+AIDev -> DSL: Request advice on suitable explanation frameworks
+DSL -> IRBLiaison: Present proposed approach for ethical/regulatory review
+alt If concerns arise
+  IRBLiaison -> DSL: Raise compliance/ethical concerns
+  DSL -> AIDev: Revise approach to address concerns
+else No major concerns
+  IRBLiaison -> DSL: No critical issues found, proceed
+end
+
+' 4.2 Selecting Explanation Framework
+DSL -> AIDev: Confirm global/local interpretability approach
+AIDev -> AIDev: Implement or refine design plan
+AIDev -> IRBLiaison: Provide final plan for sign-off
+IRBLiaison -> AIDev: Approved approach
+
+' 4.3 Model Implementation and Explanation Development
+AIDev -> AIDev: Implement model & integrate explanation technique
+AIDev -> QA: Provide code for review of explanation generation
+QA -> AIDev: Feedback on potential issues
+AIDev -> AIDev: Resolve any QA findings
+
+' 4.4 Testing Explanation Capabilities
+AIDev -> AIDev: Generate sample explanation outputs in staging
+AIDev -> QA: Deliver test artifacts for validation
+QA -> QA: Validate explanation correctness & traceability
+alt If defects found
+  QA -> AIDev: Log explanation defects
+  AIDev -> AIDev: Fix and retest
+end
+
+' 4.5 User-Facing Documentation and Approvals
+TechSup -> AIDev: Request doc clarifications for end-user understanding
+AIDev -> TechSup: Provide final explanation docs & best practices
+TechSup -> Legal: Provide user documentation for compliance check
+Legal -> TechSup: Confirm compliance or request changes
+SrMgmt -> TechSup: Final sign-off on interpretability readiness
+
+' 4.6 Deployment and Monitoring
+Ops -> AIDev: Deploy explanation code to production
+AIDev -> TechSup: Confirm production environment explanation is active
+TechSup -> TechSup: Prepare support channels for user queries
+QA -> Ops: Monitor logs for explanation issues
+
+' 4.7 Change Management for Explanation Methods
+AIDev -> AIDev: Propose new or updated explanation method
+AIDev -> IRBLiaison: Submit change request for ethical review
+alt Approved
+  IRBLiaison -> QA: Confirm no new compliance issues
+  QA -> AIDev: Validate new method in staging
+else Rejected
+  IRBLiaison -> AIDev: Return request for revision
+end
+
+' 4.8 Post-Implementation Review
+TechSup -> IRBLiaison: Provide user feedback on explanation clarity
+IRBLiaison -> ProductM: Summarize findings & potential improvements
+ProductM -> SrMgmt: Present final lessons learned
+SrMgmt -> SrMgmt: Decide on future enhancements or confirm closure
+
+@enduml
