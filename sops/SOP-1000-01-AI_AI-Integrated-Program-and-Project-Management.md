@@ -1,4 +1,4 @@
-# **SOP-1000-01-AI\_AI-Integrated-Program-and \-Project-Management**
+# **SOP-1000-01-AI\_AI-Integrated-Program-and-Project-Management**
 
 ![][image1]  
 SOP ID: 1000-01-AI  
