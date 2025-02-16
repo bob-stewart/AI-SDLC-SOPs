@@ -1,0 +1,79 @@
+@startuml
+title SOP-1200-01-AI Development Sequence Diagram
+
+actor PM as "Project Manager"
+actor LDR as "DevTeamLeader"
+actor DEV as "Developer"
+actor QA as "Quality Assurance"
+actor OPS as "Operations"
+actor IRB as "AI-IRB Liaison"
+actor PG as "Product Group"
+
+PM -> LDR: Provide Approved Detail Design
+note right
+  Commence Development 
+  after final design sign-off
+end note
+
+LDR -> LDR: Plan Implementation Units (IUs)
+LDR -> DEV: Assign IUs and Provide Code Standards
+
+alt New AI Functionality Introduced?
+  LDR -> IRB: Notify AI-IRB for compliance check
+  IRB -> LDR: AI compliance guidance or approval
+else No AI Changes
+  LDR -> LDR: Proceed without IRB involvement
+end
+
+OPS -> LDR: Confirm VOB branch & environment readiness
+LDR -> DEV: Confirm Dev environment setup
+
+DEV -> DEV: Code Implementation (following design specs)
+DEV -> DEV: Execute Unit Tests
+alt Unit Tests Pass?
+  DEV -> LDR: Unit test success, ready for peer review
+else Unit Tests Fail
+  DEV -> DEV: Fix code and re-run unit tests
+  DEV -> LDR: Updated code with successful unit tests
+end
+
+LDR -> LDR: Schedule Code Walk-Through
+LDR -> DEV: Present code in weekly walk-through
+LDR -> LDR: Document review findings
+
+DEV -> DEV: Update code per walk-through findings
+DEV -> DEV: Build IU Code (executable)
+DEV -> LDR: Request Merge to Integration Branch
+
+LDR -> LDR: Approve code merging
+DEV -> OPS: Merge to shared VOB branch
+DEV -> DEV: Perform integration smoke test
+
+alt Smoke Test Pass?
+  DEV -> QA: Notify readiness for QA environment
+else Smoke Test Fail
+  DEV -> DEV: Fix integration issues
+  DEV -> LDR: Request additional check
+  DEV -> QA: Ready for QA after fix
+end
+
+QA -> DEV: Review final integration build
+alt Accept or Return?
+  QA -> QA: If accepted, proceed
+  QA -> DEV: If not, rework needed
+end
+
+DEV -> DEV: Update Documentation
+alt AI-IRB Impact Re-check?
+  DEV -> IRB: Provide final AI changes doc
+  IRB -> DEV: AI re-approval or no changes
+else No AI Re-check needed
+  note over DEV
+    Standard process continues
+  end note
+end
+
+LDR -> PM: Final readiness for QA Testing
+PM -> LDR: Adjust schedule/resources if needed
+
+@enduml
