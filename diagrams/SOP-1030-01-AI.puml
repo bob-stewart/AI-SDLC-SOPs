@@ -1,0 +1,79 @@
+@startuml
+
+skinparam participantPadding 20
+skinparam boxPadding 10
+skinparam notePadding 5
+skinparam noteBackgroundColor #FEFECE
+
+participant "Requestor" as R
+participant "AI IRB Liaison" as IRB
+participant "AI Data Analyst" as A
+participant "Data Scientist" as DS
+participant "MLOps Engineer" as M
+participant "Quality Assurance" as QA
+participant "AI Ethics/Compliance" as E
+participant "Operations" as OP
+participant "Technical Support" as T
+
+== Request Initiation ==
+R -> R: Fill out Ad Hoc AI Reporting Form
+R -> IRB: Submit request for potential ethical/regulatory flag
+alt If flagged by IRB
+    IRB -> R: Request additional info or updates
+    R -> IRB: Provide clarifications
+end
+IRB -> A: Forward validated request details
+
+== Requirements Gathering & Validation ==
+A -> R: Schedule meeting to refine request
+A -> DS: Check if new/existing AI/ML models are needed
+A -> QA: Ensure request is testable
+alt Additional IRB approval needed
+    IRB -> A: Provide final compliance approval
+end
+
+== Feasibility & Prioritization ==
+A -> A: Assess data availability & complexity
+A -> M: Confirm environment readiness
+A -> A: Draft time/resource estimate
+A -> R: Recommend priority level (Critical/High/Med/Low)
+
+== Development & Testing ==
+A -> DS: Gather data and perform data wrangling
+DS -> M: Request environment setup or code integration
+M -> M: Update code repo & environment (version control)
+QA -> A: Validate intermediate results
+A -> QA: Address any defects found
+DS -> DS: Re-test with revised data/model
+QA -> QA: Approve or log additional defects
+
+== Security & Compliance Checks ==
+E -> A: Verify final outputs vs. data usage agreements
+DS -> E: Confirm model interpretability & compliance
+alt If compliance issue found
+    E -> DS: Mitigation or revision required
+    DS -> E: Provide updated approach
+end
+
+== Approval & Delivery ==
+A -> QA: Submit final ad hoc report for acceptance
+QA -> QA: Final test & acceptance
+QA -> R: Present final deliverable for approval
+alt Accepted
+    R -> OP: Request distribution if needed
+    OP -> T: Notify for Tier-1 support readiness
+else Rejected
+    R -> A: Request modifications or rework
+    A -> DS: Resolve issues
+end
+
+== Documentation & Archiving ==
+A -> M: Ensure code, transformations are in Git
+A -> QA: Archive sign-off in AI-SDLC library
+A -> T: Provide user instructions or brief training tips
+
+== Post-Implementation Review ==
+A -> A: Schedule post-implementation review (if critical)
+A -> R: Gather feedback, lessons learned
+A -> IRB: Update risk or ethical registers if new concerns
+@enduml
