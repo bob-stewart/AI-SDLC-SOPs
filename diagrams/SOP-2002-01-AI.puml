@@ -1,0 +1,51 @@
+@startuml
+title SOP-2002-01 Control of Quality Records
+
+' Declare participants
+participant "Chief Quality Officer (CQO)" as CQO
+participant "Department Manager" as DeptM
+participant "Record Custodian" as RC
+participant "Project Team Member" as PTM
+participant "AI-IRB Liaison" as AIIRBL
+participant "QA Department" as QA
+
+' 1. Record Creation
+PTM -> DeptM: Inform manager about a newly generated quality record
+DeptM -> PTM: Provide guidelines on labeling\nand indexing (templates, naming scheme)
+PTM -> RC: Submit newly created record\nfor official indexing
+
+' 2. Record Labeling & Indexing
+RC -> RC: Assign unique ID\n& store in designated repository
+RC -> QA: Notify QA of new record addition to system
+
+' 3. Record Review & Audit
+QA -> RC: Request sample for quarterly\nrecord compliance audit
+RC -> QA: Provide requested records
+QA -> QA: Perform compliance check\n(labeling, completeness, etc.)
+QA -> CQO: Submit audit findings or\nrecommend CAPA if needed
+
+' 4. Retention & Archiving
+DeptM -> RC: Confirm retention schedule\nfor record type
+RC -> RC: Archive record in secure storage\n(physical/electronic) as required
+RC -> AIIRBL: Request any AI-specific restrictions\non archiving (if relevant)
+
+' 5. Disposal Authorization
+alt Record disposal reached end-of-life
+    RC -> AIIRBL: Seek disposal authorization\n(especially for AI-related data)
+    alt Disposal approved
+        AIIRBL -> RC: Approve record destruction
+        RC -> QA: Document disposal in\nDisposal Log
+        note right: Record is securely deleted or shredded
+    else Disposal not approved
+        AIIRBL -> RC: Records must be\nretained longer
+        note right: Retention extended
+    end
+else Not end-of-life
+    note over RC: No disposal needed\nRecord remains archived
+end
+
+' 6. Post-Implementation or Release
+QA -> DeptM: Provide final compliance summary\nfor improvements or updates
+CQO -> All: Issue any revised SOP or training if process improvements found
+
+@enduml
