@@ -1,0 +1,96 @@
+@startuml
+skinparam sequenceParticipant underline false
+skinparam participantBorderColor #000000
+skinparam participantBackgroundColor #DDDDDD
+skinparam participantFontColor #000000
+skinparam sequenceArrowColor #000000
+skinparam sequenceBoxBackgroundColor #EEEEEE
+
+title AI-SDLC Program/Project Management Flow
+
+actor "Senior Management" as SM
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "AI-PMO" as APMO
+participant "Product Manager" as ProdM
+participant "Program Manager" as PrgM
+participant "Project Manager" as PJM
+participant "Development" as Dev
+participant "Quality Assurance" as QA
+participant "Operations" as Ops
+participant "Tech Support" as TS
+
+== Project Initiation (G-12 to G-10) ==
+SM -> PS: Commission AI project, name Project Sponsor
+PS -> ProdM: Request preliminary business requirements
+ProdM -> PS: Provide business requirements draft
+PS -> IRB: if (High-Risk AI?) then consult AI-IRB
+activate IRB
+IRB -> PS: Provide guidance/approval or reduce scope
+deactivate IRB
+PS -> APMO: Summarize scope, cost, schedule
+APMO -> PJM: Provide resources/funding guidelines
+
+== Gate 10: Requirements Lock-Down ==
+PJM -> QA: Review final business requirements
+QA -> PJM: Approve or request changes
+SM -> PS: Final sign-off on scope
+PS -> PrgM: Confirm move to planning
+
+== Planning & Definition (G-10 to G-6) ==
+PJM -> Dev: Gather system requirements
+Dev -> QA: Share system requirements for feedback
+QA -> PJM: Provide quality plan input
+Ops -> PJM: Provide environment/infrastructure details
+PJM -> IRB: if (Revised AI scope) then IRB review
+IRB -> PJM: OK or rework
+PJM -> PS: Summarize final plan, schedule, cost
+
+== Gate 6: Project Lock-Down ==
+PS -> SM: Approve overall plan
+SM -> PS: Proceed with development
+
+== Development & Validation (G-6 to G-4) ==
+Dev -> Dev: Code & unit test AI modules
+Dev -> QA: Turn over to QA for integration test
+QA -> Dev: if (Defects) then fix
+note over Dev: Repeat until integration is stable
+end note
+
+== Gate 4: Begin Validation ==
+QA -> PS: Approve readiness for system test
+PS -> PrgM: Accept move to system test
+
+== System Test & UAT (G-4 to G-2) ==
+QA -> Dev: Perform system test
+QA -> Dev: Log defects, retest fixes
+Dev -> QA: Provide fixed builds
+note over QA: Once tests pass, or partial pass
+end note
+ProdM -> TS: Prepare user acceptance test plan
+TS -> ProdM: Execute UAT with end-users
+TS -> Dev: if (UAT defects) fix
+note over Dev: Cycle until UAT passes
+end note
+
+== Gate 2: Begin FOA/Beta ==
+ProdM -> TS: Deploy pilot version
+TS -> ProdM: Evaluate user feedback
+
+== FOA/Beta & Deployment (G-2 to G-0) ==
+Dev -> Ops: Provide final build
+Ops -> TS: if (Training needed) deliver training
+TS -> QA: Final checks
+QA -> PS: Confirm final readiness
+
+== Gate 0: General Availability ==
+PS -> SM: Approve production rollout
+Ops -> All: Deploy to production environment
+All -> PJM: Project close-out
+PJM -> QA: Initiate post-implementation review
+
+== Post Implementation ==
+QA -> APMO: Gather lessons learned, finalize
+APMO -> IRB: if (Ethics improvements) track for next cycle
+
+@enduml
