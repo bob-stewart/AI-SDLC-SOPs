@@ -1,0 +1,76 @@
+@startuml
+
+title "SOP-1015-01-AI: Knowledge Transfer & Handover Sequence Diagram"
+
+' Define participants (avoid vertical-bar style)
+participant "Project Manager" as PM
+participant "AI-IRB Liaison" as AIIRB
+participant "AI Dev Team" as DevTeam
+participant "Data Scientist" as DataSci
+participant "MLOps/Operations" as MLOps
+participant "Quality Assurance" as QA
+participant "Receiving Organization" as RecvOrg
+
+' 1. PM initiates knowledge transfer scheduling
+PM -> DevTeam: Initiate KT request & timeline
+PM -> QA: Confirm readiness for doc review
+PM -> AIIRB: Verify IRB obligations
+
+' 2. DevTeam and DataSci prepare Handover Package
+DevTeam -> DataSci: Coordinate final code & model docs
+DataSci -> DevTeam: Provide data lineage & feature catalog
+DevTeam -> QA: Submit draft Handover Package
+
+' 3. QA reviews content for completeness and correctness
+QA -> DevTeam: Provide feedback on missing/unclear items
+DevTeam -> DataSci: Clarify data or model queries if needed
+DevTeam -> QA: Resubmit updated documentation
+
+' 4. MLOps environment notes added
+QA -> MLOps: Request environment details for handover
+MLOps -> DevTeam: Provide pipeline & operational docs
+
+' 5. AIIRB compliance check
+QA -> AIIRB: Validate AI-IRB compliance docs
+alt IRB compliance
+    AIIRB -> QA: Approved
+else IRB not compliant
+    AIIRB -> QA: Request additional clarifications
+    QA -> DevTeam: Clarify or remediate compliance issues
+    DevTeam -> AIIRB: Resubmit compliance docs
+    AIIRB -> QA: Approved
+end
+
+' 6. PM schedules formal knowledge transfer
+PM -> RecvOrg: Invite to KT workshops
+RecvOrg -> PM: Confirm schedule availability
+
+' 7. Conduct formal KT sessions
+group KT Session 1: Architecture & Code
+    DevTeam -> RecvOrg: Present architecture, code structure
+end
+group KT Session 2: Model & Data
+    DataSci -> RecvOrg: Demonstrate training pipeline, data usage
+end
+group KT Session 3: Compliance/Ethics
+    AIIRB -> RecvOrg: Summarize compliance constraints & risk
+end
+
+' 8. Q&A & open issues
+RecvOrg -> DevTeam: Raise open questions
+DevTeam -> RecvOrg: Provide clarifications
+
+' 9. Decision: Are there unresolved issues?
+alt Issues remain
+    DevTeam -> RecvOrg: Resolve all open items
+    QA -> DevTeam: Verify resolution
+else No issues
+    RecvOrg -> PM: Acknowledge readiness
+end
+
+' 10. Final sign-off
+QA -> RecvOrg: Request acceptance sign-off
+RecvOrg -> QA: Provide acceptance signature
+QA -> PM: Confirm official knowledge transfer completion
+
+@enduml
