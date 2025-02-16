@@ -1,0 +1,82 @@
+@startuml
+title SOP-1220-01-AI Deployment (Sequence Diagram)
+
+participant "Development Lead" as DEV
+participant "QA Lead" as QA
+participant "Operations Manager" as OPS
+participant "Product/Project Mgr" as PM
+participant "Program Manager" as PG
+participant "Technical Support" as TS
+participant "AI-IRB Liaison" as IRB
+
+PM -> DEV: Request final scope and deliverables
+DEV -> PM: Provide final scope details
+PM -> PG: Communicate final scope/cost/schedule updates
+PG -> PM: Confirm resource alignment
+
+PM -> DEV: "Draft Deployment Plan" request
+DEV -> QA: "Gather QA input for plan"
+DEV -> OPS: "Gather environment/deployment input"
+DEV -> IRB: "Check AI compliance readiness"
+alt If IRB has concerns
+    IRB -> DEV: "Adjust compliance steps"
+    DEV -> QA: "Incorporate compliance changes"
+else No major IRB concerns
+    note over IRB: No additional compliance changes needed
+end
+DEV -> PM: Submit Deployment Plan
+
+PM -> OPS: "Review & Approve Deployment Plan"
+OPS -> PM: Confirm environment feasibility
+PM -> QA: "Validate Deployment Plan meets testing coverage"
+QA -> PM: Approve test coverage
+
+PM -> IRB: "Sign-off on compliance readiness"
+IRB -> PM: "Compliance Approved"
+
+PM -> DEV: "Prepare Installation Procedure & Preliminary Docs"
+DEV -> OPS: "Submit install procedure for review"
+OPS -> DEV: Provide feedback on procedure
+DEV -> QA: Provide preliminary user/product docs for review
+QA -> DEV: Documentation feedback
+
+PM -> TS: "Coordinate FOA/Beta readiness"
+alt FOA/Beta needed
+    TS -> TS: "Kick off FOA/Beta with limited user group"
+    TS -> DEV: "Collect feedback on real-world usage"
+    DEV -> QA: "Fix issues from FOA/Beta if any"
+    QA -> DEV: Retest and confirm fixes
+else No FOA/Beta needed
+    note over TS: Proceed directly to final user acceptance
+end
+
+PM -> OPS: "Prepare user acceptance environment"
+OPS -> TS: "Environment ready for UAT"
+TS -> TS: "Execute UAT with end-users"
+TS -> QA: "Report UAT defects"
+QA -> DEV: "Assign defects to fix"
+DEV -> QA: "Deliver fixes"
+QA -> TS: "Verify final UAT pass"
+
+PM -> IRB: "Request final compliance sign-off"
+IRB -> PM: "Compliance sign-off Granted"
+PM -> PG: "All conditions met, request deployment 'Go'"
+
+alt Final approval
+    PG -> PM: "Authorize final push to production"
+    PM -> OPS: "Initiate production release"
+    OPS -> DEV: "Deploy code, AI models, config to production"
+    OPS -> QA: "Perform smoke test in production"
+    QA -> OPS: "Production environment is stable"
+    PM -> TS: "Announce successful go-live"
+else Approval delayed
+    note over PM,PG: Reassess schedule or re-work items
+end
+
+TS -> TS: "Provide ongoing support"
+PM -> QA: "Schedule Post-Implementation Review"
+QA -> DEV: "Collect lessons learned"
+DEV -> QA: "Submit improvement suggestions"
+QA -> IRB: "Confirm any additional compliance notes"
+QA -> PG: "Finalize Post-Implementation Review"
+@enduml
