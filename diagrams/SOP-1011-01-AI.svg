@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1364px" preserveAspectRatio="none" style="width:2345px;height:1364px;background:#FFFFFF;" version="1.1" viewBox="0 0 2345 1364" width="2345px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="532" x="906.25" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="522" x="911.25" y="27.9951">SOP-1011-01-AI: AI Feature Decommissioning &amp; Model Retirement</text><rect fill="none" height="111.3359" style="stroke:#000000;stroke-width:1.5;" width="1766.5" x="10" y="215.3906"/><rect fill="none" height="161.4688" style="stroke:#000000;stroke-width:1.5;" width="1313" x="10" y="735.4531"/><rect fill="none" height="46.2656" style="stroke:#000000;stroke-width:1.5;" width="750.5" x="858.5" y="1056.5859"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="101" x2="101" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="482.5" x2="482.5" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="913.5" x2="913.5" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1244" x2="1244" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1546" x2="1546" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1678" x2="1678" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2012" x2="2012" y1="73.5938" y2="1328.7813"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2113" x2="2113" y1="73.5938" y2="1328.7813"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="20" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="27" y="62.292">Product Management</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="20" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="27" y="1347.7764">Product Management</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="432.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="439.5" y="62.292">AI Dev Team</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="432.5" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="439.5" y="1347.7764">AI Dev Team</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="868.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="875.5" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="868.5" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="875.5" y="1347.7764">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1176" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1183" y="62.292">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1176" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1183" y="1347.7764">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1494" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1501" y="62.292">AI-IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1494" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1501" y="1347.7764">AI-IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1609" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1616" y="62.292">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1609" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1616" y="1347.7764">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="1936" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1943" y="62.292">Senior Management</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="1936" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1943" y="1347.7764">Senior Management</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="2099" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="2106" y="62.292">All</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="2099" y="1327.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="2106" y="1347.7764">All</text><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="143.5" y1="131.4922" y2="131.4922"/><line style="stroke:#181818;stroke-width:1.0;" x1="143.5" x2="143.5" y1="131.4922" y2="144.4922"/><line style="stroke:#181818;stroke-width:1.0;" x1="102.5" x2="143.5" y1="144.4922" y2="144.4922"/><polygon fill="#181818" points="112.5,140.4922,102.5,144.4922,112.5,148.4922,108.5,144.4922" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="108.5" y="126.4263">Identify need to retire AI feature/model</text><path d="M367,88.5938 L367,173.5938 L547,173.5938 L547,98.5938 L537,88.5938 L367,88.5938 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M537,88.5938 L537,98.5938 L547,98.5938 L537,88.5938 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="373" y="105.6606">Possible reasons:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="373" y="120.7935">- Outdated performance</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="373" y="135.9263">- Ethical concerns</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="373" y="151.0591">- End of contract</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="373" y="166.1919">- etc.</text><polygon fill="#181818" points="1534.5,196.3906,1544.5,200.3906,1534.5,204.3906,1538.5,200.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="1540.5" y1="200.3906" y2="200.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="108.5" y="195.3247">Quick check for ethical/compliance flags</text><path d="M10,215.3906 L74,215.3906 L74,222.5234 L64,232.5234 L10,232.5234 L10,215.3906 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="111.3359" style="stroke:#000000;stroke-width:1.5;" width="1766.5" x="10" y="215.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="228.4575">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="120" x="89" y="227.6011">[IRB has concerns]</text><polygon fill="#181818" points="112.5,260.2227,102.5,264.2227,112.5,268.2227,108.5,264.2227" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="106.5" x2="1545.5" y1="264.2227" y2="264.2227"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="118.5" y="259.1567">Request deeper ethics review</text><path d="M1551,237.5234 L1551,277.5234 L1761,277.5234 L1761,247.5234 L1751,237.5234 L1551,237.5234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1751,237.5234 L1751,247.5234 L1761,247.5234 L1751,237.5234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="1557" y="254.5903">IRB organizes special session</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="1557" y="269.7231">to address compliance issues</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1776.5" y1="283.7891" y2="283.7891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="140" x="15" y="293.9995">[IRB has no concerns]</text><polygon fill="#181818" points="112.5,314.7266,102.5,318.7266,112.5,322.7266,108.5,318.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="106.5" x2="1545.5" y1="318.7266" y2="318.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="118.5" y="313.6606">No immediate concerns</text><polygon fill="#181818" points="470.5,350.8594,480.5,354.8594,470.5,358.8594,474.5,354.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="476.5" y1="354.8594" y2="354.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="357" x="108.5" y="349.7935">Initiate Decommission Review meeting (scope, timeline)</text><polygon fill="#181818" points="901.5,379.9922,911.5,383.9922,901.5,387.9922,905.5,383.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="907.5" y1="383.9922" y2="383.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="108.5" y="378.9263">Include environment impact in meeting</text><polygon fill="#181818" points="1232.5,409.125,1242.5,413.125,1232.5,417.125,1236.5,413.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="1238.5" y1="413.125" y2="413.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="108.5" y="408.0591">Include QA for acceptance criteria</text><polygon fill="#181818" points="1534.5,438.2578,1544.5,442.2578,1534.5,446.2578,1538.5,442.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="1540.5" y1="442.2578" y2="442.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="108.5" y="437.1919">Include if required</text><path d="M37,455.2578 L37,525.2578 L1611,525.2578 L1611,465.2578 L1601,455.2578 L37,455.2578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1601,455.2578 L1601,465.2578 L1611,465.2578 L1601,455.2578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="729" y="472.3247">Meeting outcome:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="729" y="487.4575">- Draft "Decommission Plan"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="729" y="502.5903">- Proposed retirement date</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="729" y="517.7231">- Notification approach</text><line style="stroke:#181818;stroke-width:1.0;" x1="482.5" x2="524.5" y1="551.9219" y2="551.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="524.5" x2="524.5" y1="551.9219" y2="564.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="483.5" x2="524.5" y1="564.9219" y2="564.9219"/><polygon fill="#181818" points="493.5,560.9219,483.5,564.9219,493.5,568.9219,489.5,564.9219" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="489.5" y="546.856">Compile final model status docs</text><line style="stroke:#181818;stroke-width:1.0;" x1="1678.5" x2="1720.5" y1="594.0547" y2="594.0547"/><line style="stroke:#181818;stroke-width:1.0;" x1="1720.5" x2="1720.5" y1="594.0547" y2="607.0547"/><line style="stroke:#181818;stroke-width:1.0;" x1="1679.5" x2="1720.5" y1="607.0547" y2="607.0547"/><polygon fill="#181818" points="1689.5,603.0547,1679.5,607.0547,1689.5,611.0547,1685.5,607.0547" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="320" x="1685.5" y="588.9888">Update user support docs (pending final approval)</text><line style="stroke:#181818;stroke-width:1.0;" x1="913.5" x2="955.5" y1="636.1875" y2="636.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="955.5" x2="955.5" y1="636.1875" y2="649.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="914.5" x2="955.5" y1="649.1875" y2="649.1875"/><polygon fill="#181818" points="924.5,645.1875,914.5,649.1875,924.5,653.1875,920.5,649.1875" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263" x="920.5" y="631.1216">Prepare staging environment for removal</text><polygon fill="#181818" points="1232.5,674.3203,1242.5,678.3203,1232.5,682.3203,1236.5,678.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="482.5" x2="1238.5" y1="678.3203" y2="678.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="489.5" y="673.2544">Provide removal scripts for test</text><line style="stroke:#181818;stroke-width:1.0;" x1="1244.5" x2="1286.5" y1="707.4531" y2="707.4531"/><line style="stroke:#181818;stroke-width:1.0;" x1="1286.5" x2="1286.5" y1="707.4531" y2="720.4531"/><line style="stroke:#181818;stroke-width:1.0;" x1="1245.5" x2="1286.5" y1="720.4531" y2="720.4531"/><polygon fill="#181818" points="1255.5,716.4531,1245.5,720.4531,1255.5,724.4531,1251.5,720.4531" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="288" x="1251.5" y="702.3872">Verify removal in staging, check for breakage</text><path d="M10,735.4531 L74,735.4531 L74,742.5859 L64,752.5859 L10,752.5859 L10,735.4531 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="161.4688" style="stroke:#000000;stroke-width:1.5;" width="1313" x="10" y="735.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="748.52">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="157" x="89" y="747.6636">[QA finds critical issues]</text><polygon fill="#181818" points="493.5,769.7188,483.5,773.7188,493.5,777.7188,489.5,773.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="487.5" x2="1243.5" y1="773.7188" y2="773.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="499.5" y="768.6528">Return to fix removal scripts</text><polygon fill="#181818" points="1232.5,798.8516,1242.5,802.8516,1232.5,806.8516,1236.5,802.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="482.5" x2="1238.5" y1="802.8516" y2="802.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="489.5" y="797.7856">Provide updated scripts</text><line style="stroke:#181818;stroke-width:1.0;" x1="1244.5" x2="1286.5" y1="831.9844" y2="831.9844"/><line style="stroke:#181818;stroke-width:1.0;" x1="1286.5" x2="1286.5" y1="831.9844" y2="844.9844"/><line style="stroke:#181818;stroke-width:1.0;" x1="1245.5" x2="1286.5" y1="844.9844" y2="844.9844"/><polygon fill="#181818" points="1255.5,840.9844,1245.5,844.9844,1255.5,848.9844,1251.5,844.9844" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1251.5" y="826.9185">Re-verify</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1323" y1="853.9844" y2="853.9844"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="77" x="15" y="864.1948">[QA passes]</text><polygon fill="#181818" points="112.5,884.9219,102.5,888.9219,112.5,892.9219,108.5,888.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="106.5" x2="1243.5" y1="888.9219" y2="888.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="118.5" y="883.856">Staging environment validated</text><polygon fill="#181818" points="1666.5,921.0547,1676.5,925.0547,1666.5,929.0547,1670.5,925.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="1672.5" y1="925.0547" y2="925.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="324" x="108.5" y="919.9888">Notify end-users about upcoming removal timeline</text><polygon fill="#181818" points="901.5,950.1875,911.5,954.1875,901.5,958.1875,905.5,954.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="907.5" y1="954.1875" y2="954.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="108.5" y="949.1216">Authorize final removal in production</text><polygon fill="#181818" points="493.5,979.3203,483.5,983.3203,493.5,987.3203,489.5,983.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="487.5" x2="912.5" y1="983.3203" y2="983.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="407" x="499.5" y="978.2544">Execute retirement steps (disable features, remove references)</text><polygon fill="#181818" points="901.5,1008.4531,911.5,1012.4531,901.5,1016.4531,905.5,1012.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="482.5" x2="907.5" y1="1012.4531" y2="1012.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="489.5" y="1007.3872">Stand by for possible revert/fixes</text><polygon fill="#181818" points="1232.5,1037.5859,1242.5,1041.5859,1232.5,1045.5859,1236.5,1041.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="913.5" x2="1238.5" y1="1041.5859" y2="1041.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="307" x="920.5" y="1036.52">Confirm environment stable, feature is removed</text><path d="M858.5,1056.5859 L922.5,1056.5859 L922.5,1063.7188 L912.5,1073.7188 L858.5,1073.7188 L858.5,1056.5859 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="46.2656" style="stroke:#000000;stroke-width:1.5;" width="750.5" x="858.5" y="1056.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="873.5" y="1069.6528">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="126" x="937.5" y="1068.7964">[if IRB involvement]</text><polygon fill="#181818" points="924.5,1090.8516,914.5,1094.8516,924.5,1098.8516,920.5,1094.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="918.5" x2="1545.5" y1="1094.8516" y2="1094.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="930.5" y="1089.7856">Check final compliance sign-off</text><line style="stroke:#181818;stroke-width:1.0;" x1="913.5" x2="955.5" y1="1135.0508" y2="1135.0508"/><line style="stroke:#181818;stroke-width:1.0;" x1="955.5" x2="955.5" y1="1135.0508" y2="1148.0508"/><line style="stroke:#181818;stroke-width:1.0;" x1="914.5" x2="955.5" y1="1148.0508" y2="1148.0508"/><polygon fill="#181818" points="924.5,1144.0508,914.5,1148.0508,924.5,1152.0508,920.5,1148.0508" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="920.5" y="1129.9849">Archive/purge logs, model artifacts</text><path d="M1154,1114.8516 L1154,1154.8516 L1355,1154.8516 L1355,1124.8516 L1345,1114.8516 L1154,1114.8516 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1345,1114.8516 L1345,1124.8516 L1355,1124.8516 L1345,1114.8516 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="1160" y="1131.9185">- If mandated by IRB or law:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="172" x="1168" y="1147.0513">anonymize or destroy data</text><polygon fill="#181818" points="2101.5,1177.25,2111.5,1181.25,2101.5,1185.25,2105.5,1181.25" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="2107.5" y1="1181.25" y2="1181.25"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="108.5" y="1176.1841">Schedule lessons learned meeting</text><line style="stroke:#181818;stroke-width:1.0;" x1="2113.5" x2="2155.5" y1="1210.3828" y2="1210.3828"/><line style="stroke:#181818;stroke-width:1.0;" x1="2155.5" x2="2155.5" y1="1210.3828" y2="1223.3828"/><line style="stroke:#181818;stroke-width:1.0;" x1="2114.5" x2="2155.5" y1="1223.3828" y2="1223.3828"/><polygon fill="#181818" points="2124.5,1219.3828,2114.5,1223.3828,2124.5,1227.3828,2120.5,1223.3828" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="2120.5" y="1205.3169">Discuss any issues, user feedback</text><polygon fill="#181818" points="493.5,1248.5156,483.5,1252.5156,493.5,1256.5156,489.5,1252.5156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="487.5" x2="912.5" y1="1252.5156" y2="1252.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="274" x="499.5" y="1247.4497">Propose improvements for next retirement</text><polygon fill="#181818" points="112.5,1277.6484,102.5,1281.6484,112.5,1285.6484,108.5,1281.6484" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="106.5" x2="481.5" y1="1281.6484" y2="1281.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="118.5" y="1276.5825">Provide final Decommission Report</text><polygon fill="#181818" points="2000.5,1306.7813,2010.5,1310.7813,2000.5,1314.7813,2004.5,1310.7813" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="101.5" x2="2006.5" y1="1310.7813" y2="1310.7813"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="108.5" y="1305.7153">Submit official closure docs</text><!--MD5=[93faa3ea1e0060efd236a80409622905]
+@startuml
+' Define participants (roles) as shortnames
+participant "Product Management" as ProdM
+participant "AI Dev Team" as AIDev
+participant "Operations" as Ops
+participant "Quality Assurance" as QA
+participant "AI-IRB Liaison" as IRB
+participant "Technical Support" as TSupp
+participant "Senior Management" as CTO
+
+title SOP-1011-01-AI: AI Feature Decommissioning & Model Retirement
+
+' 1. Trigger and Planning
+ProdM -> ProdM: Identify need to retire AI feature/model
+note right
+  Possible reasons: 
+  - Outdated performance 
+  - Ethical concerns
+  - End of contract
+  - etc.
+end note
+ProdM -> IRB: Quick check for ethical/compliance flags
+alt IRB has concerns
+   IRB -> ProdM: Request deeper ethics review
+   note right
+     IRB organizes special session
+     to address compliance issues
+   end note
+else IRB has no concerns
+   IRB -> ProdM: No immediate concerns
+end
+
+' 2. Formal Decommission Review
+ProdM -> AIDev: Initiate Decommission Review meeting (scope, timeline)
+ProdM -> Ops: Include environment impact in meeting
+ProdM -> QA: Include QA for acceptance criteria
+ProdM -> IRB: Include if required
+note over ProdM,IRB
+  Meeting outcome:
+  - Draft "Decommission Plan"
+  - Proposed retirement date
+  - Notification approach
+end note
+
+AIDev -> AIDev: Compile final model status docs
+TSupp -> TSupp: Update user support docs (pending final approval)
+
+' 3. Preparatory Actions
+Ops -> Ops: Prepare staging environment for removal
+AIDev -> QA: Provide removal scripts for test
+QA -> QA: Verify removal in staging, check for breakage
+alt QA finds critical issues
+   QA -> AIDev: Return to fix removal scripts
+   AIDev -> QA: Provide updated scripts
+   QA -> QA: Re-verify
+else QA passes
+   QA -> ProdM: Staging environment validated
+end
+
+ProdM -> TSupp: Notify end-users about upcoming removal timeline
+
+' 4. Decommission Execution
+ProdM -> Ops: Authorize final removal in production
+Ops -> AIDev: Execute retirement steps (disable features, remove references)
+AIDev -> Ops: Stand by for possible revert/fixes
+Ops -> QA: Confirm environment stable, feature is removed
+alt if IRB involvement
+   IRB -> Ops: Check final compliance sign-off
+end
+
+Ops -> Ops: Archive/purge logs, model artifacts
+note right
+  - If mandated by IRB or law:
+    anonymize or destroy data
+end note
+
+' 5. Post-Implementation Review
+ProdM -> All: Schedule lessons learned meeting
+All -> All: Discuss any issues, user feedback
+Ops -> AIDev: Propose improvements for next retirement
+AIDev -> ProdM: Provide final Decommission Report
+ProdM -> CTO: Submit official closure docs
+@enduml
+
+@startuml
+participant "Product Management" as ProdM
+participant "AI Dev Team" as AIDev
+participant "Operations" as Ops
+participant "Quality Assurance" as QA
+participant "AI-IRB Liaison" as IRB
+participant "Technical Support" as TSupp
+participant "Senior Management" as CTO
+
+title SOP-1011-01-AI: AI Feature Decommissioning & Model Retirement
+
+ProdM -> ProdM: Identify need to retire AI feature/model
+note right
+  Possible reasons: 
+  - Outdated performance 
+  - Ethical concerns
+  - End of contract
+  - etc.
+end note
+ProdM -> IRB: Quick check for ethical/compliance flags
+alt IRB has concerns
+   IRB -> ProdM: Request deeper ethics review
+   note right
+     IRB organizes special session
+     to address compliance issues
+   end note
+else IRB has no concerns
+   IRB -> ProdM: No immediate concerns
+end
+
+ProdM -> AIDev: Initiate Decommission Review meeting (scope, timeline)
+ProdM -> Ops: Include environment impact in meeting
+ProdM -> QA: Include QA for acceptance criteria
+ProdM -> IRB: Include if required
+note over ProdM,IRB
+  Meeting outcome:
+  - Draft "Decommission Plan"
+  - Proposed retirement date
+  - Notification approach
+end note
+
+AIDev -> AIDev: Compile final model status docs
+TSupp -> TSupp: Update user support docs (pending final approval)
+
+Ops -> Ops: Prepare staging environment for removal
+AIDev -> QA: Provide removal scripts for test
+QA -> QA: Verify removal in staging, check for breakage
+alt QA finds critical issues
+   QA -> AIDev: Return to fix removal scripts
+   AIDev -> QA: Provide updated scripts
+   QA -> QA: Re-verify
+else QA passes
+   QA -> ProdM: Staging environment validated
+end
+
+ProdM -> TSupp: Notify end-users about upcoming removal timeline
+
+ProdM -> Ops: Authorize final removal in production
+Ops -> AIDev: Execute retirement steps (disable features, remove references)
+AIDev -> Ops: Stand by for possible revert/fixes
+Ops -> QA: Confirm environment stable, feature is removed
+alt if IRB involvement
+   IRB -> Ops: Check final compliance sign-off
+end
+
+Ops -> Ops: Archive/purge logs, model artifacts
+note right
+  - If mandated by IRB or law:
+    anonymize or destroy data
+end note
+
+ProdM -> All: Schedule lessons learned meeting
+All -> All: Discuss any issues, user feedback
+Ops -> AIDev: Propose improvements for next retirement
+AIDev -> ProdM: Provide final Decommission Report
+ProdM -> CTO: Submit official closure docs
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

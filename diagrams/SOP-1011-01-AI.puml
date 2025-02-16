@@ -1,0 +1,85 @@
+@startuml
+
+' Define participants (roles) as shortnames
+participant "Product Management" as ProdM
+participant "AI Dev Team" as AIDev
+participant "Operations" as Ops
+participant "Quality Assurance" as QA
+participant "AI-IRB Liaison" as IRB
+participant "Technical Support" as TSupp
+participant "Senior Management" as CTO
+
+title SOP-1011-01-AI: AI Feature Decommissioning & Model Retirement
+
+' 1. Trigger and Planning
+ProdM -> ProdM: Identify need to retire AI feature/model
+note right
+  Possible reasons: 
+  - Outdated performance 
+  - Ethical concerns
+  - End of contract
+  - etc.
+end note
+ProdM -> IRB: Quick check for ethical/compliance flags
+alt IRB has concerns
+   IRB -> ProdM: Request deeper ethics review
+   note right
+     IRB organizes special session
+     to address compliance issues
+   end note
+else IRB has no concerns
+   IRB -> ProdM: No immediate concerns
+end
+
+' 2. Formal Decommission Review
+ProdM -> AIDev: Initiate Decommission Review meeting (scope, timeline)
+ProdM -> Ops: Include environment impact in meeting
+ProdM -> QA: Include QA for acceptance criteria
+ProdM -> IRB: Include if required
+note over ProdM,IRB
+  Meeting outcome:
+  - Draft "Decommission Plan"
+  - Proposed retirement date
+  - Notification approach
+end note
+
+AIDev -> AIDev: Compile final model status docs
+TSupp -> TSupp: Update user support docs (pending final approval)
+
+' 3. Preparatory Actions
+Ops -> Ops: Prepare staging environment for removal
+AIDev -> QA: Provide removal scripts for test
+QA -> QA: Verify removal in staging, check for breakage
+alt QA finds critical issues
+   QA -> AIDev: Return to fix removal scripts
+   AIDev -> QA: Provide updated scripts
+   QA -> QA: Re-verify
+else QA passes
+   QA -> ProdM: Staging environment validated
+end
+
+ProdM -> TSupp: Notify end-users about upcoming removal timeline
+
+' 4. Decommission Execution
+ProdM -> Ops: Authorize final removal in production
+Ops -> AIDev: Execute retirement steps (disable features, remove references)
+AIDev -> Ops: Stand by for possible revert/fixes
+Ops -> QA: Confirm environment stable, feature is removed
+alt if IRB involvement
+   IRB -> Ops: Check final compliance sign-off
+end
+
+Ops -> Ops: Archive/purge logs, model artifacts
+note right
+  - If mandated by IRB or law:
+    anonymize or destroy data
+end note
+
+' 5. Post-Implementation Review
+ProdM -> All: Schedule lessons learned meeting
+All -> All: Discuss any issues, user feedback
+Ops -> AIDev: Propose improvements for next retirement
+AIDev -> ProdM: Provide final Decommission Report
+ProdM -> Senior Management: Submit official closure docs
+
+@enduml
