@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1314px" preserveAspectRatio="none" style="width:2255px;height:1314px;background:#FFFFFF;" version="1.1" viewBox="0 0 2255 1314" width="2255px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="451" x="901.5" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="906.5" y="27.9951">SOP-1302-01-AI: AI Explainability &amp; Model Transparency</text><rect fill="none" height="132.3359" style="stroke:#000000;stroke-width:1.5;" width="709" x="377" y="307.5234"/><rect fill="none" height="174.4688" style="stroke:#000000;stroke-width:1.5;" width="555.5" x="819" y="567.2578"/><rect fill="none" height="117.5313" style="stroke:#000000;stroke-width:1.5;" width="828" x="819" y="1027.7891"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="55" x2="55" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="414" x2="414" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="513" x2="513" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="880" x2="880" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1295.5" x2="1295.5" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1592" x2="1592" y1="73.5938" y2="1278.8516"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1976.5" x2="1976.5" y1="73.5938" y2="1278.8516"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="12" y="62.292">AI Gov Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="5" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="12" y="1297.8467">AI Gov Office</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="387" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="394" y="62.292">AI-IRB</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="387" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="394" y="1297.8467">AI-IRB</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="451" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="458" y="62.292">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="451" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="458" y="1297.8467">Project Sponsor</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="829" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="836" y="62.292">Data Sci/Eng</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="829" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="836" y="1297.8467">Data Sci/Eng</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1227.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1234.5" y="62.292">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1227.5" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1234.5" y="1297.8467">Quality Assurance</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1547" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1554" y="62.292">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1547" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1554" y="1297.8467">Operations</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1907.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1914.5" y="62.292">Technical Support</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1907.5" y="1277.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1914.5" y="1297.8467">Technical Support</text><polygon fill="#181818" points="868,100.7266,878,104.7266,868,108.7266,872,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="55" x2="874" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="316" x="62" y="99.6606">Discuss project scope &amp; define explainability level</text><polygon fill="#181818" points="66,129.8594,56,133.8594,66,137.8594,62,133.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="60" x2="879" y1="133.8594" y2="133.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="72" y="128.7935">Provide technical feasibility &amp; outline approach</text><polygon fill="#181818" points="402,158.9922,412,162.9922,402,166.9922,406,162.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="55" x2="408" y1="162.9922" y2="162.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="62" y="157.9263">Request compliance guidelines</text><polygon fill="#181818" points="66,188.125,56,192.125,66,196.125,62,192.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="60" x2="413" y1="192.125" y2="192.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="335" x="72" y="187.0591">Provide guidelines for transparency &amp; interpretability</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="221.2578" y2="221.2578"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="221.2578" y2="234.2578"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="234.2578" y2="234.2578"/><polygon fill="#181818" points="891,230.2578,881,234.2578,891,238.2578,887,234.2578" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="887" y="216.1919">Document interpretability metrics &amp; scope</text><polygon fill="#181818" points="524,259.3906,514,263.3906,524,267.3906,520,263.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="518" x2="879" y1="263.3906" y2="263.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="343" x="530" y="258.3247">Present resource needs for implementing explanation</text><polygon fill="#181818" points="425,288.5234,415,292.5234,425,296.5234,421,292.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="419" x2="879" y1="292.5234" y2="292.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="431" y="287.4575">Submit proposed approach for interpretability</text><path d="M377,307.5234 L441,307.5234 L441,314.6563 L431,324.6563 L377,324.6563 L377,307.5234 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="132.3359" style="stroke:#000000;stroke-width:1.5;" width="709" x="377" y="307.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="392" y="320.5903">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="133" x="456" y="319.7339">[Approach accepted]</text><polygon fill="#181818" points="868,341.7891,878,345.7891,868,349.7891,872,345.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="414" x2="874" y1="345.7891" y2="345.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="421" y="340.7231">Concur on approach</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="377" x2="1086" y1="354.7891" y2="354.7891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="158" x="382" y="364.9995">[Approach not accepted]</text><polygon fill="#181818" points="868,385.7266,878,389.7266,868,393.7266,872,389.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="414" x2="874" y1="389.7266" y2="389.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="421" y="384.6606">Request modifications</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="418.8594" y2="418.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="418.8594" y2="431.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="431.8594" y2="431.8594"/><polygon fill="#181818" points="891,427.8594,881,431.8594,891,435.8594,887,431.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="887" y="413.7935">Update approach &amp; resubmit</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="467.9922" y2="467.9922"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="467.9922" y2="480.9922"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="480.9922" y2="480.9922"/><polygon fill="#181818" points="891,476.9922,881,480.9922,891,484.9922,887,480.9922" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="402" x="887" y="462.9263">Implement local/global explanation methods (LIME, SHAP, etc.)</text><polygon fill="#181818" points="1284,506.125,1294,510.125,1284,514.125,1288,510.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="1290" y1="510.125" y2="510.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="299" x="887" y="505.0591">Provide explanation outputs for internal testing</text><line style="stroke:#181818;stroke-width:1.0;" x1="1296" x2="1338" y1="539.2578" y2="539.2578"/><line style="stroke:#181818;stroke-width:1.0;" x1="1338" x2="1338" y1="539.2578" y2="552.2578"/><line style="stroke:#181818;stroke-width:1.0;" x1="1297" x2="1338" y1="552.2578" y2="552.2578"/><polygon fill="#181818" points="1307,548.2578,1297,552.2578,1307,556.2578,1303,552.2578" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="282" x="1303" y="534.1919">Validate explanation consistency with model</text><path d="M819,567.2578 L883,567.2578 L883,574.3906 L873,584.3906 L819,584.3906 L819,567.2578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="174.4688" style="stroke:#000000;stroke-width:1.5;" width="555.5" x="819" y="567.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="834" y="580.3247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="163" x="898" y="579.4683">[Explanation insufficient]</text><polygon fill="#181818" points="891,601.5234,881,605.5234,891,609.5234,887,605.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="885" x2="1295" y1="605.5234" y2="605.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="897" y="600.4575">Request fix or improvement</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="634.6563" y2="634.6563"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="634.6563" y2="647.6563"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="647.6563" y2="647.6563"/><polygon fill="#181818" points="891,643.6563,881,647.6563,891,651.6563,887,647.6563" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="887" y="629.5903">Revise approach</text><line style="stroke:#181818;stroke-width:1.0;" x1="1296" x2="1338" y1="676.7891" y2="676.7891"/><line style="stroke:#181818;stroke-width:1.0;" x1="1338" x2="1338" y1="676.7891" y2="689.7891"/><line style="stroke:#181818;stroke-width:1.0;" x1="1297" x2="1338" y1="689.7891" y2="689.7891"/><polygon fill="#181818" points="1307,685.7891,1297,689.7891,1307,693.7891,1303,689.7891" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="1303" y="671.7231">Retest</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="819" x2="1374.5" y1="698.7891" y2="698.7891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="151" x="824" y="708.9995">[Explanation sufficient]</text><polygon fill="#181818" points="891,729.7266,881,733.7266,891,737.7266,887,733.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="885" x2="1295" y1="733.7266" y2="733.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="897" y="728.6606">Approve QA test results</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="769.8594" y2="769.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="769.8594" y2="782.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="782.8594" y2="782.8594"/><polygon fill="#181818" points="891,778.8594,881,782.8594,891,786.8594,887,782.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="359" x="887" y="764.7935">Create user-friendly references for model interpretability</text><polygon fill="#181818" points="1965,807.9922,1975,811.9922,1965,815.9922,1969,811.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="1971" y1="811.9922" y2="811.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="887" y="806.9263">Deliver technical docs</text><line style="stroke:#181818;stroke-width:1.0;" x1="1977" x2="2019" y1="841.125" y2="841.125"/><line style="stroke:#181818;stroke-width:1.0;" x1="2019" x2="2019" y1="841.125" y2="854.125"/><line style="stroke:#181818;stroke-width:1.0;" x1="1978" x2="2019" y1="854.125" y2="854.125"/><polygon fill="#181818" points="1988,850.125,1978,854.125,1988,858.125,1984,854.125" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="1984" y="836.0591">Convert docs for non-technical audiences</text><polygon fill="#181818" points="425,879.2578,415,883.2578,425,887.2578,421,883.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="419" x2="1976" y1="883.2578" y2="883.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="431" y="878.1919">Submit final interpretability docs</text><polygon fill="#181818" points="66,908.3906,56,912.3906,66,916.3906,62,912.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="60" x2="413" y1="912.3906" y2="912.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="72" y="907.3247">Final compliance check</text><polygon fill="#181818" points="1965,937.5234,1975,941.5234,1965,945.5234,1969,941.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="55" x2="1971" y1="941.5234" y2="941.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="62" y="936.4575">Approved to move forward</text><line style="stroke:#181818;stroke-width:1.0;" x1="1592" x2="1634" y1="970.6563" y2="970.6563"/><line style="stroke:#181818;stroke-width:1.0;" x1="1634" x2="1634" y1="970.6563" y2="983.6563"/><line style="stroke:#181818;stroke-width:1.0;" x1="1593" x2="1634" y1="983.6563" y2="983.6563"/><polygon fill="#181818" points="1603,979.6563,1593,983.6563,1603,987.6563,1599,983.6563" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="1599" y="965.5903">Deploy code &amp; explanation modules to staging/production</text><polygon fill="#181818" points="66,1008.7891,56,1012.7891,66,1016.7891,62,1012.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="60" x2="1591" y1="1012.7891" y2="1012.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="270" x="72" y="1007.7231">Provide logs/metrics on explanation usage</text><path d="M819,1027.7891 L883,1027.7891 L883,1034.9219 L873,1044.9219 L819,1044.9219 L819,1027.7891 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="117.5313" style="stroke:#000000;stroke-width:1.5;" width="828" x="819" y="1027.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="834" y="1040.856">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="156" x="898" y="1039.9995">[Explanation anomalies]</text><polygon fill="#181818" points="891,1062.0547,881,1066.0547,891,1070.0547,887,1066.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="885" x2="1591" y1="1066.0547" y2="1066.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="897" y="1060.9888">Report contradictory interpretation logs</text><line style="stroke:#181818;stroke-width:1.0;" x1="880" x2="922" y1="1095.1875" y2="1095.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="922" x2="922" y1="1095.1875" y2="1108.1875"/><line style="stroke:#181818;stroke-width:1.0;" x1="881" x2="922" y1="1108.1875" y2="1108.1875"/><polygon fill="#181818" points="891,1104.1875,881,1108.1875,891,1112.1875,887,1108.1875" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="887" y="1090.1216">Investigate root cause &amp; fix</text><polygon fill="#181818" points="891,1133.3203,881,1137.3203,891,1141.3203,887,1137.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="885" x2="1295" y1="1137.3203" y2="1137.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="897" y="1132.2544">Validate the fix</text><polygon fill="#181818" points="1965,1169.4531,1975,1173.4531,1965,1177.4531,1969,1173.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="55" x2="1971" y1="1173.4531" y2="1173.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="62" y="1168.3872">Gather user feedback on explanation clarity</text><polygon fill="#181818" points="66,1198.5859,56,1202.5859,66,1206.5859,62,1202.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="60" x2="1976" y1="1202.5859" y2="1202.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="72" y="1197.52">Provide compiled feedback</text><polygon fill="#181818" points="402,1227.7188,412,1231.7188,402,1235.7188,406,1231.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="55" x2="408" y1="1231.7188" y2="1231.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="62" y="1226.6528">Discuss lessons learned</text><polygon fill="#181818" points="868,1256.8516,878,1260.8516,868,1264.8516,872,1260.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="414" x2="874" y1="1260.8516" y2="1260.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="421" y="1255.7856">Potential procedure updates if needed</text><!--MD5=[7e76913d40a6241968cb33f272e69d72]
+@startuml
+title SOP-1302-01-AI: AI Explainability & Model Transparency
+
+' Define participants (roles) with short names
+participant "AI Gov Office" as GOV
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Sci/Eng" as DSC
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1. GOV and DSC define the level of explainability needed
+GOV -> DSC: Discuss project scope & define explainability level
+DSC -> GOV: Provide technical feasibility & outline approach
+
+' 2. IRB provides regulatory & ethical guidelines
+GOV -> IRB: Request compliance guidelines
+IRB -> GOV: Provide guidelines for transparency & interpretability
+
+' 3. DSC documents requirements
+DSC -> DSC: Document interpretability metrics & scope
+DSC -> PS: Present resource needs for implementing explanation
+
+' 4. DSC + IRB confirm approach meets or exceeds thresholds
+DSC -> IRB: Submit proposed approach for interpretability
+alt Approach accepted
+  IRB -> DSC: Concur on approach
+else Approach not accepted
+  IRB -> DSC: Request modifications
+  DSC -> DSC: Update approach & resubmit
+end
+
+' 5. DSC implements explanation mechanism
+DSC -> DSC: Implement local/global explanation methods (LIME, SHAP, etc.)
+
+' 6. QA verifies correctness & logs
+DSC -> QA: Provide explanation outputs for internal testing
+QA -> QA: Validate explanation consistency with model
+alt Explanation insufficient
+  QA -> DSC: Request fix or improvement
+  DSC -> DSC: Revise approach
+  QA -> QA: Retest
+else Explanation sufficient
+  QA -> DSC: Approve QA test results
+end
+
+' 7. DSC finalizes documentation
+DSC -> DSC: Create user-friendly references for model interpretability
+
+' 8. TS refines user-facing content
+DSC -> TS: Deliver technical docs
+TS -> TS: Convert docs for non-technical audiences
+
+' 9. IRB & GOV sign-off on final documentation
+TS -> IRB: Submit final interpretability docs
+IRB -> GOV: Final compliance check
+GOV -> TS: Approved to move forward
+
+'10. OPS deploys model & explanation features
+OPS -> OPS: Deploy code & explanation modules to staging/production
+
+'11. Explanation usage is monitored
+OPS -> GOV: Provide logs/metrics on explanation usage
+
+'12. If anomalies arise, DSC investigates root cause
+alt Explanation anomalies
+  OPS -> DSC: Report contradictory interpretation logs
+  DSC -> DSC: Investigate root cause & fix
+  QA -> DSC: Validate the fix
+end
+
+'13. Post-Implementation Review
+GOV -> TS: Gather user feedback on explanation clarity
+TS -> GOV: Provide compiled feedback
+GOV -> IRB: Discuss lessons learned
+IRB -> DSC: Potential procedure updates if needed
+@enduml
+
+@startuml
+title SOP-1302-01-AI: AI Explainability & Model Transparency
+
+participant "AI Gov Office" as GOV
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Sci/Eng" as DSC
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+GOV -> DSC: Discuss project scope & define explainability level
+DSC -> GOV: Provide technical feasibility & outline approach
+
+GOV -> IRB: Request compliance guidelines
+IRB -> GOV: Provide guidelines for transparency & interpretability
+
+DSC -> DSC: Document interpretability metrics & scope
+DSC -> PS: Present resource needs for implementing explanation
+
+DSC -> IRB: Submit proposed approach for interpretability
+alt Approach accepted
+  IRB -> DSC: Concur on approach
+else Approach not accepted
+  IRB -> DSC: Request modifications
+  DSC -> DSC: Update approach & resubmit
+end
+
+DSC -> DSC: Implement local/global explanation methods (LIME, SHAP, etc.)
+
+DSC -> QA: Provide explanation outputs for internal testing
+QA -> QA: Validate explanation consistency with model
+alt Explanation insufficient
+  QA -> DSC: Request fix or improvement
+  DSC -> DSC: Revise approach
+  QA -> QA: Retest
+else Explanation sufficient
+  QA -> DSC: Approve QA test results
+end
+
+DSC -> DSC: Create user-friendly references for model interpretability
+
+DSC -> TS: Deliver technical docs
+TS -> TS: Convert docs for non-technical audiences
+
+TS -> IRB: Submit final interpretability docs
+IRB -> GOV: Final compliance check
+GOV -> TS: Approved to move forward
+
+OPS -> OPS: Deploy code & explanation modules to staging/production
+
+OPS -> GOV: Provide logs/metrics on explanation usage
+
+alt Explanation anomalies
+  OPS -> DSC: Report contradictory interpretation logs
+  DSC -> DSC: Investigate root cause & fix
+  QA -> DSC: Validate the fix
+end
+
+GOV -> TS: Gather user feedback on explanation clarity
+TS -> GOV: Provide compiled feedback
+GOV -> IRB: Discuss lessons learned
+IRB -> DSC: Potential procedure updates if needed
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

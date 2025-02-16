@@ -1,0 +1,79 @@
+@startuml
+title SOP-1302-01-AI: AI Explainability & Model Transparency
+
+' Define participants (roles) with short names
+participant "AI Gov Office" as GOV
+participant "AI-IRB" as IRB
+participant "Project Sponsor" as PS
+participant "Data Sci/Eng" as DSC
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+participant "Technical Support" as TS
+
+' 1. GOV and DSC define the level of explainability needed
+GOV -> DSC: Discuss project scope & define explainability level
+DSC -> GOV: Provide technical feasibility & outline approach
+
+' 2. IRB provides regulatory & ethical guidelines
+GOV -> IRB: Request compliance guidelines
+IRB -> GOV: Provide guidelines for transparency & interpretability
+
+' 3. DSC documents requirements
+DSC -> DSC: Document interpretability metrics & scope
+DSC -> PS: Present resource needs for implementing explanation
+
+' 4. DSC + IRB confirm approach meets or exceeds thresholds
+DSC -> IRB: Submit proposed approach for interpretability
+alt Approach accepted
+  IRB -> DSC: Concur on approach
+else Approach not accepted
+  IRB -> DSC: Request modifications
+  DSC -> DSC: Update approach & resubmit
+end
+
+' 5. DSC implements explanation mechanism
+DSC -> DSC: Implement local/global explanation methods (LIME, SHAP, etc.)
+
+' 6. QA verifies correctness & logs
+DSC -> QA: Provide explanation outputs for internal testing
+QA -> QA: Validate explanation consistency with model
+alt Explanation insufficient
+  QA -> DSC: Request fix or improvement
+  DSC -> DSC: Revise approach
+  QA -> QA: Retest
+else Explanation sufficient
+  QA -> DSC: Approve QA test results
+end
+
+' 7. DSC finalizes documentation
+DSC -> DSC: Create user-friendly references for model interpretability
+
+' 8. TS refines user-facing content
+DSC -> TS: Deliver technical docs
+TS -> TS: Convert docs for non-technical audiences
+
+' 9. IRB & GOV sign-off on final documentation
+TS -> IRB: Submit final interpretability docs
+IRB -> GOV: Final compliance check
+GOV -> TS: Approved to move forward
+
+'10. OPS deploys model & explanation features
+OPS -> OPS: Deploy code & explanation modules to staging/production
+
+'11. Explanation usage is monitored
+OPS -> GOV: Provide logs/metrics on explanation usage
+
+'12. If anomalies arise, DSC investigates root cause
+alt Explanation anomalies
+  OPS -> DSC: Report contradictory interpretation logs
+  DSC -> DSC: Investigate root cause & fix
+  QA -> DSC: Validate the fix
+end
+
+'13. Post-Implementation Review
+GOV -> TS: Gather user feedback on explanation clarity
+TS -> GOV: Provide compiled feedback
+GOV -> IRB: Discuss lessons learned
+IRB -> DSC: Potential procedure updates if needed
+
+@enduml
