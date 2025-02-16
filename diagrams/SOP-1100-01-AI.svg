@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1372px" preserveAspectRatio="none" style="width:1283px;height:1372px;background:#FFFFFF;" version="1.1" viewBox="0 0 1283 1372" width="1283px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="328" x="478.75" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="318" x="483.75" y="27.9951">SOP-1100-01 Documentation of Training</text><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="1246.5" x="20" y="161.8594"/><rect fill="none" height="372.0703" style="stroke:#000000;stroke-width:1.5;" width="1266.5" x="10" y="620.6563"/><rect fill="none" height="219.7344" style="stroke:#000000;stroke-width:1.5;" width="1246.5" x="20" y="716.0547"/><rect fill="none" height="125.3359" style="stroke:#000000;stroke-width:1.5;" width="977" x="20" y="1194.5234"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="71" x2="71" y1="73.5938" y2="1336.8594"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="313" x2="313" y1="73.5938" y2="1336.8594"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="558" x2="558" y1="73.5938" y2="1336.8594"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="804" x2="804" y1="73.5938" y2="1336.8594"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="916" x2="916" y1="73.5938" y2="1336.8594"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1203.5" x2="1203.5" y1="73.5938" y2="1336.8594"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82" x="30" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="37" y="62.292">Employee</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82" x="30" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="37" y="1355.8545">Employee</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="262" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="269" y="62.292">LineManager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="262" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="269" y="1355.8545">LineManager</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="483" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="490" y="62.292">TrainingCoordinator</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="483" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="490" y="1355.8545">TrainingCoordinator</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="773" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="780" y="62.292">Trainer</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="773" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="780" y="1355.8545">Trainer</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="845" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="852" y="62.292">Human Resources</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="845" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="852" y="1355.8545">Human Resources</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1151.5" y="42.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1158.5" y="62.292">AI-IRB Liaison</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="1151.5" y="1335.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1158.5" y="1355.8545">AI-IRB Liaison</text><polygon fill="#181818" points="301,100.7266,311,104.7266,301,108.7266,305,104.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="307" y1="104.7266" y2="104.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="78" y="99.6606">Submit Training Request</text><line style="stroke:#181818;stroke-width:1.0;" x1="313" x2="355" y1="133.8594" y2="133.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="355" x2="355" y1="133.8594" y2="146.8594"/><line style="stroke:#181818;stroke-width:1.0;" x1="314" x2="355" y1="146.8594" y2="146.8594"/><polygon fill="#181818" points="324,142.8594,314,146.8594,324,150.8594,320,146.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="320" y="128.7935">Evaluate relevance, job needs</text><path d="M20,161.8594 L84,161.8594 L84,168.9922 L74,178.9922 L20,178.9922 L20,161.8594 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="1246.5" x="20" y="161.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="35" y="174.9263">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="70" x="99" y="174.0698">[Approved]</text><polygon fill="#181818" points="82,196.125,72,200.125,82,204.125,78,200.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="312" y1="200.125" y2="200.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="88" y="195.0591">Notify approval</text><polygon fill="#181818" points="1192,225.2578,1202,229.2578,1192,233.2578,1196,229.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="1198" y1="229.2578" y2="229.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="327" x="78" y="224.1919">(If AI-IRB regulated) Check AI-IRB compliance needs</text><polygon fill="#181818" points="82,254.3906,72,258.3906,82,262.3906,78,258.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="1203" y1="258.3906" y2="258.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="88" y="253.3247">Provide compliance input</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="20" x2="1266.5" y1="267.3906" y2="267.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="55" x="25" y="277.6011">[Denied]</text><polygon fill="#181818" points="82,298.3281,72,302.3281,82,306.3281,78,302.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="312" y1="302.3281" y2="302.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="88" y="297.2622">Notify denial</text><polygon fill="#181818" points="546,334.4609,556,338.4609,546,342.4609,550,338.4609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="552" y1="338.4609" y2="338.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="78" y="333.395">Confirm training details (schedule, mode)</text><polygon fill="#181818" points="792,363.5938,802,367.5938,792,371.5938,796,367.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="558" x2="798" y1="367.5938" y2="367.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="565" y="362.5278">Arrange training content/schedule</text><polygon fill="#181818" points="82,392.7266,72,396.7266,82,400.7266,78,396.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="803" y1="396.7266" y2="396.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="88" y="391.6606">Deliver training session</text><path d="M37,409.7266 L37,449.7266 L837,449.7266 L837,419.7266 L827,409.7266 L37,409.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M827,409.7266 L827,419.7266 L837,419.7266 L827,409.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="321" y="426.7935">Could be internal or external</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="321" y="441.9263">with formal sign-in or e-attendance</text><polygon fill="#181818" points="792,472.125,802,476.125,792,480.125,796,476.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="798" y1="476.125" y2="476.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="78" y="471.0591">Participate/complete training</text><polygon fill="#181818" points="569,501.2578,559,505.2578,569,509.2578,565,505.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="563" x2="803" y1="505.2578" y2="505.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="575" y="500.1919">Provide attendance record</text><polygon fill="#181818" points="904,530.3906,914,534.3906,904,538.3906,908,534.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="558" x2="910" y1="534.3906" y2="534.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="235" x="565" y="529.3247">Forward attendance logs, course info</text><line style="stroke:#181818;stroke-width:1.0;" x1="916" x2="958" y1="563.5234" y2="563.5234"/><line style="stroke:#181818;stroke-width:1.0;" x1="958" x2="958" y1="563.5234" y2="576.5234"/><line style="stroke:#181818;stroke-width:1.0;" x1="917" x2="958" y1="576.5234" y2="576.5234"/><polygon fill="#181818" points="927,572.5234,917,576.5234,927,580.5234,923,576.5234" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="923" y="558.4575">Update training database</text><polygon fill="#181818" points="82,601.6563,72,605.6563,82,609.6563,78,605.6563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="915" y1="605.6563" y2="605.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="88" y="600.5903">Confirm record of completion</text><path d="M10,620.6563 L74,620.6563 L74,627.7891 L64,637.7891 L10,637.7891 L10,620.6563 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="372.0703" style="stroke:#000000;stroke-width:1.5;" width="1266.5" x="10" y="620.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="633.7231">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="117" x="89" y="632.8667">[External training]</text><polygon fill="#181818" points="301,654.9219,311,658.9219,301,662.9219,305,658.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="307" y1="658.9219" y2="658.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="78" y="653.856">Request to attend external course</text><line style="stroke:#181818;stroke-width:1.0;" x1="313" x2="355" y1="688.0547" y2="688.0547"/><line style="stroke:#181818;stroke-width:1.0;" x1="355" x2="355" y1="688.0547" y2="701.0547"/><line style="stroke:#181818;stroke-width:1.0;" x1="314" x2="355" y1="701.0547" y2="701.0547"/><polygon fill="#181818" points="324,697.0547,314,701.0547,324,705.0547,320,701.0547" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="320" y="682.9888">Approve based on budget/relevance</text><path d="M20,716.0547 L84,716.0547 L84,723.1875 L74,733.1875 L20,733.1875 L20,716.0547 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="219.7344" style="stroke:#000000;stroke-width:1.5;" width="1246.5" x="20" y="716.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="35" y="729.1216">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="70" x="99" y="728.2651">[Approved]</text><polygon fill="#181818" points="82,750.3203,72,754.3203,82,758.3203,78,754.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="312" y1="754.3203" y2="754.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="88" y="749.2544">Approval to attend</text><polygon fill="#181818" points="1192,779.4531,1202,783.4531,1192,787.4531,1196,783.4531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="1198" y1="783.4531" y2="783.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="337" x="78" y="778.3872">(If AI-IRB related) Verify external course meets ethics</text><polygon fill="#181818" points="82,808.5859,72,812.5859,82,816.5859,78,812.5859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="1203" y1="812.5859" y2="812.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="88" y="807.52">Confirm compliance or additional steps</text><polygon fill="#181818" points="904,837.7188,914,841.7188,904,845.7188,908,841.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="910" y1="841.7188" y2="841.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="78" y="836.6528">Submit proof of completion</text><line style="stroke:#181818;stroke-width:1.0;" x1="916" x2="958" y1="870.8516" y2="870.8516"/><line style="stroke:#181818;stroke-width:1.0;" x1="958" x2="958" y1="870.8516" y2="883.8516"/><line style="stroke:#181818;stroke-width:1.0;" x1="917" x2="958" y1="883.8516" y2="883.8516"/><polygon fill="#181818" points="927,879.8516,917,883.8516,927,887.8516,923,883.8516" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="923" y="865.7856">Update training record</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="20" x2="1266.5" y1="892.8516" y2="892.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="55" x="25" y="903.062">[Denied]</text><polygon fill="#181818" points="82,923.7891,72,927.7891,82,931.7891,78,927.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="312" y1="927.7891" y2="927.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="88" y="922.7231">Communicate denial</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1276.5" y1="943.7891" y2="943.7891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="138" x="15" y="953.9995">[No external training]</text><path d="M27,962.5938 L27,987.5938 L356,987.5938 L356,972.5938 L346,962.5938 L27,962.5938 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M346,962.5938 L346,972.5938 L356,972.5938 L346,962.5938 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="83" y="979.6606">Skip this branch if purely internal</text><polygon fill="#181818" points="792,1016.8594,802,1020.8594,792,1024.8594,796,1020.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="558" x2="798" y1="1020.8594" y2="1020.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="565" y="1015.7935">Coordinate project-specific session</text><polygon fill="#181818" points="82,1045.9922,72,1049.9922,82,1053.9922,78,1049.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="803" y1="1049.9922" y2="1049.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="88" y="1044.9263">Conduct specialized training</text><polygon fill="#181818" points="546,1075.125,556,1079.125,546,1083.125,550,1079.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="552" y1="1079.125" y2="1079.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="78" y="1074.0591">Confirm attendance</text><polygon fill="#181818" points="904,1104.2578,914,1108.2578,904,1112.2578,908,1108.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="558" x2="910" y1="1108.2578" y2="1108.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="565" y="1103.1919">Log session in project’s central files</text><polygon fill="#181818" points="1192,1133.3906,1202,1137.3906,1192,1141.3906,1196,1137.3906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="916" x2="1198" y1="1137.3906" y2="1137.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="923" y="1132.3247">Cross-check AI-IRB compliance if required</text><line style="stroke:#181818;stroke-width:1.0;" x1="916" x2="958" y1="1166.5234" y2="1166.5234"/><line style="stroke:#181818;stroke-width:1.0;" x1="958" x2="958" y1="1166.5234" y2="1179.5234"/><line style="stroke:#181818;stroke-width:1.0;" x1="917" x2="958" y1="1179.5234" y2="1179.5234"/><polygon fill="#181818" points="927,1175.5234,917,1179.5234,927,1183.5234,923,1179.5234" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="923" y="1161.4575">Periodic record audits</text><path d="M20,1194.5234 L84,1194.5234 L84,1201.6563 L74,1211.6563 L20,1211.6563 L20,1194.5234 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="125.3359" style="stroke:#000000;stroke-width:1.5;" width="977" x="20" y="1194.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="35" y="1207.5903">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="83" x="99" y="1206.7339">[Gaps found]</text><polygon fill="#181818" points="82,1228.7891,72,1232.7891,82,1236.7891,78,1232.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="76" x2="915" y1="1232.7891" y2="1232.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="88" y="1227.7231">Request missing info</text><polygon fill="#181818" points="904,1257.9219,914,1261.9219,904,1265.9219,908,1261.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="71" x2="910" y1="1261.9219" y2="1261.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="78" y="1256.856">Provide or retake training</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="20" x2="997" y1="1270.9219" y2="1270.9219"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="62" x="25" y="1281.1323">[No gaps]</text><path d="M848,1289.7266 L848,1314.7266 L984,1314.7266 L984,1299.7266 L974,1289.7266 L848,1289.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M974,1289.7266 L974,1299.7266 L984,1299.7266 L974,1289.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="854" y="1306.7935">Records complete</text><!--MD5=[ccd81dd9923e5c762e2d8594bc79c1b3]
+@startuml
+title SOP-1100-01 Documentation of Training
+
+' Define participants
+participant "Employee" as E
+participant "LineManager" as M
+participant "TrainingCoordinator" as TC
+participant "Trainer" as TR
+participant "Human Resources" as HR
+participant "AI-IRB Liaison" as IRB
+
+' 1. Employee requests training (internal or external)
+E -> M: Submit Training Request
+
+' 2. Manager reviews request
+M -> M: Evaluate relevance, job needs
+alt Approved
+  M -> E: Notify approval
+  E -> IRB: (If AI-IRB regulated) Check AI-IRB compliance needs
+  IRB -> E: Provide compliance input
+else Denied
+  M -> E: Notify denial
+end
+
+' 3. If Approved, proceed with training logistics
+E -> TC: Confirm training details (schedule, mode)
+TC -> TR: Arrange training content/schedule
+
+' 4. Conduct training session
+TR -> E: Deliver training session
+note over TR,E
+  Could be internal or external
+  with formal sign-in or e-attendance
+end note
+E -> TR: Participate/complete training
+TR -> TC: Provide attendance record
+
+' 5. Documentation
+TC -> HR: Forward attendance logs, course info
+HR -> HR: Update training database
+HR -> E: Confirm record of completion
+
+' 6. External training scenario
+alt External training
+  E -> M: Request to attend external course
+  M -> M: Approve based on budget/relevance
+  alt Approved
+    M -> E: Approval to attend
+    E -> IRB: (If AI-IRB related) Verify external course meets ethics
+    IRB -> E: Confirm compliance or additional steps
+    E -> HR: Submit proof of completion
+    HR -> HR: Update training record
+  else Denied
+    M -> E: Communicate denial
+  end
+else No external training
+  note over M,E
+    Skip this branch if purely internal
+  end note
+end
+
+' 7. Project-specific training
+TC -> TR: Coordinate project-specific session
+TR -> E: Conduct specialized training
+E -> TC: Confirm attendance
+TC -> HR: Log session in project’s central files
+HR -> IRB: Cross-check AI-IRB compliance if required
+
+' 8. Audit & Continuous Improvement
+HR -> HR: Periodic record audits
+alt Gaps found
+  HR -> E: Request missing info
+  E -> HR: Provide or retake training
+else No gaps
+  note over HR
+    Records complete
+  end note
+end
+@enduml
+
+@startuml
+title SOP-1100-01 Documentation of Training
+
+participant "Employee" as E
+participant "LineManager" as M
+participant "TrainingCoordinator" as TC
+participant "Trainer" as TR
+participant "Human Resources" as HR
+participant "AI-IRB Liaison" as IRB
+
+E -> M: Submit Training Request
+
+M -> M: Evaluate relevance, job needs
+alt Approved
+  M -> E: Notify approval
+  E -> IRB: (If AI-IRB regulated) Check AI-IRB compliance needs
+  IRB -> E: Provide compliance input
+else Denied
+  M -> E: Notify denial
+end
+
+E -> TC: Confirm training details (schedule, mode)
+TC -> TR: Arrange training content/schedule
+
+TR -> E: Deliver training session
+note over TR,E
+  Could be internal or external
+  with formal sign-in or e-attendance
+end note
+E -> TR: Participate/complete training
+TR -> TC: Provide attendance record
+
+TC -> HR: Forward attendance logs, course info
+HR -> HR: Update training database
+HR -> E: Confirm record of completion
+
+alt External training
+  E -> M: Request to attend external course
+  M -> M: Approve based on budget/relevance
+  alt Approved
+    M -> E: Approval to attend
+    E -> IRB: (If AI-IRB related) Verify external course meets ethics
+    IRB -> E: Confirm compliance or additional steps
+    E -> HR: Submit proof of completion
+    HR -> HR: Update training record
+  else Denied
+    M -> E: Communicate denial
+  end
+else No external training
+  note over M,E
+    Skip this branch if purely internal
+  end note
+end
+
+TC -> TR: Coordinate project-specific session
+TR -> E: Conduct specialized training
+E -> TC: Confirm attendance
+TC -> HR: Log session in project’s central files
+HR -> IRB: Cross-check AI-IRB compliance if required
+
+HR -> HR: Periodic record audits
+alt Gaps found
+  HR -> E: Request missing info
+  E -> HR: Provide or retake training
+else No gaps
+  note over HR
+    Records complete
+  end note
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,80 @@
+@startuml
+title SOP-1100-01-AI Documentation of Training
+
+' Define participants
+participant "Employee" as E
+participant "LineManager" as M
+participant "TrainingCoordinator" as TC
+participant "Trainer" as TR
+participant "Human Resources" as HR
+participant "AI-IRB Liaison" as IRB
+
+' 1. Employee requests training (internal or external)
+E -> M: Submit Training Request
+
+' 2. Manager reviews request
+M -> M: Evaluate relevance, job needs
+alt Approved
+  M -> E: Notify approval
+  E -> IRB: (If AI-IRB regulated) Check AI-IRB compliance needs
+  IRB -> E: Provide compliance input
+else Denied
+  M -> E: Notify denial
+end
+
+' 3. If Approved, proceed with training logistics
+E -> TC: Confirm training details (schedule, mode)
+TC -> TR: Arrange training content/schedule
+
+' 4. Conduct training session
+TR -> E: Deliver training session
+note over TR,E
+  Could be internal or external
+  with formal sign-in or e-attendance
+end note
+E -> TR: Participate/complete training
+TR -> TC: Provide attendance record
+
+' 5. Documentation
+TC -> HR: Forward attendance logs, course info
+HR -> HR: Update training database
+HR -> E: Confirm record of completion
+
+' 6. External training scenario
+alt External training
+  E -> M: Request to attend external course
+  M -> M: Approve based on budget/relevance
+  alt Approved
+    M -> E: Approval to attend
+    E -> IRB: (If AI-IRB related) Verify external course meets ethics
+    IRB -> E: Confirm compliance or additional steps
+    E -> HR: Submit proof of completion
+    HR -> HR: Update training record
+  else Denied
+    M -> E: Communicate denial
+  end
+else No external training
+  note over M,E
+    Skip this branch if purely internal
+  end note
+end
+
+' 7. Project-specific training
+TC -> TR: Coordinate project-specific session
+TR -> E: Conduct specialized training
+E -> TC: Confirm attendance
+TC -> HR: Log session in project’s central files
+HR -> IRB: Cross-check AI-IRB compliance if required
+
+' 8. Audit & Continuous Improvement
+HR -> HR: Periodic record audits
+alt Gaps found
+  HR -> E: Request missing info
+  E -> HR: Provide or retake training
+else No gaps
+  note over HR
+    Records complete
+  end note
+end
+
+@enduml
