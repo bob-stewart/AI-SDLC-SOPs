@@ -1,0 +1,26 @@
+# AI-SDLC Standard Operating Procedures (SOPs)
+
+## 🚀 **AI Governance | Risk Compliance | AI-IRB Standards**
+
+This repository contains the **official Standard Operating Procedures (SOPs)** for the **AI-SDLC Institute**, governing **AI model compliance, risk assessment, and governance workflows**.
+
+## 📖 **Repository Structure**
+- 📜 `/sops/` – Core AI governance SOPs.
+- 🖼️ `/diagrams/` – UML models for AI workflows.
+- 🔄 `/workflows/` – AI-IRB & compliance approval processes.
+- 📑 `/templates/` – AI governance & compliance templates.
+- ✅ `/compliance/` – Self-certification & audit validation.
+- 📊 `/reports/` – Generated AI governance reports.
+
+## 📚 **How to Use**
+1. **Browse SOPs** under `/sops/` for AI governance policies.
+2. **Check AI workflows** in `/workflows/` for regulatory checkpoints.
+3. **Validate compliance** using the self-certification checklist in `/compliance/`.
+4. **Contribute** by submitting a pull request following [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## 🔗 **Resources**
+- 📜 **AI-SDLC Notion Knowledge Base**: [View Here](https://notion.ai-sdlc.institute)
+- 🏛️ **Join AI Governance Discussions**: [Slack](https://join.slack.com/t/ai-sdlc/shared_invite/)
+- 🎓 **Enroll in AI-IRB Certification**: [Courses](https://ai-sdlc.institute/membership)
+
+🛡️ **License:** [Creative Commons BY-SA 4.0](LICENSE)
