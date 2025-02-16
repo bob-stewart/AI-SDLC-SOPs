@@ -1,0 +1,76 @@
+@startuml
+' Optional styling
+skinparam monochrome false
+skinparam shadowing false
+skinparam boxPadding 10
+skinparam sequenceArrowThickness 1
+skinparam sequenceParticipantBoxBackgroundColor #FFFFFF
+
+' Define Participants
+participant "AI Document Governance Team" as GOV
+participant "Document Owner" as OWNER
+participant "AI-IRB" as IRB
+participant "Project Manager" as PM
+participant "Quality Assurance" as QA
+participant "Operations" as OPS
+
+' 1. Document need identified
+OWNER -> OWNER: "Identify need for new or revised document"
+
+' 2. Request official template
+OWNER -> GOV: "Request official template/guidelines"
+GOV -> OWNER: "Send template, compliance guidance"
+
+' 3. Document Owner drafts content
+OWNER -> OWNER: "Draft doc using official template"
+OWNER -> OWNER: "Collect SME inputs, add references"
+
+' 4. Internal Review
+OWNER -> PM: "Submit draft for internal review"
+PM -> OWNER: "Review, provide feedback"
+OWNER -> QA: "Optional SME review (technical correctness)"
+QA -> OWNER: "Comments, minor edits"
+
+' 5. AI-IRB check
+OWNER -> OWNER: "Check if doc addresses high-risk AI feature?"
+alt High-Risk Content
+  OWNER -> IRB: "Submit doc to AI-IRB"
+  IRB -> IRB: "Review doc for legal/ethical compliance"
+  alt Approved
+    IRB -> OWNER: "Doc accepted by AI-IRB"
+  else Changes Requested
+    IRB -> OWNER: "Revise doc & re-submit"
+    OWNER -> OWNER: "Incorporate changes, re-submit to AI-IRB"
+    IRB -> OWNER: "Doc accepted"
+  end
+else No High-Risk
+  OWNER -> OWNER: "No AI-IRB submission needed"
+end
+
+' 6. Final Approval
+OWNER -> PM: "Send final doc for sign-off"
+PM -> QA: "Sign-off on final content?"
+QA -> OPS: "Sign-off on operational aspects?"
+OPS -> PM: "Sign-off completed"
+
+' 7. Versioning & Release
+PM -> GOV: "Notify doc is fully approved"
+GOV -> GOV: "Assign new version, mark old as superseded"
+GOV -> GOV: "Publish final doc to repository"
+
+' 8. Periodic Review
+GOV -> OWNER: "Periodic review needed (12 months or triggered event)"
+OWNER -> OWNER: "Assess if update is required"
+alt Update needed?
+  OWNER -> OWNER: "Initiate Revision"
+else No update needed
+  OWNER -> GOV: "No change, confirm doc remains current"
+end
+
+' 9. Audits & Archival
+GOV -> GOV: "Conduct doc compliance audits"
+GOV -> PM: "Report any major findings"
+PM -> OWNER: "Address findings, revise doc if needed"
+GOV -> GOV: "Archive docs per retention policy"
+
+@enduml
