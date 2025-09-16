@@ -1,26 +1,19 @@
-# AI-SDLC Standard Operating Procedures (SOPs)
+# SOP library
 
-## 🚀 **AI Governance | Risk Compliance | AI-IRB Standards**
+The `sops` directory contains the canonical AI-SDLC Standard Operating Procedures. These Markdown documents define the controls, responsibilities, and review cycles required to govern AI-enabled solutions across their lifecycle.
 
-This repository contains the **official Standard Operating Procedures (SOPs)** for the **AI-SDLC Institute**, governing **AI model compliance, risk assessment, and governance workflows**.
+## File organization
+- **Individual SOPs (`SOP-####-##-AI_Title.md`)** – Authoritative narratives that describe each process from initiation through closure, including roles, required records, and escalation paths.
+- **Index files** – When present, these provide curated tables of contents to help you navigate large SOP collections.
 
-## 📖 **Repository Structure**
-- 📜 `/sops/` – Core AI governance SOPs.
-- 🖼️ `/diagrams/` – UML models for AI workflows.
-- 🔄 `/workflows/` – AI-IRB & compliance approval processes.
-- 📑 `/templates/` – AI governance & compliance templates.
-- ✅ `/compliance/` – Self-certification & audit validation.
-- 📊 `/reports/` – Generated AI governance reports.
+The four-digit family code groups SOPs by discipline (for example, `1000`-series documents cover program management and governance, while `1300`-series documents focus on ethical oversight). Use the shared identifiers to match procedures with the diagrams found in [`../diagrams`](../diagrams/README).
 
-## 📚 **How to Use**
-1. **Browse SOPs** under `/sops/` for AI governance policies.
-2. **Check AI workflows** in `/workflows/` for regulatory checkpoints.
-3. **Validate compliance** using the self-certification checklist in `/compliance/`.
-4. **Contribute** by submitting a pull request following [CONTRIBUTING.md](CONTRIBUTING.md).
+## Using the SOPs
+1. Identify the SOP that matches your activity or compliance requirement by scanning file names or search keywords within this directory.
+2. Follow the prescribed steps, ensuring all listed inputs, approvals, and outputs are captured in your project artifacts.
+3. Consult the corresponding diagram to visualize the workflow and confirm that responsibilities are clearly assigned.
+4. Record any organization-specific tailoring in change logs or complementary documents so the base SOP remains a stable reference.
 
-## 🔗 **Resources**
-- 📜 **AI-SDLC Notion Knowledge Base**: [View Here](https://notion.ai-sdlc.institute)
-- 🏛️ **Join AI Governance Discussions**: [Slack](https://join.slack.com/t/ai-sdlc/shared_invite/)
-- 🎓 **Enroll in AI-IRB Certification**: [Courses](https://ai-sdlc.institute/membership)
-
-🛡️ **License:** [Creative Commons BY-SA 4.0](LICENSE)
+## Related documentation
+- Visit the [repository overview](../README.md) for high-level navigation tips and usage guidance.
+- Pair each SOP with its visual workflow in the [diagram catalog](../diagrams/README) when briefing stakeholders or training teams.
