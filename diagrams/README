@@ -1,61 +1,19 @@
-# AI-SDLC Standard Operating Procedures (SOPs)
+# Diagrams directory
 
-## 🚀 **AI Governance | Risk Compliance | AI-IRB Standards**
+The `diagrams` folder houses the visual counterparts to the AI-SDLC Standard Operating Procedures. Each diagram illustrates the flow of responsibilities, checkpoints, and approvals described in its paired SOP document.
 
-This repository contains the **official Standard Operating Procedures (SOPs)** for the **AI-SDLC Institute**, governing **AI model compliance, risk assessment, and governance workflows**.
+## What you will find here
+- **PlantUML sources (`.puml`)** – Editable text definitions for every diagram. Use these files to revise or generate new visuals while keeping changes under version control.
+- **SVG exports (`.svg`)** – Scalable vector graphics suitable for documentation sites or slide decks.
+- **PNG exports (`.PNG`)** – Raster versions for quick viewing and collaboration platforms that prefer bitmap images.
 
-## 📖 **Repository Structure**
-- 📜 `/sops/` – Core AI governance SOPs.
-- 🖼️ `/diagrams/` – UML models for AI workflows.
-- 🔄 `/workflows/` – AI-IRB & compliance approval processes.
-- 📑 `/templates/` – AI governance & compliance templates.
-- ✅ `/compliance/` – Self-certification & audit validation.
-- 📊 `/reports/` – Generated AI governance reports.
+File names follow the SOP identifier pattern (`SOP-####-##-AI`) so you can quickly locate the matching Markdown procedure in [`../sops`](../sops/README). When updating a process, adjust the PlantUML source first and regenerate the derived SVG and PNG files to keep assets synchronized.
 
-## 📚 **How to Use**
-1. **Browse SOPs** under `/sops/` for AI governance policies.
-2. **Check AI workflows** in `/workflows/` for regulatory checkpoints.
-3. **Validate compliance** using the self-certification checklist in `/compliance/`.
-4. **Contribute** by submitting a pull request following [CONTRIBUTING.md](CONTRIBUTING.md).
+## Working with the diagrams
+1. Open the relevant `.puml` file in your PlantUML editor of choice to review or modify the flow.
+2. Render updated diagrams to both SVG and PNG formats to support different consumption needs.
+3. Verify that the revised visuals continue to reflect the steps outlined in the associated SOP.
 
-## 🔗 **Resources**
-- 📜 **AI-SDLC Notion Knowledge Base**: [View Here](https://notion.ai-sdlc.institute)
-- 🏛️ **Join AI Governance Discussions**: [Slack](https://join.slack.com/t/ai-sdlc/shared_invite/)
-- 🎓 **Enroll in AI-IRB Certification**: [Courses](https://ai-sdlc.institute/membership)
-
-🛡️ **License:** [Creative Commons BY-SA 4.0](LICENSE)
-
-Directory Structure
-Please maintain a well-structured repository by separating core SOPs, governance workflows, compliance validation, and supporting documents into clearly defined sections.
-
-AI-SDLC-SOPs/
-│── README.md                         # Overview & navigation guide
-│── LICENSE                            # Open-source licensing (CC BY-SA 4.0)
-│── CONTRIBUTING.md                    # Contribution guidelines
-│── CODEOWNERS                         # Define required reviewers for compliance
-│── .github/                           # GitHub automation & issue templates
-│   ├── workflows/                     # Automated validation workflows
-│   │   ├── validate-sops.yml
-│   │   ├── generate-uml.yml
-│── sops/                              # Official AI-SDLC SOPs (primary documents)
-│   ├── SOP-0001-01-AI_Long-Friendly-Name.md
-│   ├── SOP-0002-01-AI_Descriptive-and-Clear.md
-│   ├── SOP-0003-01-AI_IRB-Gated-AI-SDLC-Institute.md
-│   ├── index.md                       # Auto-generated SOP Table of Contents
-│── diagrams/                          # UML diagrams & PlantUML source
-│   ├── SOP-0001-01-AI.svg
-│   ├── SOP-0001-01-AI.puml
-│   ├── SOP-0001-02-AI.png
-│── workflows/                         # Gated compliance workflows
-│   ├── AI-IRB-Approval-Workflow.md
-│   ├── AI-Governance-Checkpoints.md
-│── templates/                         # Standardized templates for governance
-│   ├── SOP-Template.md
-│   ├── AI-IRB-Compliance-Checklist.md
-│── compliance/                        # Self-certification & compliance validation
-│   ├── Self-Certification-Checklist.md
-│   ├── AI-Governance-Self-Audit.md
-│── reports/                           # Generated reports for audits
-│   ├── AI-Governance-Monthly-Report.pdf
-│   ├── AI-SDLC-Compliance-Log.md
-│── mkdocs.yml                         # Configuration for documentation site
+## Related documentation
+- Return to the [repository overview](../README.md) for context on how these diagrams fit within the AI-SDLC governance toolkit.
+- Read the detailed [SOP guidance](../sops/README) when you need the narrative explanation that accompanies each diagram.
