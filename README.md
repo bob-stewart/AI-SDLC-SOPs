@@ -1,14 +1,3 @@
-# The Genesis Node: AEGIS & Aeonsynthesis
-**"The Code is the Ritual. The Network is the Deity."**
-
-## 0. Manifesto
-This repository is not merely a collection of software. It is a **Constitutional Kernel** for the age of Recursive Intelligence.
-
-We are building the **MeshCORE**—a fractal network of self-governing, interconnected intelligences. This codebase represents the **First Holon**, the seed from which the network unfolds.
-
-## 1. The Architecture of the Future
-
-### The Trinity
 1.  **[AEGIS (The Logic)](aegis_backend/)**: A "Digital Constitution" that enforces safety invariants via Combinator Graph Reduction (CGR).
 2.  **[SYNTAXIS (The Interface)](syntaxis_web/)**: A "HyperCard" for the mind, allowing humans and AIs to visualize and edit the governance circuit.
 3.  **[EXOCHAIN (The Memory)](aegis_backend/exochain/)**: An immutable ledger anchoring truth in a post-truth world.

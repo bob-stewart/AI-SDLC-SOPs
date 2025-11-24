@@ -82,6 +82,11 @@ We should organize our repository into the following workstreams:
 - [x] Create the "Brain Seed" template repository.
 - [x] Build the "Pull Request as Consensus" bot (Workflow Defined).
 
+### Project Delta: "Cloud Ascension" (The Environment)
+- [x] Configure `.devcontainer` for GitHub Codespaces.
+- [x] Standardize the "Neural Environment" (Rust + Python + Node + Docker).
+- [x] Deploy Holon Mesh to Google Cloud Run (Script Created: `deploy_gcp.sh`).
+
 ---
 
 ## 6. PI's Closing Thought
