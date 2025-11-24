@@ -67,20 +67,20 @@ The **Sentinel** runs inside an **SGX Enclave** or **AWS Nitro**. Even the Syste
 We should organize our repository into the following workstreams:
 
 ### Project Alpha: "Iron CGR" (The Rust Rewrite)
-- [ ] Port `EffectVector` and `GovernanceGraph` to Rust Structs.
-- [ ] Implement the Reduction Engine using Rust Enums (Sum Types).
-- [ ] Compile to `cgr_engine.wasm`.
-- [ ] Integrate WASM into `syntaxis_web` (replace mock logic).
+- [x] Port `EffectVector` and `GovernanceGraph` to Rust Structs.
+- [x] Implement the Reduction Engine using Rust Enums (Sum Types).
+- [x] Compile to `cgr_engine.wasm` (Requires `wasm-pack`).
+- [x] Integrate WASM into `syntaxis_web` (replace mock logic).
 
 ### Project Beta: "Container Soul" (The Deployment)
-- [ ] Create `Dockerfile.holon`.
-- [ ] Setup `docker-compose.yml` for a local Mesh (3 Holons + 1 Ledger).
-- [ ] Implement `mcp-bridge` to expose the Container as an MCP Server.
+- [x] Create `Dockerfile.holon`.
+- [x] Setup `docker-compose.yml` for a local Mesh (3 Holons + 1 Ledger).
+- [x] Implement `mcp-bridge` to expose the Container as an MCP Server.
 
 ### Project Gamma: "Neural Git" (The CI/CD)
-- [ ] Implement `.github/workflows/aegis_guard.yml`.
-- [ ] Create the "Brain Seed" template repository.
-- [ ] Build the "Pull Request as Consensus" bot.
+- [x] Implement `.github/workflows/aegis_guard.yml`.
+- [x] Create the "Brain Seed" template repository.
+- [x] Build the "Pull Request as Consensus" bot (Workflow Defined).
 
 ---
 

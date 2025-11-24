@@ -1,0 +1,22 @@
+# The Container Soul: Holon Runtime
+FROM python:3.11-slim-bookworm
+
+# 1. The Environment
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1
+ENV HOLON_ID="genesis"
+
+# 2. The Dependencies
+COPY requirements.txt .
+# Create a minimal requirements.txt if it doesn't exist, or just install directly for MVP
+RUN pip install fastapi uvicorn requests pydantic
+
+# 3. The Cortex
+COPY aeonsynthesis_mcp/ /app/aeonsynthesis_mcp/
+
+# 4. The Awakening
+# Expose the MCP Port
+EXPOSE 9000
+
+# Run the Holon
+CMD ["python", "aeonsynthesis_mcp/holon.py"]

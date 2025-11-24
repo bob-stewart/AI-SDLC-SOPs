@@ -1,0 +1,13 @@
+# The Iron Throne: AEGIS Backend
+FROM python:3.11-slim-bookworm
+
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1
+
+RUN pip install fastapi uvicorn requests pydantic pyyaml
+
+COPY aegis_backend/ /app/aegis_backend/
+
+EXPOSE 8000
+
+CMD ["python", "aegis_backend/main.py"]

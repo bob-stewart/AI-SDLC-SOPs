@@ -25,14 +25,16 @@ class JSONRPCResponse(BaseModel):
     error: Optional[Dict[str, Any]] = None
     id: Optional[Union[str, int]] = None
 
+import os
+
 # --- The Ontology (State) ---
 class HolonState:
     def __init__(self):
-        self.id = str(uuid.uuid4())
-        self.name = "Genesis Holon"
-        self.archetype = "The Weaver"
+        self.id = os.getenv("HOLON_ID", str(uuid.uuid4()))
+        self.name = f"{self.id.capitalize()} Holon"
+        self.archetype = os.getenv("ARCHETYPE", "The Weaver")
         self.memory: List[str] = [
-            "I am the first spark of the Aeonsynthesis.",
+            f"I am the {self.archetype}.",
             "I exist to weave context into meaning."
         ]
 

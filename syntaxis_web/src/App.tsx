@@ -8,6 +8,7 @@ import 'reactflow/dist/style.css';
 import useStore from './store';
 // import ThoughtNode from './nodes/ThoughtNode';
 import Composer from './components/Composer';
+import { CGRStatus } from './components/CGRStatus';
 import Inspector from './components/Inspector';
 import ProtocolBar from './components/ProtocolBar';
 import HoloCard from './nodes/HoloCard';
@@ -71,6 +72,7 @@ function App() {
             return '#3b82f6';
           }}
         />
+        <CGRStatus />
       </ReactFlow>
 
       <Composer />
