@@ -13,6 +13,7 @@ import {
     applyEdgeChanges,
 } from 'reactflow';
 import { aegisApi, type ReductionResult } from './api/aegis';
+import init, { evaluate_proposal } from './wasm/aegis_cgr/aegis_cgr';
 
 export type BlockType = 'QUESTION' | 'CLAIM' | 'EVIDENCE' | 'PROTOCOL' | 'RISK' | 'DECISION' | 'AMENDMENT';
 export type BlockStatus = 'DRAFT' | 'PROPOSED' | 'APPROVED' | 'REJECTED' | 'DEFERRED';
@@ -46,6 +47,12 @@ interface RFState {
     systemStatus: string;
     ledgerHeight: number;
 
+    // WASM State
+    wasmReady: boolean;
+    cgrStatus: string;
+    cgrReason: string;
+    cgrViolations: string[];
+
     onNodesChange: OnNodesChange;
     onEdgesChange: OnEdgesChange;
     onConnect: OnConnect;
@@ -55,8 +62,10 @@ interface RFState {
     selectNode: (id: string | null) => void;
 
     // Async Actions
+    initWasm: () => Promise<void>;
     checkSystemStatus: () => Promise<void>;
     submitGraph: () => Promise<void>;
+    validateGraph: () => void;
 }
 
 const useStore = create<RFState>((set, get) => ({
@@ -131,25 +140,34 @@ const useStore = create<RFState>((set, get) => ({
     systemStatus: 'OFFLINE',
     ledgerHeight: 0,
 
+    wasmReady: false,
+    cgrStatus: 'Initializing...',
+    cgrReason: '',
+    cgrViolations: [],
+
     onNodesChange: (changes: NodeChange[]) => {
         set({
             nodes: applyNodeChanges(changes, get().nodes),
         });
+        get().validateGraph();
     },
     onEdgesChange: (changes: EdgeChange[]) => {
         set({
             edges: applyEdgeChanges(changes, get().edges),
         });
+        get().validateGraph();
     },
     onConnect: (connection: Connection) => {
         set({
             edges: addEdge(connection, get().edges),
         });
+        get().validateGraph();
     },
     addNode: (node: ThoughtNode) => {
         set({
             nodes: [...get().nodes, node],
         });
+        get().validateGraph();
     },
     updateNodeStatus: (id: string, status: BlockStatus) => {
         set({
@@ -166,9 +184,21 @@ const useStore = create<RFState>((set, get) => ({
                 return node;
             }),
         });
+        get().validateGraph();
     },
     selectNode: (id: string | null) => {
         set({ selectedNodeId: id });
+    },
+
+    initWasm: async () => {
+        try {
+            await init();
+            set({ wasmReady: true });
+            get().validateGraph();
+        } catch (e) {
+            console.error("Failed to init WASM", e);
+            set({ cgrStatus: 'WASM ERROR' });
+        }
     },
 
     checkSystemStatus: async () => {
@@ -227,6 +257,43 @@ const useStore = create<RFState>((set, get) => ({
             console.error("Submission failed", e);
         }
     },
+
+    validateGraph: () => {
+        const { nodes, edges, wasmReady } = get();
+        if (!wasmReady) return;
+
+        // Map to Rust Structure
+        // Note: Rust expects 'type_' not 'type'
+        const governanceGraph = {
+            nodes: nodes.map(n => ({
+                id: n.id,
+                type_: n.data.type === 'QUESTION' ? 'PROPOSAL' : n.data.type,
+                title: n.data.title,
+                content: n.data.content,
+                effects: n.data.effects,
+                author_id: "did:aegis:user", // Mock for now
+                signature: "sig_mock" // Mock for now
+            })),
+            edges: edges.map(e => ({
+                source: e.source,
+                target: e.target,
+                relation: "SUPPORTS",
+                weight: 1.0
+            }))
+        };
+
+        try {
+            const result = evaluate_proposal(governanceGraph);
+            set({
+                cgrStatus: result.decision,
+                cgrReason: result.reason,
+                cgrViolations: result.violations || []
+            });
+        } catch (e) {
+            console.error("CGR Validation Failed", e);
+            set({ cgrStatus: 'VALIDATION ERROR' });
+        }
+    }
 }));
 
 export default useStore;

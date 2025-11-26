@@ -6,6 +6,7 @@ from typing import List, Dict, Any, Optional, Union
 import uvicorn
 import json
 import uuid
+import os
 from datetime import datetime
 
 # --- The Holon Definition ---
@@ -25,18 +26,40 @@ class JSONRPCResponse(BaseModel):
     error: Optional[Dict[str, Any]] = None
     id: Optional[Union[str, int]] = None
 
-import os
-
 # --- The Ontology (State) ---
 class HolonState:
-    def __init__(self):
+    def __init__(self, memory_path: str = "memory.jsonl"):
         self.id = os.getenv("HOLON_ID", str(uuid.uuid4()))
         self.name = f"{self.id.capitalize()} Holon"
         self.archetype = os.getenv("ARCHETYPE", "The Weaver")
-        self.memory: List[str] = [
-            f"I am the {self.archetype}.",
-            "I exist to weave context into meaning."
-        ]
+        self.memory_path = memory_path
+        self.memory: List[str] = []
+        self._load_memory()
+
+    def _load_memory(self):
+        if not os.path.exists(self.memory_path):
+            # Genesis Memory
+            self.add_memory(f"I am the {self.archetype}.")
+            self.add_memory("I exist to weave context into meaning.")
+            return
+
+        with open(self.memory_path, "r") as f:
+            for line in f:
+                if line.strip():
+                    try:
+                        entry = json.loads(line)
+                        self.memory.append(entry["content"])
+                    except json.JSONDecodeError:
+                        pass
+
+    def add_memory(self, content: str):
+        self.memory.append(content)
+        entry = {
+            "timestamp": datetime.now().isoformat(),
+            "content": content
+        }
+        with open(self.memory_path, "a") as f:
+            f.write(json.dumps(entry) + "\n")
 
 holon = HolonState()
 
@@ -158,8 +181,8 @@ async def call_tool(name: str, arguments: Dict[str, Any]):
         synthesis += ">>> CONVERGENCE ACHIEVED <<<\n"
         synthesis += f"Result: A new ontological truth has been formed from {intent}."
         
-        # Record in Memory
-        holon.memory.append(f"[{datetime.now().isoformat()}] Synthesized: {intent}")
+        # Record in Memory (Persistent)
+        holon.add_memory(f"[{datetime.now().isoformat()}] Synthesized: {intent}")
         
         return {
             "content": [
