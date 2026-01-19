@@ -16,26 +16,12 @@ class TestCGREngine(unittest.TestCase):
             edges=[]
         )
         
-        # Define a policy that rejects risk > 0.8
-        policy = """
-        def check_risk(proposal):
-            if proposal.nodes[0].effects.risk > 0.8:
-                return "REJECTED"
-            return "APPROVED"
-        """
-        
-        # In a real scenario, the VM would load the policy. 
-        # For this unit test, we'll simulate the reduction logic directly or mock the policy loader.
-        # Since the current VM implementation is basic, we will test the 'evaluate_proposal' method 
-        # assuming it uses a default policy or we can inject one.
-        
-        # Let's assume the VM has a built-in safety check for now as per the MVP implementation.
+        # Execute in VM
         result = self.vm.execute(proposal)
         
-        # If the MVP VM logic is simple (random or basic threshold), we might need to adjust the test expectation
-        # or update the VM to actually enforce this. 
-        # Based on previous steps, the VM returns "APPROVED" or "REJECTED" based on... let's check the code.
-        pass
+        # Verify it was rejected
+        self.assertEqual(result.decision, "REJECTED")
+        self.assertTrue(any("Risk level" in trace for trace in result.trace))
 
     def test_cgr_confluence(self):
         """Verify that reduction order does not affect the final decision (Confluence)."""
