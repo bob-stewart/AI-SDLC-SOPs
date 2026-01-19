@@ -22,6 +22,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run CGR Tests
       run: |
+        export PYTHONPATH=$PYTHONPATH:$(pwd)/aegis_backend
         python -m unittest aegis_backend/tests/test_cgr.py
 
   # 2. The Iron Check (Rust CGR)
