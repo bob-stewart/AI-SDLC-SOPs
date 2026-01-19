@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  # --- The Immutable Ledger ---
+  ledger:
+    build:
+      context: .
+      dockerfile: aegis_backend/Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_TYPE=LEDGER
+    networks:
+      - meshcore
+
+  # --- The Genesis Holon ---
+  holon-genesis:
+    build:
+      context: .
+      dockerfile: aeonsynthesis_mcp/Dockerfile.holon
+    ports:
+      - "9000:9000"
+    environment:
+      - HOLON_ID=genesis
+      - ARCHETYPE=The Weaver
+    depends_on:
+      - ledger
+    networks:
+      - meshcore
+
+  # --- The Historian Holon ---
+  holon-historian:
+    build:
+      context: .
+      dockerfile: aeonsynthesis_mcp/Dockerfile.holon
+    ports:
+      - "9001:9000"
+    environment:
+      - HOLON_ID=historian
+      - ARCHETYPE=The Historian
+    depends_on:
+      - ledger
+    networks:
+      - meshcore
+
+  # --- The Oracle Holon ---
+  holon-oracle:
+    build:
+      context: .
+      dockerfile: aeonsynthesis_mcp/Dockerfile.holon
+    ports:
+      - "9002:9000"
+    environment:
+      - HOLON_ID=oracle
+      - ARCHETYPE=The Oracle
+    depends_on:
+      - ledger
+    networks:
+      - meshcore
+
+networks:
+  meshcore:
+    driver: bridge

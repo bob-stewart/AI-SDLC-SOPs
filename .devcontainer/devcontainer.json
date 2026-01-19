@@ -1,0 +1,40 @@
+{
+    "name": "AEGIS MeshCORE",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/rust:1": {},
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.11"
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install --prefix syntaxis_web && pip install -r requirements.txt && cargo install wasm-pack",
+    "portsAttributes": {
+        "5173": {
+            "label": "SYNTAXIS Web",
+            "onAutoForward": "notify"
+        },
+        "8000": {
+            "label": "AEGIS Ledger",
+            "onAutoForward": "silent"
+        },
+        "9000": {
+            "label": "Genesis Holon",
+            "onAutoForward": "silent"
+        }
+    }
+}
