@@ -8,8 +8,7 @@ ENV HOLON_ID="genesis"
 
 # 2. The Dependencies
 COPY requirements.txt .
-# Create a minimal requirements.txt if it doesn't exist, or just install directly for MVP
-RUN pip install fastapi uvicorn requests pydantic
+RUN pip install -r requirements.txt
 
 # 3. The Cortex
 COPY aeonsynthesis_mcp/ /app/aeonsynthesis_mcp/
