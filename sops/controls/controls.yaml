@@ -1,0 +1,107 @@
+# AISDLC Controls Map (bootstrap)
+#
+# Purpose: Convert SOP intent into machine-enforceable triggers + required artifacts.
+# This file is designed to be *consumed by automation* (CI, agents, release scripts).
+#
+# Versioning:
+# - Treat this repo as the source-of-truth.
+# - Downstream systems should pin a specific git SHA as AISDLC_BASELINE_REF.
+#
+# Notes:
+# - This is intentionally minimal to bootstrap the flywheel.
+# - Expand by mapping additional SOPs and controls over time.
+
+schema: aisdlc.controls.v0
+baseline:
+  id: AI-SDLC-SOPs
+  # Optional human-readable version. Prefer pinning git SHA in automation.
+  version: "0.0.1-bootstrap"
+
+# Surface taxonomy used by gates.
+# These map to high-leverage risk areas ("gateable surfaces").
+surfaces:
+  - id: privilege
+    description: Changes that affect permissions, allowlists, sudo, exec pathways.
+  - id: auth
+    description: Changes involving keys/tokens/secrets/OAuth/authN/authZ.
+  - id: network
+    description: Changes that bind/listen/ingress/firewall/TLS/certs.
+  - id: config
+    description: Changes to runtime configuration, orchestration, policy.
+  - id: env-config
+    description: Changes to environment definitions, deployment env vars.
+  - id: ops-scripts
+    description: Changes to operational scripts, automation, runbooks.
+  - id: governance
+    description: Changes to governance logic, SOPs, guardrails.
+
+# File-path heuristics for classifying surfaces.
+# Downstream automation may extend/override.
+classification:
+  patterns:
+    privilege:
+      - "allowlist"
+      - "approval"
+      - "exec"
+      - "sudo"
+      - "privilege"
+    auth:
+      - "key"
+      - "token"
+      - "secret"
+      - "oauth"
+      - "auth"
+    network:
+      - "bind"
+      - "listen"
+      - "port"
+      - "ingress"
+      - "firewall"
+      - "tls"
+      - "cert"
+    config:
+      - "openclaw.json"
+      - "config/"
+    env-config:
+      - "environments/"
+    ops-scripts:
+      - "scripts/"
+    governance:
+      - "sops/"
+      - ".github/"
+
+# Controls: what must be present when certain surfaces are touched.
+controls:
+  - id: CTRL-EVIDENCE-REQUIRED
+    title: Evidence bundle required for gateable surfaces
+    applies_to:
+      any_surfaces: [privilege, auth, network, config, env-config]
+    requirements:
+      - kind: evidence_id
+        description: Provide an EVIDENCE_ID (evidence bundle registered in MeshCORE).
+        hint: "Include EVIDENCE_ID=<id> in PR description or commit message."
+    enforcement:
+      mode: fail_closed
+      severity: high
+
+  - id: CTRL-IRB-CROSSCHECK-REQUIRED
+    title: IRB crosscheck required for gateable surfaces
+    applies_to:
+      any_surfaces: [privilege, auth, network, config, env-config]
+    requirements:
+      - kind: irb_case
+        description: IRB case opened with crosscheck + receipts.
+        hint: "Run IRB sentinel and link IRB-<caseId> in PR description."
+    enforcement:
+      mode: warn_then_fail
+      severity: high
+
+# Default convergence policy (used by IRB warm-ups / panel checks)
+irb:
+  required_count: 3
+  max_tokens_default: 4096
+  models_default:
+    - openai/gpt-5.2
+    - anthropic/claude-opus-4-6
+    - x-ai/grok-4.1-fast
+    - google/gemini-3-pro-preview

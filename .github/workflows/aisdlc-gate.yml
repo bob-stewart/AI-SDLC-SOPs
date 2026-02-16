@@ -1,0 +1,25 @@
+name: AISDLC Gate (bootstrap)
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run AISDLC gate (surface classification + evidence requirement)
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          GITHUB_BASE_REF: ${{ github.base_ref }}
+          GITHUB_HEAD_REF: ${{ github.head_ref }}
+        run: |
+          python3 .github/scripts/aisdlc_gate.py
